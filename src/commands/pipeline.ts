@@ -18,7 +18,11 @@ export const pipelineCommand = new Command("pipeline")
   .option("--start-at <step>", "Start at a specific step (1-7): 1=load, 2=condense, 3=discover-themes, 4=extract-theme-content, 5=summarize-themes, 6=discover-entities, 7=build-website")
   .option("-c, --concurrency <N>", "Number of concurrent operations")
   .option("--max-crashes <N>", "Maximum number of crashes before giving up (default: 10)", parseInt)
-  .option("-m, --model <model>", "AI model to use (gemini-pro, gemini-flash, gemini-flash-lite, claude)")
+  .option(
+    "-m, --model <model>",
+    "AI model to use (gemini-pro, gemini-flash, gemini-flash-lite, claude)",
+    "gemini-flash-lite"
+  )
   .action(async (sourceArg: string, options: any) => {
     // Detect if first argument is a CSV path (contains '.' or '/' or ends with .csv)
     const isCsv = sourceArg.includes("/") || sourceArg.toLowerCase().endsWith(".csv");

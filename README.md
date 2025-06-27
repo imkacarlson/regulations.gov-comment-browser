@@ -182,6 +182,8 @@ Each document gets its own SQLite database in `dbs/<document-id>.sqlite` contain
 
 ### Full Pipeline
 
+The pipeline defaults to using **Gemini Flash-Lite** with built‑in rate limiting
+so it won't exceed the free tier limits.
 Run all steps at once:
 ```bash
 # Run the complete pipeline
