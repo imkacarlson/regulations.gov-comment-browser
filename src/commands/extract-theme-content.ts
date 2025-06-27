@@ -5,7 +5,7 @@ import { AIClient } from "../lib/ai-client";
 import { THEME_EXTRACT_PROMPT } from "../prompts/theme-extract";
 import { parseJsonResponse } from "../lib/json-parser";
 import { runPool } from "../lib/worker-pool";
-import { getTaskConfig, getTaskModel } from "../lib/batch-config";
+import { getTaskConfig, getTaskModel, getModelRateLimit } from "../lib/batch-config";
 
 export const extractThemeContentCommand = new Command("extract-theme-content")
   .description("Extract theme-specific content from individual comments")
@@ -15,6 +15,7 @@ export const extractThemeContentCommand = new Command("extract-theme-content")
   .option("-d, --debug", "Enable debug output")
   .option("-c, --concurrency <n>", "Number of parallel API calls (default: 3)", parseInt)
   .option("-m, --model <model>", "AI model to use (overrides config)")
+  .option("-r, --rate-limit <n>", "Requests per minute to limit API calls (default: model-specific)", parseInt)
   .action(extractThemeContent);
 
 // Helper function to check if a text item should be filtered
@@ -139,6 +140,11 @@ async function extractThemeContent(documentId: string, options: any) {
   const taskConfig = getTaskConfig('extractThemeContent', effectiveModel);
   const concurrency = options.concurrency || taskConfig?.concurrency || 3;
   
+  // Get rate limit from model config or CLI override
+  const modelRateLimit = getModelRateLimit(effectiveModel);
+  const defaultRateLimit = modelRateLimit?.requests || 12;
+  const rateLimit = options.rateLimit || defaultRateLimit;
+  
   let processed = 0;
   let successful = 0;
   let failed = 0;
@@ -147,7 +153,8 @@ async function extractThemeContent(documentId: string, options: any) {
     comments,
     concurrency,
     async (comment, index, total) => {
-      console.log(`\n[${index}/${total}] Processing comment ${comment.comment_id}`);
+      console.log(`
+[${index}/${total}] Processing comment ${comment.comment_id}`);
       
       try {
         // Parse structured sections
@@ -246,7 +253,8 @@ async function extractThemeContent(documentId: string, options: any) {
         const errorMsg = error instanceof Error ? error.message : String(error);
         console.error(`  ❌ Error: ${errorMsg}`);
       }
-    }
+    },
+    { requests: rateLimit, perSeconds: 60 }
   );
   
   // Summary
@@ -275,3 +283,4 @@ async function extractThemeContent(documentId: string, options: any) {
   
   db.close();
 }
+

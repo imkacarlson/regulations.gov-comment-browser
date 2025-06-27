@@ -14,7 +14,7 @@ import type { EntityTaxonomy, EnrichedComment } from "../types";
 import { runPool } from "../lib/worker-pool";
 import { parseJsonResponse } from "../lib/json-parser";
 import { TaskQueue, buildHierarchicalTasks, type Task } from "../lib/task-queue";
-import { getTaskConfig, getStageConfig, getBatchOptions, getTaskModel } from "../lib/batch-config";
+import { getTaskConfig, getStageConfig, getBatchOptions, getTaskModel, getModelRateLimit } from "../lib/batch-config";
 
 export const discoverEntitiesCommand = new Command("discover-entities")
   .description("Discover named entities using two-stage approach (categories first)")
@@ -25,6 +25,7 @@ export const discoverEntitiesCommand = new Command("discover-entities")
   .option("-d, --debug", "Enable debug output")
   .option("-c, --concurrency <n>", "Number of parallel batch API calls (default: 3)", parseInt)
   .option("-m, --model <model>", "AI model to use (overrides config)")
+  .option("-r, --rate-limit <n>", "Requests per minute to limit API calls (default: model-specific)", parseInt)
   .option("--merge-width <n>", "Number of category lists to merge at once (default: 10)", parseInt)
   .action(discoverEntities);
 
@@ -216,6 +217,11 @@ async function discoverEntities(documentId: string, options: any) {
   const timeoutPerBatch = entityStageConfig?.timeoutPerBatch || 60000;
   const maxFailures = entityStageConfig?.maxFailures || 3;
   
+  // Get rate limit from model config or CLI override
+  const modelRateLimit = getModelRateLimit(entityModel);
+  const defaultRateLimit = modelRateLimit?.requests || 12;
+  const rateLimit = options.rateLimit || defaultRateLimit;
+  
   await runPool(
     entityBatches,
     concurrency,
@@ -284,7 +290,8 @@ async function discoverEntities(documentId: string, options: any) {
         
         console.warn(`   ⚠️  Continuing despite failure (${failedBatches.length}/${maxFailures} failures allowed)`);
       }
-    }
+    },
+    { requests: rateLimit, perSeconds: 60 }
   );
   
   // Summary of extraction results

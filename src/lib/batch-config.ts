@@ -68,6 +68,10 @@ export interface BatchConfigFile {
   };
   models?: Record<string, {
     concurrency?: number;
+    rateLimit?: {
+      requests: number;
+      perSeconds: number;
+    };
     description?: string;
   }>;
 }
@@ -154,6 +158,11 @@ export function getStageConfig(taskName: keyof BatchConfigFile['tasks'], stageNa
   }
   
   return null;
+}
+
+export function getModelRateLimit(model: string): { requests: number; perSeconds: number } | undefined {
+  const config = loadBatchConfig();
+  return config.models?.[model]?.rateLimit;
 }
 
 export function getTaskModel(taskName: keyof BatchConfigFile['tasks'], cliModel?: string, stage?: string): string {

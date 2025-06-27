@@ -7,7 +7,7 @@ import { CONDENSE_PROMPT } from "../prompts/condense";
 import { parseCondensedSections } from "../lib/parse-condensed-sections";
 import type { RawComment } from "../types";
 import { runPool } from "../lib/worker-pool";
-import { getTaskConfig, getTaskModel } from "../lib/batch-config";
+import { getTaskConfig, getTaskModel, getModelRateLimit } from "../lib/batch-config";
 
 export const condenseCommand = new Command("condense")
   .description("Generate condensed versions of comments")
@@ -17,6 +17,7 @@ export const condenseCommand = new Command("condense")
   .option("-d, --debug", "Enable debug output")
   .option("-c, --concurrency <n>", "Number of parallel API calls (default: 5)", parseInt)
   .option("-m, --model <model>", "AI model to use (overrides config)")
+  .option("-r, --rate-limit <n>", "Requests per minute to limit API calls (default: 12)", parseInt)
   .action(condenseComments);
 
 async function condenseComments(documentId: string, options: any) {
@@ -110,6 +111,11 @@ async function condenseComments(documentId: string, options: any) {
   const taskConfig = getTaskConfig('condense', options.model);
   const concurrency = options.concurrency || taskConfig.concurrency;
   
+  // Get rate limit from model config or CLI override
+  const modelRateLimit = getModelRateLimit(effectiveModel);
+  const defaultRateLimit = modelRateLimit?.requests || 12;
+  const rateLimit = options.rateLimit || defaultRateLimit;
+  
   const activeWorkers = new Set<string>();
   
   // Process a single comment
@@ -177,11 +183,16 @@ async function condenseComments(documentId: string, options: any) {
   }
   
   // Run pool
-  await runPool(comments, concurrency, async (comment, index) => {
-    activeWorkers.add(comment.id);
-    await processComment(comment);
-    activeWorkers.delete(comment.id);
-  });
+  await runPool(
+    comments, 
+    concurrency,
+    async (comment, index) => {
+      activeWorkers.add(comment.id);
+      await processComment(comment);
+      activeWorkers.delete(comment.id);
+    },
+    { requests: rateLimit, perSeconds: 60 }
+  );
   
   // Final summary
   console.log("\n📊 Condensing complete:");

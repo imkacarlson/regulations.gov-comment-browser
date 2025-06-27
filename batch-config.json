@@ -16,7 +16,7 @@
   
   "tasks": {
     "condense": {
-      "concurrency": 5,
+      "concurrency": 1,
       "model": "gemini-flash-lite",
       "batching": false,
       "description": "Processes comments individually for structured extraction"
@@ -25,7 +25,7 @@
     "discoverThemes": {
       "concurrency": 5,
       "mergeWidth": 10,
-      "model": "gemini-pro",
+      "model": "gemini-flash-lite",
       "batching": {
         "triggerWordLimit": 250000,
         "batchWordLimit": 150000,
@@ -34,16 +34,16 @@
     },
     
     "extractThemeContent": {
-      "concurrency": 10,
-      "model": "gemini-flash",
+      "concurrency": 1,
+      "model": "gemini-flash-lite",
       "batching": false,
       "description": "Extracts theme-specific content from individual comments"
-    },
+    },,
     
     "summarizeThemes": {
-      "concurrency": 3,
+      "concurrency": 1,
       "mergeWidth": 20,
-      "model": "gemini-flash",
+      "model": "gemini-flash-lite",
       "batching": {
         "triggerWordLimit": 200000,
         "batchWordLimit": 125000,
@@ -56,7 +56,7 @@
     },
     
     "discoverEntities": {
-      "concurrency": 3,
+      "concurrency": 1,
       "model": "gemini-flash-lite",
       "stages": {
         "categoryDiscovery": {
@@ -112,8 +112,12 @@
       "description": "Can handle 50% more concurrent requests"
     },
     "gemini-flash-lite": {
-      "concurrency": 10,
-      "description": "Can handle 2x concurrent requests"
+      "concurrency": 1,
+      "rateLimit": {
+        "requests": 12,
+        "perSeconds": 60
+      },
+      "description": "Free tier: 15 RPM, 1000 RPD - conservative 12/min"
     },
     "claude": {
       "concurrency": 2,

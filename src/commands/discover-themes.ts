@@ -26,6 +26,10 @@ async function discoverThemes(documentId: string, options: any) {
   
   const db = openDb(documentId);
   
+  // Clear existing themes before starting
+  console.log("🧹 Clearing existing theme hierarchy...");
+  db.run("DELETE FROM theme_hierarchy");
+
   // Get the effective model from config
   const effectiveModel = getTaskModel('discoverThemes', options.model);
   const ai = new AIClient(effectiveModel, db);
@@ -293,8 +297,16 @@ function saveThemeHierarchy(db: Database, themesText: string) {
     VALUES (?, ?, ?, ?, ?)
   `);
   
+  // Use a set to track inserted codes and prevent duplicates
+  const insertedCodes = new Set<string>();
+
   withTransaction(db, () => {
     for (const theme of themes) {
+      if (insertedCodes.has(theme.code)) {
+        console.warn(`⚠️ Duplicate theme code found and skipped: ${theme.code}`);
+        continue;
+      }
+      
       insertTheme.run(
         theme.code,
         theme.description,
@@ -302,6 +314,7 @@ function saveThemeHierarchy(db: Database, themesText: string) {
         theme.parent_code,
         theme.detailed_guidelines || null
       );
+      insertedCodes.add(theme.code);
     }
   });
 }
