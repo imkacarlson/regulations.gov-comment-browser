@@ -4,8 +4,10 @@ export class FreeTierRateLimiter {
   private dayTimestamps: number[] = [];
 
   constructor(
-    private maxRPM = 30000,
-    private maxTPM = 30000000,
+    // Gemini free tier limits as of June 2024
+    // 60 requests per minute and ~250k tokens per minute
+    private maxRPM = 60,
+    private maxTPM = 250000,
     private maxRPD = 500
   ) {}
 
