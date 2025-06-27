@@ -1,0 +1,5525 @@
+{
+  "Government Agencies": [
+    {
+      "label": "CMS",
+      "definition": "A federal agency that administers Medicare, Medicaid, and the Children's Health Insurance Program.",
+      "terms": [
+        "CMS"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "HHS",
+      "definition": "The principal agency of the federal government responsible for protecting the health of all Americans and providing essential human services.",
+      "terms": [
+        "HHS"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Medicare",
+      "definition": "A federal health insurance program for people aged 65 or older, certain younger people with disabilities, and people with End-Stage Renal Disease.",
+      "terms": [
+        "Medicare"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Public Health Agencies",
+      "definition": "Government entities responsible for protecting and improving the health of communities.",
+      "terms": [
+        "public health agencies"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "CDC",
+      "definition": "A federal agency focused on protecting public health and safety through the control and prevention of disease, injury, and disability.",
+      "terms": [
+        "CDC"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Federal agencies (type)",
+      "definition": "General term for agencies of the federal government.",
+      "terms": [
+        "federal agencies"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Medicaid",
+      "definition": "A joint federal and state program that helps cover the cost of healthcare for some people with limited income and resources.",
+      "terms": [
+        "Medicaid"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "ACBs (ONC-Accredited Certification Bodies)",
+      "definition": "Organizations accredited by ONC to certify health IT.",
+      "terms": [
+        "ACBs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CHIP",
+      "definition": "Children's Health Insurance Program, a government health program.",
+      "terms": [
+        "CHIP"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Department of Defense",
+      "definition": "A federal department responsible for military matters, which includes healthcare programs like TRICARE.",
+      "terms": [
+        "Department of Defense"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HHS OIG",
+      "definition": "An oversight office within HHS responsible for auditing and investigating HHS programs and operations.",
+      "terms": [
+        "HHS OIG"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "NIST (National Institute of Standards and Technology)",
+      "definition": "An agency that promotes innovation and industrial competitiveness by advancing measurement science, standards, and technology.",
+      "terms": [
+        "NIST"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Public Health Authorities",
+      "definition": "Government bodies responsible for public health initiatives.",
+      "terms": [
+        "public health authorities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "U.S. Department of Veterans Affairs",
+      "definition": "A government department providing healthcare services to veterans.",
+      "terms": [
+        "U.S. Department of Veterans Affairs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "U.S. government agencies/contractors (type)",
+      "definition": "General term for government entities and their contracted parties.",
+      "terms": [
+        "U.S. government agencies/contractors"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "state immunization programs",
+      "definition": "State-level programs responsible for vaccine administration and tracking.",
+      "terms": [
+        "state immunization programs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "state public health departments",
+      "definition": "Government entities responsible for public health services and policies at the state level.",
+      "terms": [
+        "state public health departments"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "Health IT Standards": [
+    {
+      "label": "Interoperability",
+      "definition": "The ability of different IT systems and software applications to communicate, exchange data, and use the information that has been exchanged.",
+      "terms": [
+        "interoperability"
+      ],
+      "mentionCount": 10
+    },
+    {
+      "label": "APIs",
+      "definition": "Interfaces that allow different software applications to communicate with each other, used here for health data exchange.",
+      "terms": [
+        "APIs",
+        "Patient Access APIs",
+        "application program interfaces",
+        "patient access APIs"
+      ],
+      "mentionCount": 9
+    },
+    {
+      "label": "USCDI",
+      "definition": "A standard developed by ONC that specifies a set of data classes and elements for health information to be exchanged.",
+      "terms": [
+        "USCDI",
+        "USCDI Standard",
+        "USCDI v2",
+        "USCDI v4",
+        "United States Core Data for Interoperability Version 4"
+      ],
+      "mentionCount": 9
+    },
+    {
+      "label": "HL7",
+      "definition": "Health Level Seven International, an organization that develops standards for healthcare interoperability, including FHIR.",
+      "terms": [
+        "HL7",
+        "Health Level Seven"
+      ],
+      "mentionCount": 8
+    },
+    {
+      "label": "C-CDA",
+      "definition": "Consolidated Clinical Document Architecture, a standard for health information exchange, mentioned as a data format.",
+      "terms": [
+        "C-CDA",
+        "C-CDA document",
+        "C-CDA documents",
+        "CCDA",
+        "Common Clinical Data Architecture",
+        "transition of care CCDAs"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Health IT Modules",
+      "definition": "Components of health IT systems certified by ONC.",
+      "terms": [
+        "Health IT Modules",
+        "health IT module"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Health Information Technology",
+      "definition": "Technology used for managing health information.",
+      "terms": [
+        "HIT",
+        "health information technology"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Bulk FHIR",
+      "definition": "A capability within FHIR for efficiently exchanging large volumes of health data.",
+      "terms": [
+        "Bulk FHIR",
+        "Bulk FHIR capabilities"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "HL7 FHIR",
+      "definition": "Fast Healthcare Interoperability Resources, a standard for exchanging healthcare information electronically.",
+      "terms": [
+        "HL7 FHIR",
+        "HL7® FHIR®"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Subscriptions",
+      "definition": "A FHIR capability allowing clients to be notified of changes to resources.",
+      "terms": [
+        "FHIR Subscriptions",
+        "Subscriptions"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "USCDI v5",
+      "definition": "The latest version of the United States Core Data for Interoperability standard, incorporating expanded data elements.",
+      "terms": [
+        "USCDI v5"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "API Polling",
+      "definition": "A method of repeatedly checking for new information or status updates via an API.",
+      "terms": [
+        "polling"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "CDS Hooks",
+      "definition": "A specification for integrating clinical decision support into EHR workflows.",
+      "terms": [
+        "CDS Hooks",
+        "Clinical Decision Support Hooks"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Certified Electronic Health Record Technology",
+      "definition": "Electronic health record technology that has met the certification requirements of the ONC.",
+      "terms": [
+        "CEHRT"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "PACS",
+      "definition": "Picture Archiving and Communication System, a medical imaging technology used for storing, retrieving, and managing medical images.",
+      "terms": [
+        "PACS",
+        "Picture Archiving and Communication Systems (PACS)",
+        "VNA"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Prior Authorization API",
+      "definition": "An API designed for managing prior authorization processes.",
+      "terms": [
+        "Prior Auth API",
+        "Prior Auth API - Payer",
+        "Prior Auth API - Provider",
+        "Prior Authorization API"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "API Requirements",
+      "definition": "General requirements related to Application Programming Interfaces.",
+      "terms": [
+        "API requirements"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "CRD (Coverage Requirements Discovery)",
+      "definition": "A FHIR Implementation Guide for discovering payer coverage requirements.",
+      "terms": [
+        "CRD",
+        "Coverage Requirements Discovery (CRD)"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Certified EHR Technology",
+      "definition": "Electronic Health Record technology that has met specific certification requirements.",
+      "terms": [
+        "certified EHR technology"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Computerized Provider Order Entry",
+      "definition": "A system feature allowing direct electronic entry of patient orders.",
+      "terms": [
+        "CPOE",
+        "computerized provider order entry"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "FHIR Bulk Data",
+      "definition": "A specification for bulk data export using FHIR.",
+      "terms": [
+        "FHIR Bulk Data"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "HL7 Version 2.5.1 Implementation Guide: Laboratory Orders",
+      "definition": "An implementation guide for laboratory orders.",
+      "terms": [
+        "HL7 Version 2.5.1 Implementation Guide: Laboratory Orders (LOI) from EHR, Release 1, STU Release 4 - US Realm (LOI)",
+        "LOI"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "HL7 Version 2.51 Implementation Guide: Electronic Reporting to Public Health",
+      "definition": "An implementation guide for electronic reporting to public health.",
+      "terms": [
+        "ELR",
+        "HL7 Version 2.51 Implementation Guide: Electronic Reporting to Public Health, Release 1 (US Realm) (ELR)"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "NCPDP SCRIPT",
+      "definition": "A standard developed by the National Council for Prescription Drug Programs for electronic prescription transmission.",
+      "terms": [
+        "NCPDP 2017 requirements",
+        "NCPDP SCRIPT standard version 2023011",
+        "NCPDP SCRIPT standard versions 2023011 and 2017071",
+        "NCPDP SCRIPT version 2017071",
+        "NCPDP SCRIPT version 2023011"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Provider Access API",
+      "definition": "An API providing access to provider-related information.",
+      "terms": [
+        "Provider Access API"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Public Health Data Exchange Certification Criteria",
+      "definition": "Criteria for certifying data exchange capabilities for public health.",
+      "terms": [
+        "Public Health Data Exchange Certification Criteria"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "SMART v2 Guide",
+      "definition": "A technical specification that enables third-party applications to connect to EHR systems.",
+      "terms": [
+        "Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) SMART Application Launch Framework Implementation Guide release 2.2.0",
+        "SMART App Launch 2.2",
+        "SMART v2 Guide",
+        "SMART v2.2 Guide"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Service base URLs",
+      "definition": "The foundational web addresses for accessing APIs.",
+      "terms": [
+        "service base URLs"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Specifications (general)",
+      "definition": "Detailed descriptions of requirements or standards.",
+      "terms": [
+        "specifications"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "interoperability requirements",
+      "definition": "Requirements that facilitate the seamless and efficient exchange of health information between different health IT systems.",
+      "terms": [
+        "interoperability requirements"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "API Information Source",
+      "definition": "Information detailing the origin or provider of an API.",
+      "terms": [
+        "API Information Source"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API Information Source details",
+      "definition": "Specific information about the source of an API.",
+      "terms": [
+        "API Information Source details"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API Query Concepts",
+      "definition": "Concepts related to how data is queried via APIs.",
+      "terms": [
+        "cross-patient queries",
+        "query-based nature"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API for Patient and Population Services",
+      "definition": "Standardized interfaces for accessing patient and population health data.",
+      "terms": [
+        "(G)(10) Standardized API for Patient and Population Services",
+        "Bulk API",
+        "read and search API",
+        "single-patient equivalent API",
+        "standardized API for patient and population services"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API standards",
+      "definition": "General term for standards governing Application Programming Interfaces.",
+      "terms": [
+        "API standards"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Brands specification",
+      "definition": "A specification for publishing service base URLs and API information.",
+      "terms": [
+        "Brands specification"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Bulk Data Access",
+      "definition": "A standard for efficiently retrieving large volumes of patient data.",
+      "terms": [
+        "Bulk Data v2",
+        "Bulk FHIR 2.0",
+        "HL7® FHIR® Bulk Data Access v2.0.0"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Bulk FHIR API",
+      "definition": "An API implementing the Bulk FHIR standard.",
+      "terms": [
+        "Bulk FHIR API"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CMS’s HL7® FHIR® Connectathon",
+      "definition": "A collaborative event for developers to test HL7 FHIR implementation.",
+      "terms": [
+        "CMS’s HL7® FHIR® Connectathon"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CRD Access Token",
+      "definition": "A token used for accessing CRD resources.",
+      "terms": [
+        "CRD Access Token"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Capability Statement CRD Server",
+      "definition": "A FHIR CapabilityStatement for a CRD server.",
+      "terms": [
+        "Capability Statement CRD Server"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Capability Statement-CRD-client",
+      "definition": "A FHIR CapabilityStatement for a CRD client.",
+      "terms": [
+        "Capability Statement-CRD-client"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Consolidated Clinical Document Architecture (C-CDA)",
+      "definition": "A Health Level Seven (HL7) standard for health document exchange.",
+      "terms": [
+        "C-CDA Companion Guide Release 4.1"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Coverage Requirements Determination Implementation Guide",
+      "definition": "An implementation guide for coverage requirements determination.",
+      "terms": [
+        "CRD IG version 2.01 – STU2"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "DICOMweb",
+      "definition": "A set of RESTful web services for accessing DICOM (Digital Imaging and Communications in Medicine) data.",
+      "terms": [
+        "DICOMweb"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "DTR (Documentation Templates and Rules)",
+      "definition": "A FHIR Implementation Guide related to prior authorization documentation.",
+      "terms": [
+        "DTR",
+        "Documentation Templates and Rules"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "DTR Questionnaire Package",
+      "definition": "A package of questionnaires within the DTR framework.",
+      "terms": [
+        "DTR Questionnaire Package"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "DTR SMART App",
+      "definition": "A SMART on FHIR application utilizing DTR.",
+      "terms": [
+        "DTR SMART App"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "DTR capability statements",
+      "definition": "FHIR CapabilityStatements related to Documentation Templates and Rules.",
+      "terms": [
+        "DTR capability statements"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Documentation Templates and Rules IG",
+      "definition": "The Implementation Guide for Documentation Templates and Rules.",
+      "terms": [
+        "Documentation Templates & Rules IG"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Dynamic Application Registration",
+      "definition": "The process of registering applications with health IT systems.",
+      "terms": [
+        "dynamic application registration"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHI Export API Implementation Guide",
+      "definition": "An implementation guide for exporting Electronic Health Information (EHI) using FHIR APIs.",
+      "terms": [
+        "Argonaut’s EHI Export API Implementation Guide"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Encounter-Create Subscription",
+      "definition": "A FHIR Subscription topic for encounter creation.",
+      "terms": [
+        "Encounter-Create Subscription"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR API Versions",
+      "definition": "Specific release versions of the FHIR standard.",
+      "terms": [
+        "R4 and R4B",
+        "R4B for the FHIR Subscription backport"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR Bulk Data All Patients Export",
+      "definition": "A capability within FHIR Bulk Data to export all patient data.",
+      "terms": [
+        "All Patients export"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR Bulk Data Group Export",
+      "definition": "A parameter/feature within FHIR Bulk Data for exporting data in groups.",
+      "terms": [
+        "group export"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR Bulk Data _elements parameter",
+      "definition": "A parameter for FHIR Bulk Data export to specify which data elements to include.",
+      "terms": [
+        "_elements",
+        "_elements parameter"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR Bulk Data _since parameter",
+      "definition": "A parameter for FHIR Bulk Data export to specify a start time.",
+      "terms": [
+        "_since parameter"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR Bulk Data _type parameter",
+      "definition": "A parameter for FHIR Bulk Data export to filter by resource type.",
+      "terms": [
+        "_type parameter"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR Bulk Data _typeFilter parameter",
+      "definition": "A parameter for FHIR Bulk Data export to filter by resource type.",
+      "terms": [
+        "_typeFilter"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR ImagingStudy Resources",
+      "definition": "FHIR resources representing information about imaging studies.",
+      "terms": [
+        "FHIR ImagingStudy resources"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR US Core Implementation Guide",
+      "definition": "An implementation guide for FHIR resources specifically for U.S. healthcare data exchange.",
+      "terms": [
+        "FHIR US Core IG 6.1.0"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FHIR standard",
+      "definition": "Fast Healthcare Interoperability Resources, a standard for exchanging healthcare information.",
+      "terms": [
+        "FHIR standard"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 CDA Implementation Guide",
+      "definition": "A guide for implementing the HL7 Clinical Document Architecture (CDA) standard.",
+      "terms": [
+        "HL7 CDA Implementation Guide"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 Context-Aware Knowledge Retrieval (Infobutton)",
+      "definition": "A standard for retrieving health knowledge based on clinical context.",
+      "terms": [
+        "HL7 Context-Aware Knowledge Retrieval (Infobutton) standard",
+        "Infobutton",
+        "Infobutton standard"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR APIs",
+      "definition": "Application Programming Interfaces built using the HL7 FHIR standard.",
+      "terms": [
+        "HL7 FHIR APIs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR Bundle",
+      "definition": "A resource in HL7 FHIR that groups related resources together.",
+      "terms": [
+        "HL7 FHIR Bundle"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR Cancer Pathology Data Sharing IG",
+      "definition": "An HL7 FHIR Implementation Guide for sharing cancer pathology data.",
+      "terms": [
+        "HL7® FHIR Cancer Pathology Data Sharing Implementation Guide"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR Central Cancer Registry Reporting Content IG",
+      "definition": "An HL7 FHIR Implementation Guide for central cancer registry reporting.",
+      "terms": [
+        "HL7® FHIR Central Cancer Registry Reporting Content IG 1.0.0—STU1"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR Da Vinci Burden Reduction Implementation Guides",
+      "definition": "Implementation Guides from the HL7 Da Vinci Project for burden reduction.",
+      "terms": [
+        "HL7 FHIR Da Vinci Burden Reduction IGs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR Da Vinci Payer Data Exchange Plan Net Implementation Guide",
+      "definition": "An implementation guide for exchanging payer network information.",
+      "terms": [
+        "HL7 FHIR Da Vinci Payer Data Exchange Plan Net (PDex Plan Net) IG, version 1.1.0 – STU1.1",
+        "PDex Plan Net"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR Da Vinci – Payer Data Exchange US Drug Formulary Implementation Guide",
+      "definition": "An implementation guide for exchanging drug formulary information.",
+      "terms": [
+        "HL7 FHIR Da Vinci – Payer Data Exchange (PDex) US Drug Formulary Implementation Guide, version 2.0.1 – STU2",
+        "PDex"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 FHIR capabilities",
+      "definition": "Features or functionalities supported by HL7 FHIR.",
+      "terms": [
+        "HL7 FHIR capabilities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 IG for CDA Reporting to Public Health Cancer Registries",
+      "definition": "An HL7 Implementation Guide for CDA Release 2 for reporting to public health cancer registries.",
+      "terms": [
+        "HL7® IG for CDA© Release 2: Reporting to Public Health Cancer Registries from Ambulatory Healthcare Providers, Release 1, DSTU Release 1.1, October 2017"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 Version 2.5.1 Implementation Guide: Laboratory Results Interface",
+      "definition": "An implementation guide for laboratory results interface.",
+      "terms": [
+        "HL7 Version 2.5.1 Implementation Guide: Laboratory Results Interface (LRI), Edition 5, US Realm, May 2024, LRI_PH_COMPONENT_V3"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 eCR FHIR IG",
+      "definition": "An HL7 Implementation Guide for Electronic Case Reporting using FHIR.",
+      "terms": [
+        "HL7 eCR FHIR IG"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 v2.5.1 ORU message structure",
+      "definition": "A specific message structure within the HL7 version 2.x standard for observation results.",
+      "terms": [
+        "HL7 version 2.5.1 ORU message structure"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7 v2.51 Immunization Messaging Implementation Guide",
+      "definition": "An implementation guide for exchanging immunization data using HL7 v2.",
+      "terms": [
+        "HL7 Version 2.51 Immunization Messaging Implementation Guide, Release 2.0",
+        "HL7 v2.51 Immunization Messaging Implementation Guide release 1.5"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7v2",
+      "definition": "Health Level Seven version 2, a widely used standard for exchanging electronic health information.",
+      "terms": [
+        "HL7v2 interfaces",
+        "legacy technology such as HL7v2"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7© UDAP Security Implementation Guide",
+      "definition": "A guide for implementing the UDAP security protocol using HL7 standards.",
+      "terms": [
+        "HL7© UDAP Security Implementation Guide"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HL7® Da Vinci Project",
+      "definition": "An initiative developing specifications for HL7 FHIR to address healthcare payer-on-payer and payer-on-provider use cases.",
+      "terms": [
+        "HL7® Da Vinci Project"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health IT Module Capabilities",
+      "definition": "Defined functionalities for health IT modules.",
+      "terms": [
+        "Health IT Module capabilities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Incompatible EHR Systems",
+      "definition": "Electronic Health Record systems that cannot exchange data.",
+      "terms": [
+        "incompatible EHR systems"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Incompatible HIT Systems",
+      "definition": "Health IT systems that cannot exchange data.",
+      "terms": [
+        "incompatible HIT systems"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Inferno test bed platform",
+      "definition": "A platform used for testing health IT systems against certification criteria.",
+      "terms": [
+        "Inferno test bed platform"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "LOINC",
+      "definition": "Logical Observation Identifiers Names and Codes. Standard for laboratory observations.",
+      "terms": [
+        "LOINC"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "MFA protocols",
+      "definition": "Communication or security protocols for Multi-Factor Authentication.",
+      "terms": [
+        "MFA protocols"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medical management systems",
+      "definition": "Systems used for managing medical services, often including utilization review.",
+      "terms": [
+        "medical management systems"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Modular API Capabilities",
+      "definition": "API functionalities that can be certified or implemented in modules.",
+      "terms": [
+        "Modular API Capabilities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "NAACCR Volume V standard",
+      "definition": "A standard from NAACCR for data exchange.",
+      "terms": [
+        "NAACCR Volume V",
+        "NAACCR Volume V standard"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "NCPDP Structured and Codified Sig Format Implementation Guide",
+      "definition": "An implementation guide for structured and codified prescribing instructions.",
+      "terms": [
+        "NCPDP Structured and Codified Sig Format Implementation Guide"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "National Drug Codes",
+      "definition": "Standard terminologies for medications.",
+      "terms": [
+        "NDC",
+        "National Drug Codes"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "OAuth workflow",
+      "definition": "A standardized authorization framework for access delegation.",
+      "terms": [
+        "OAuth workflow"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "PAS (Prior Authorization Service)",
+      "definition": "A service component related to prior authorization.",
+      "terms": [
+        "PAS"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "PMS (Practice Management System)",
+      "definition": "Software used to manage healthcare practice operations.",
+      "terms": [
+        "PMS"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Provider Access API capabilities",
+      "definition": "API capabilities designed to provide providers with access to health information.",
+      "terms": [
+        "Provider Access API capabilities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Provider Access APIs",
+      "definition": "APIs that allow healthcare providers to access health information.",
+      "terms": [
+        "provider access APIs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Questionnaire Expiry",
+      "definition": "A setting for how long a questionnaire remains valid.",
+      "terms": [
+        "Questionnaire Expiry"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "RxNorm",
+      "definition": "A standard terminology for medications.",
+      "terms": [
+        "RxNorm",
+        "RxNorm, September 8, 2015 Release"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "SMART Health Cards for Immunizations Criteria",
+      "definition": "Criteria for using SMART Health Cards for immunization data.",
+      "terms": [
+        "SMART Health Cards for Immunizations Criteria"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "SMART app client",
+      "definition": "A client application using the SMART on FHIR standard.",
+      "terms": [
+        "SMART app client"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "SNOMED CT",
+      "definition": "Standardized clinical terminology.",
+      "terms": [
+        "SNOMED CT"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Standard API for Public Health Data Exchange",
+      "definition": "Standardized interfaces for exchanging data with public health entities.",
+      "terms": [
+        "(g20)",
+        "Standard API for public health data exchange"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Subscription Filter Concepts",
+      "definition": "Criteria used within subscription mechanisms to limit data.",
+      "terms": [
+        "filters in Subscriptions",
+        "patient filtering",
+        "resource-level Subscription"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Token expiration and revocation",
+      "definition": "Mechanisms for managing the validity and removal of authentication tokens.",
+      "terms": [
+        "token expiration and revocation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "UCUM",
+      "definition": "Unified Code for Units of Measure. Standard for units of measure.",
+      "terms": [
+        "UCUM"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "UDAP dynamic client registration specification",
+      "definition": "A specific technical standard for dynamic client registration.",
+      "terms": [
+        "UDAP dynamic client registration specification"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "US Core Server CapabilityStatement",
+      "definition": "A statement of capabilities for a US Core FHIR server.",
+      "terms": [
+        "US Core Server CapabilityStatement"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "User Access Brands and Endpoints",
+      "definition": "A specification for identifying user access brands and their corresponding endpoints.",
+      "terms": [
+        "User Access Brands and Endpoints"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Voluntary Pediatric Standards",
+      "definition": "Standards for pediatric health IT that are recommended but not mandated.",
+      "terms": [
+        "voluntary pediatric standards"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "open standards",
+      "definition": "Technical specifications that are publicly available and can be used by anyone.",
+      "terms": [
+        "open standards"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "xPath",
+      "definition": "A query language used for selecting nodes from an XML document.",
+      "terms": [
+        "xPath"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "Health Information Exchange Frameworks": [
+    {
+      "label": "TEFCA",
+      "definition": "A framework and common set of principles, standards, and policies that support nationwide secure health information exchange.",
+      "terms": [
+        "TEFCA",
+        "TEFCA™",
+        "TRUSTED EXCHANGE FRAMEWORK AND COMMON AGREEMENT",
+        "Trusted Exchange Framework and Common Agreement",
+        "Trusted Exchange Framework and Common Agreement (TEFCA)",
+        "Trusted Exchange Framework and Common Agreement™"
+      ],
+      "mentionCount": 7
+    },
+    {
+      "label": "Public Health Data Exchange",
+      "definition": "The process and systems for exchanging health data with public health agencies.",
+      "terms": [
+        "Public Health Data Exchange"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Qualified Health Information Network",
+      "definition": "A participant in TEFCA responsible for facilitating trusted exchange.",
+      "terms": [
+        "QHIN"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "HIEs",
+      "definition": "Organizations or systems that enable the electronic sharing of health-related information among authorized entities.",
+      "terms": [
+        "HIEs"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "AIMS Platform",
+      "definition": "The Informatics Messaging Services Platform, likely used for data exchange by public health laboratories.",
+      "terms": [
+        "Association of Public Health Laboratories Informatics Messaging Services (AIMS) Platform"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CARIN Alliance",
+      "definition": "An alliance focused on enabling consumer-directed health information exchange.",
+      "terms": [
+        "CARIN Alliance"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Cross-Organizational Exchange",
+      "definition": "The exchange of information between different organizations.",
+      "terms": [
+        "cross-organizational exchange"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HINs",
+      "definition": "Organizations or entities that facilitate the exchange of health information among different healthcare stakeholders.",
+      "terms": [
+        "HINs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Image Exchange Methods",
+      "definition": "Processes for transitioning image sharing from physical media to digital formats.",
+      "terms": [
+        "physical to digital image exchange methods"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medical Image Exchange",
+      "definition": "The process of sharing medical images between healthcare providers or systems.",
+      "terms": [
+        "medical image exchange"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "National Data Infrastructure",
+      "definition": "A coordinated system for managing and sharing data nationwide.",
+      "terms": [
+        "national data infrastructure"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer Data Exchange Server",
+      "definition": "A server for exchanging data between payers, part of the PDex framework.",
+      "terms": [
+        "PDex Server CapabilityStatement",
+        "Payer Data Exchange (PDex) Server"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Real-time Surveillance Data Network",
+      "definition": "A network for collecting and analyzing surveillance data in real-time.",
+      "terms": [
+        "real-time surveillance data network"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "SMART application launch framework",
+      "definition": "A framework for launching health applications securely and consistently.",
+      "terms": [
+        "SMART application launch framework"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "State Health Information Exchanges (state HIEs)",
+      "definition": "Health information exchanges operating at the state level.",
+      "terms": [
+        "state HIEs"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "Healthcare Organizations": [
+    {
+      "label": "Hospital",
+      "definition": "An establishment providing medical and surgical treatment and nursing care for sick or injured people.",
+      "terms": [
+        "hospitals"
+      ],
+      "mentionCount": 7
+    },
+    {
+      "label": "EHR Vendors",
+      "definition": "Companies that develop and sell Electronic Health Record software.",
+      "terms": [
+        "EHR developers",
+        "EHR vendors",
+        "small to mid-size EHR developers"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Healthcare organizations (type)",
+      "definition": "General term for entities providing healthcare services.",
+      "terms": [
+        "healthcare organizations"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Picture Archiving and Communication Systems (PACS)",
+      "definition": "A medical imaging technology standard used for storing, sending, and retrieving medical images.",
+      "terms": [
+        "PACS",
+        "PACS systems",
+        "Picture Archiving and Communication Systems"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Prescription Drug Monitoring Program Databases (PDMP)",
+      "definition": "State-run databases that track the prescribing and dispensing of controlled substances.",
+      "terms": [
+        "PDMP Databases",
+        "PDMP databases",
+        "PDMPs",
+        "Prescription Drug Monitoring Program (PDMP) Databases"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "HIMSS",
+      "definition": "Healthcare Information and Management Systems Society, a global advisor and thought leader supporting the health IT ecosystem.",
+      "terms": [
+        "HIMSS"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Health plan (type/role)",
+      "definition": "An organization that offers health insurance.",
+      "terms": [
+        "health plan"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "National Council of Prescription Drug Programs",
+      "definition": "An organization that develops standards for prescription drug programs.",
+      "terms": [
+        "NCPDP",
+        "National Council of Prescription Drug Programs"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "AHIP",
+      "definition": "An association representing health insurance providers and managed healthcare plans.",
+      "terms": [
+        "AHIP"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "AIRA",
+      "definition": "An organization that supports immunization registries and public health.",
+      "terms": [
+        "AIRA"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Advocate Health",
+      "definition": "A leading nonprofit integrated health system in the United States.",
+      "terms": [
+        "Advocate Health",
+        "Advocate Health Care (Illinois)",
+        "Atrium Health (Carolinas, Georgia, Alabama)",
+        "Aurora Health Care (Wisconsin)"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "American Academy of Physician Associates",
+      "definition": "Professional organization representing Physician Associates.",
+      "terms": [
+        "AAPA",
+        "American Academy of Physician Associates"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "American Pharmacists Association",
+      "definition": "An association representing pharmacists in the United States.",
+      "terms": [
+        "APhA",
+        "American Pharmacists Association"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Association for Health Information Outsourcing Services",
+      "definition": "National organization dedicated to promoting excellence in the handling and dissemination of confidential patient-identifiable information.",
+      "terms": [
+        "AHIOS"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Association of Public Health Laboratories",
+      "definition": "An organization representing public health laboratories.",
+      "terms": [
+        "Association of Public Health Laboratories"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Boston Children's Hospital",
+      "definition": "A pediatric hospital and research institution mentioned as a place of care and treatment.",
+      "terms": [
+        "Boston Children's Hospital"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CareMessage",
+      "definition": "A non-profit organization leveraging technology to improve health equity.",
+      "terms": [
+        "CareMessage",
+        "Organization: CareMessage"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CareSource",
+      "definition": "A health insurance company.",
+      "terms": [
+        "CareSource"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Central cancer registries",
+      "definition": "Organizations responsible for collecting and maintaining cancer incidence data within a specific geographic area.",
+      "terms": [
+        "Central cancer registries"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Chart Lux Consulting",
+      "definition": "A consulting firm that assists EHR vendors with ONC requirements.",
+      "terms": [
+        "Chart Lux Consulting"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Children's Hospital Association",
+      "definition": "An organization representing children's hospitals.",
+      "terms": [
+        "CHA",
+        "Children's Hospital Association"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Children's Hospitals",
+      "definition": "Hospitals specializing in pediatric care.",
+      "terms": [
+        "children's hospitals"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Cleveland Clinic Foundation",
+      "definition": "A healthcare provider and academic medical center.",
+      "terms": [
+        "Cleveland Clinic Foundation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "College of American Pathologists",
+      "definition": "A professional organization of board-certified pathologists.",
+      "terms": [
+        "College of American Pathologists"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Commercial insurance",
+      "definition": "Refers to health insurance plans not provided by government programs.",
+      "terms": [
+        "commercial insurance"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Drummond Group",
+      "definition": "An organization previously involved in ONC-ATL testing.",
+      "terms": [
+        "Drummond Group"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHR Association",
+      "definition": "An industry association representing Electronic Health Record (EHR) vendors in the United States.",
+      "terms": [
+        "EHR Association"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Epic",
+      "definition": "A vendor of electronic health record software, known for its 'Share Everywhere' feature.",
+      "terms": [
+        "Epic"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EviCore",
+      "definition": "A healthcare technology company specializing in utilization management.",
+      "terms": [
+        "EviCore"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Greenway Health, LLC",
+      "definition": "An Electronic Health Record (EHR) vendor that provides healthcare IT solutions.",
+      "terms": [
+        "Greenway",
+        "Greenway Health",
+        "Greenway Health, LLC"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HLTH",
+      "definition": "A platform for the health industry.",
+      "terms": [
+        "HLTH"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HTD Health",
+      "definition": "A healthcare technology services group.",
+      "terms": [
+        "HTD Health"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health IT Advisory Committee",
+      "definition": "A committee advising on health information technology.",
+      "terms": [
+        "HITAC",
+        "Health IT Advisory Committee"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health insurance companies (type)",
+      "definition": "Companies that provide health insurance.",
+      "terms": [
+        "health insurance companies"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "MCG Health",
+      "definition": "An organization providing healthcare guidance and services.",
+      "terms": [
+        "MCG",
+        "MCG Health"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "MultiCare Health System",
+      "definition": "A healthcare system.",
+      "terms": [
+        "MultiCare Health System"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "National Commission on Certification of Physician Assistants",
+      "definition": "Organization responsible for certifying Physician Assistants.",
+      "terms": [
+        "NCCPA"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "North American Association of Central Cancer Registries",
+      "definition": "An organization that promotes and supports cancer registries.",
+      "terms": [
+        "NAACCR",
+        "North American Association of Central Cancer Registries"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Palmetto GBA",
+      "definition": "A Medicare administrative contractor.",
+      "terms": [
+        "Palmetto GBA"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Pharmacy HIT Collaborative",
+      "definition": "An organization focused on health information technology in pharmacy.",
+      "terms": [
+        "PHIT",
+        "Pharmacy HIT Collaborative"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Regence BlueCross BlueShield",
+      "definition": "A health insurance company.",
+      "terms": [
+        "Regence BlueCross BlueShield"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Stanford Medicine Children's Health",
+      "definition": "A healthcare system specializing in pediatric care.",
+      "terms": [
+        "SMCH",
+        "Stanford Medicine Children's Health",
+        "Stanford Medicine Children’s Health"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "TPAs",
+      "definition": "Companies that administer health insurance claims and benefits.",
+      "terms": [
+        "TPAs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "ViVE",
+      "definition": "An event and community for healthcare leaders and innovators.",
+      "terms": [
+        "ViVE"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Wake Forest University School of Medicine",
+      "definition": "Serves as the academic core of the Advocate Health enterprise.",
+      "terms": [
+        "Wake Forest University School of Medicine"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Yale New Haven",
+      "definition": "A healthcare system and academic medical center mentioned as a place of birth and care.",
+      "terms": [
+        "Yale New Haven"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Zus Health",
+      "definition": "A company providing a shared patient data platform designed to enable data interoperability and accelerate clinical care.",
+      "terms": [
+        "Zus Health"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "b.well Connected Health, Inc.",
+      "definition": "A health technology company that enables institutions to deliver connected health experiences.",
+      "terms": [
+        "b.well",
+        "b.well Connected Health, Inc."
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "managed care organizations",
+      "definition": "Organizations that manage healthcare services and costs for a defined population.",
+      "terms": [
+        "managed care organizations"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "Healthcare Professionals": [
+    {
+      "label": "Clinician",
+      "definition": "Licensed professionals who dispense prescription drugs and counsel patients on their safe use.",
+      "terms": [
+        "Pharmacists",
+        "clinicians",
+        "medical professionals",
+        "nurse practitioners",
+        "pharmacist",
+        "pharmacists",
+        "prescribers"
+      ],
+      "mentionCount": 7
+    },
+    {
+      "label": "End-Users",
+      "definition": "Individuals who directly use health IT systems.",
+      "terms": [
+        "end-users",
+        "users"
+      ],
+      "mentionCount": 7
+    },
+    {
+      "label": "Payers",
+      "definition": "Entities that pay for healthcare services, such as insurance companies or government programs.",
+      "terms": [
+        "payers"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "General Healthcare Professionals",
+      "definition": "Individuals who are trained and licensed to provide healthcare services.",
+      "terms": [
+        "health care providers",
+        "healthcare professionals"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Physician",
+      "definition": "Medical doctors who diagnose and treat injuries and diseases.",
+      "terms": [
+        "physicians"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Application Developers",
+      "definition": "Professionals who build software applications for health IT.",
+      "terms": [
+        "application developers"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Pediatric Health Care Providers",
+      "definition": "Healthcare professionals who specialize in treating children.",
+      "terms": [
+        "pediatric health care providers",
+        "pediatric providers"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Certified Technology Developers",
+      "definition": "Professionals who develop health IT systems that meet certification standards.",
+      "terms": [
+        "certified technology developers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinical Leadership",
+      "definition": "Healthcare professionals in leadership roles responsible for clinical operations and strategy.",
+      "terms": [
+        "clinical leadership"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinical Teams",
+      "definition": "Groups of healthcare professionals involved in patient care.",
+      "terms": [
+        "clinical teams"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Compliance Departments",
+      "definition": "Departments within organizations responsible for ensuring adherence to laws and regulations.",
+      "terms": [
+        "compliance departments"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Doctor",
+      "definition": "A qualified medical practitioner.",
+      "terms": [
+        "doctors"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Emergency Preparedness Experts",
+      "definition": "Experts in planning for and responding to emergencies.",
+      "terms": [
+        "emergency preparedness experts"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Licensed clinicians",
+      "definition": "Medical professionals who are licensed to practice.",
+      "terms": [
+        "licensed clinicians"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "MIPS eligible clinicians",
+      "definition": "Healthcare providers participating in the Merit-based Incentive Payment System (MIPS).",
+      "terms": [
+        "MIPS eligible clinicians"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medical Directors",
+      "definition": "Physicians responsible for overseeing medical aspects of a department or organization.",
+      "terms": [
+        "Medical Directors"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medical Trainees",
+      "definition": "Individuals undergoing training in medical fields.",
+      "terms": [
+        "fellows",
+        "residents"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Nurse Reviewers",
+      "definition": "Nurses who review clinical documentation or requests.",
+      "terms": [
+        "Nurse Reviewers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "PDMP Vendors",
+      "definition": "Entities that provide products or services related to Prescription Drug Monitoring Programs.",
+      "terms": [
+        "PDMP vendors"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer Software Developers",
+      "definition": "Professionals who develop software applications for healthcare payers.",
+      "terms": [
+        "payer software developers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Physician Associate/Assistant",
+      "definition": "A licensed healthcare professional who practices medicine as part of a team with physicians.",
+      "terms": [
+        "PAs",
+        "Physician Assistant",
+        "Physician Associate",
+        "Physician Associates",
+        "physician assistants"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Privacy Experts",
+      "definition": "Experts in privacy matters.",
+      "terms": [
+        "privacy experts"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "pharmacy technicians",
+      "definition": "Individuals who assist licensed pharmacists in dispensing medications.",
+      "terms": [
+        "pharmacy technicians"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "Healthcare Provider Entities": [
+    {
+      "label": "Healthcare Providers",
+      "definition": "A general term for entities or individuals that provide healthcare services.",
+      "terms": [
+        "Health care providers",
+        "health care provider",
+        "health care providers",
+        "healthcare providers"
+      ],
+      "mentionCount": 9
+    },
+    {
+      "label": "Hospitals",
+      "definition": "Healthcare institutions providing medical and surgical treatment and nursing care for sick or injured people.",
+      "terms": [
+        "care locations",
+        "hospitals",
+        "skilled nursing facilities"
+      ],
+      "mentionCount": 8
+    },
+    {
+      "label": "Payers",
+      "definition": "Entities that pay for healthcare services, typically insurance companies.",
+      "terms": [
+        "payer",
+        "payers"
+      ],
+      "mentionCount": 8
+    },
+    {
+      "label": "Laboratories",
+      "definition": "Entities that provide specific healthcare services or functions, mentioned in the context of regulatory definitions.",
+      "terms": [
+        "Laboratories",
+        "laboratories",
+        "pharmacists"
+      ],
+      "mentionCount": 7
+    },
+    {
+      "label": "certified health IT",
+      "definition": "Health IT systems that have met specific certification criteria.",
+      "terms": [
+        "certified health IT"
+      ],
+      "mentionCount": 6
+    },
+    {
+      "label": "Health IT Developer",
+      "definition": "Companies or individuals who develop health information technology software and systems.",
+      "terms": [
+        "Developers of certified health IT",
+        "health IT developers"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Pharmacies",
+      "definition": "Businesses that dispense prescription drugs and offer health-related products and services.",
+      "terms": [
+        "Pharmacies",
+        "Retail pharmacies",
+        "pharmacies"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Public Health Agencies",
+      "definition": "Government agencies responsible for public health services.",
+      "terms": [
+        "public health agencies"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Health IT Module",
+      "definition": "A component of certified health information technology that performs specific functions.",
+      "terms": [
+        "Health IT Module"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Qualified Health Information Network",
+      "definition": "An entity authorized under TEFCA to securely exchange health information.",
+      "terms": [
+        "QHIN"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Labs",
+      "definition": "Laboratories that perform medical diagnostic tests.",
+      "terms": [
+        "Labs",
+        "labs"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Pediatric Providers",
+      "definition": "Healthcare professionals or entities specializing in the care of children.",
+      "terms": [
+        "pediatric providers"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "community health centers",
+      "definition": "Health centers that provide comprehensive primary care services in underserved communities.",
+      "terms": [
+        "CHCs",
+        "Community Health Centers",
+        "community health centers"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "ACOs under MSSP",
+      "definition": "Groups of doctors, hospitals, and other health care providers who give coordinated care and are held accountable for the quality and cost of that care for a population of patients.",
+      "terms": [
+        "ACOs under MSSP"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API Information Sources",
+      "definition": "Entities designated as sources of information accessible via APIs.",
+      "terms": [
+        "API Information Sources"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Care Network",
+      "definition": "A network of healthcare providers organized to deliver coordinated care.",
+      "terms": [
+        "care network"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Certified API Developers",
+      "definition": "Developers certified under a program to provide API access to health information.",
+      "terms": [
+        "Certified API Developers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Entities using electronic health information exchange",
+      "definition": "Organizations that exchange electronic health information.",
+      "terms": [
+        "entities using electronic health information (EHI) exchange"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Federally Qualified Health Centers (FQHCs)",
+      "definition": "Health centers funded by HRSA that provide primary care services in underserved areas.",
+      "terms": [
+        "FQHCs",
+        "Federally Qualified Health Centers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HIPAA Covered Entity",
+      "definition": "An organization or individual subject to HIPAA rules, such as healthcare providers, health plans, and healthcare clearinghouses.",
+      "terms": [
+        "HIPAA covered entity"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health IT systems",
+      "definition": "Systems used within healthcare to manage, store, and transmit health information.",
+      "terms": [
+        "Health IT systems"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health plans",
+      "definition": "Organizations that offer health insurance coverage.",
+      "terms": [
+        "Health plans"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health systems",
+      "definition": "Groups of hospitals and other healthcare facilities providing coordinated care.",
+      "terms": [
+        "Health systems"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Healthcare Practice",
+      "definition": "An entity, such as a clinic or doctor's office, where healthcare services are provided.",
+      "terms": [
+        "healthcare practices"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "IIS vendors",
+      "definition": "Vendors providing software and services for Immunization Information Systems.",
+      "terms": [
+        "IIS vendors"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient Portals",
+      "definition": "Secure online websites or applications that give patients convenient access to their personal health information.",
+      "terms": [
+        "patient portals"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer network",
+      "definition": "The group of providers contracted by a health insurance payer.",
+      "terms": [
+        "payer network"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer-provider collaboration",
+      "definition": "Partnership between health insurance payers and healthcare providers.",
+      "terms": [
+        "payer-provider collaboration"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Physician-Owned Practices",
+      "definition": "Healthcare practices owned and operated by physicians.",
+      "terms": [
+        "physician-owned practices"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Risk-bearing Provider Organizations",
+      "definition": "Provider organizations that assume financial risk for patient outcomes and total cost of care.",
+      "terms": [
+        "risk-bearing provider organizations"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Rural Health Clinics (RHCs)",
+      "definition": "Clinics located in rural areas that provide primary care services.",
+      "terms": [
+        "RHCs",
+        "Rural Health Clinics"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Self-insured employers",
+      "definition": "Employers that fund their own employee health benefit plans.",
+      "terms": [
+        "Self-insured employers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Third-party application developers",
+      "definition": "Companies that create software applications for third parties.",
+      "terms": [
+        "third-party application developers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Third-party apps",
+      "definition": "Applications developed by third parties that interact with health data, often via APIs.",
+      "terms": [
+        "third-party apps"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Third-party developers",
+      "definition": "Companies or individuals who develop applications or systems for healthcare use, often working with providers.",
+      "terms": [
+        "third-party developers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Tribal Communities",
+      "definition": "Healthcare providers serving Native American tribal populations.",
+      "terms": [
+        "tribal communities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "ambulatory clinics",
+      "definition": "Healthcare facilities that provide medical care without requiring an overnight stay.",
+      "terms": [
+        "ambulatory clinics"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "app developers",
+      "definition": "Individuals or companies that create software applications, particularly those interacting with health data.",
+      "terms": [
+        "app developer",
+        "app developers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "community pharmacies",
+      "definition": "Retail pharmacies that dispense prescription drugs and offer other health services to the public.",
+      "terms": [
+        "community pharmacies"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "critical access hospitals",
+      "definition": "Rural hospitals that meet specific criteria and provide essential services.",
+      "terms": [
+        "critical access hospitals"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "government facilities",
+      "definition": "Healthcare facilities operated by governmental entities.",
+      "terms": [
+        "government facilities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "hospice settings",
+      "definition": "Facilities or programs providing palliative care and support for individuals with a life-limiting illness.",
+      "terms": [
+        "hospice settings"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "laboratory information systems",
+      "definition": "Software systems used by laboratories to manage samples, tests, results, and reporting.",
+      "terms": [
+        "laboratory information systems"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "long-term care facilities",
+      "definition": "Facilities providing residential care for individuals requiring ongoing health supervision or assistance with daily living.",
+      "terms": [
+        "long-term care facilities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "physician offices",
+      "definition": "Offices or clinics where physicians practice medicine and provide patient care.",
+      "terms": [
+        "physician offices"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "specialty pharmacies",
+      "definition": "Pharmacies focusing on dispensing complex, high-cost, or rare medications requiring special handling and patient support.",
+      "terms": [
+        "specialty pharmacies"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "Regulatory Rules and Concepts": [
+    {
+      "label": "Access, Exchange, or Use of EHI",
+      "definition": "Actions related to health information.",
+      "terms": [
+        "access or use",
+        "access, exchange, or use",
+        "exchange"
+      ],
+      "mentionCount": 11
+    },
+    {
+      "label": "Certification Criterion",
+      "definition": "A specific requirement for health IT certification, often related to functionalities.",
+      "terms": [
+        "certification criterion",
+        "certification requirement",
+        "criterion",
+        "requirement"
+      ],
+      "mentionCount": 11
+    },
+    {
+      "label": "Information Blocking",
+      "definition": "Rules designed to prevent practices that hinder the access, exchange, or use of electronic health information.",
+      "terms": [
+        "Information Blocking",
+        "Information Blocking Enhancements",
+        "information blocking",
+        "information blocking FAQs",
+        "information blocking regulations",
+        "information-blocking"
+      ],
+      "mentionCount": 10
+    },
+    {
+      "label": "patient engagement",
+      "definition": "The involvement of patients in their own care and in decision-making processes.",
+      "terms": [
+        "Patient Engagement",
+        "patient engagement"
+      ],
+      "mentionCount": 9
+    },
+    {
+      "label": "§ 170.315(g)(35)",
+      "definition": "Requirements for health IT systems related to public health reporting and data exchange.",
+      "terms": [
+        "(g)(20)",
+        "certification criteria",
+        "public health criteria",
+        "§ 170.315(g)(20)",
+        "§ 170.315(g)(30)",
+        "§ 170.315(g)(32)",
+        "§ 170.315(g)(33)",
+        "§ 170.315(g)(34)",
+        "§ 170.315(g)(35)"
+      ],
+      "mentionCount": 9
+    },
+    {
+      "label": "Privacy",
+      "definition": "The principle of protecting personal health information from unauthorized access or disclosure.",
+      "terms": [
+        "privacy"
+      ],
+      "mentionCount": 8
+    },
+    {
+      "label": "Security",
+      "definition": "The measures taken to protect health information from unauthorized access, use, or disclosure.",
+      "terms": [
+        "security"
+      ],
+      "mentionCount": 8
+    },
+    {
+      "label": "Information Blocking Exception",
+      "definition": "An exception related to provider access to care information, intended to balance provider judgment with preventing information blocking.",
+      "terms": [
+        "Information Blocking exceptions",
+        "Information blocking exceptions",
+        "Protecting Care Access Exception",
+        "Requestor Preferences Exception",
+        "information blocking exception",
+        "information blocking exceptions"
+      ],
+      "mentionCount": 7
+    },
+    {
+      "label": "21st Century Cures Act",
+      "definition": "A landmark federal law aimed at accelerating medical research, modernizing IT, improving health information access, and encouraging innovation in healthcare.",
+      "terms": [
+        "21st Century Cures Act",
+        "Cures Act"
+      ],
+      "mentionCount": 6
+    },
+    {
+      "label": "Actors",
+      "definition": "Entities involved in a specific regulatory framework.",
+      "terms": [
+        "actors"
+      ],
+      "mentionCount": 6
+    },
+    {
+      "label": "Certification Program",
+      "definition": "A framework for certifying health IT systems to meet specific standards and requirements.",
+      "terms": [
+        "Certification Program",
+        "certification program"
+      ],
+      "mentionCount": 6
+    },
+    {
+      "label": "Certified Health IT",
+      "definition": "Health information technology that meets specific certification criteria.",
+      "terms": [
+        "certified health IT",
+        "certified health IT module",
+        "health IT module",
+        "health IT module certified"
+      ],
+      "mentionCount": 6
+    },
+    {
+      "label": "Information Sharing",
+      "definition": "The exchange of health information among stakeholders.",
+      "terms": [
+        "Information Sharing"
+      ],
+      "mentionCount": 6
+    },
+    {
+      "label": "Public Health Interoperability",
+      "definition": "The ability of public health systems to exchange and use health information.",
+      "terms": [
+        "Public Health Interoperability"
+      ],
+      "mentionCount": 6
+    },
+    {
+      "label": "Data Sharing",
+      "definition": "The practice of exchanging data between parties.",
+      "terms": [
+        "data sharing"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Exception",
+      "definition": "A provision that exempts something from a general rule or principle.",
+      "terms": [
+        "exception"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Interference",
+      "definition": "Terms describing actions that hinder the access, exchange, or use of electronic health information.",
+      "terms": [
+        "interfere with",
+        "interference",
+        "“Interference”",
+        "“health care provider”"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Legal Protection",
+      "definition": "Safeguards or immunities provided by law, particularly against legal action.",
+      "terms": [
+        "protection"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Protecting Care Access",
+      "definition": "An exception to Information Blocking related to practices that protect care.",
+      "terms": [
+        "Protecting Care Access"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Base EHR",
+      "definition": "A defined core set of functionalities required for an Electronic Health Record system.",
+      "terms": [
+        "Base EHR"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Final Rule",
+      "definition": "The officially published and enacted version of a regulation after a public comment period.",
+      "terms": [
+        "final rule"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "HIPAA",
+      "definition": "Health Insurance Portability and Accountability Act, a US law concerning health information privacy and security.",
+      "terms": [
+        "HIPAA"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Regulation",
+      "definition": "A system of rules enforced by a governmental authority.",
+      "terms": [
+        "regulation"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Reproductive Health Care",
+      "definition": "Medical services related to reproduction and reproductive organs, discussed in the context of a regulatory exemption for information blocking.",
+      "terms": [
+        "Reproductive Health Care",
+        "reproductive health care"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Value-Based Care",
+      "definition": "A payment and care delivery model that ties reimbursement to quality and outcomes.",
+      "terms": [
+        "value-based care"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Base EHR Definition",
+      "definition": "The core set of requirements defining a certified Electronic Health Record system.",
+      "terms": [
+        "Base EHR Definition",
+        "Base EHR definition"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "CEHRT",
+      "definition": "Certified Health EHR Technology, a designation for compliant EHR systems.",
+      "terms": [
+        "CEHRT"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Clinical Information Reconciliation",
+      "definition": "The process of verifying and integrating clinical data from various sources.",
+      "terms": [
+        "Clinical Information Reconciliation",
+        "Revised Clinical Information Reconciliation and Incorporation Criterion"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Infeasibility",
+      "definition": "An exception to information blocking when compliance is not practically achievable.",
+      "terms": [
+        "Infeasibility",
+        "infeasibility"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "ONC Certification Criteria § 170.315(f)(5)",
+      "definition": "Certification requirements for reporting cases electronically to public health agencies.",
+      "terms": [
+        "Electronic Case Reporting",
+        "eCR",
+        "§ 170.315(f)(25)",
+        "§ 170.315(f)(5)"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "fees",
+      "definition": "An exception to information blocking related to charges for accessing or exchanging information.",
+      "terms": [
+        "fees"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "manner",
+      "definition": "An exception to information blocking related to the way in which access or exchange is requested or performed.",
+      "terms": [
+        "manner"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "§ 170.315(b)(3)",
+      "definition": "Regulation section related to electronic prescribing and related functionalities.",
+      "terms": [
+        "Electronic Prescribing",
+        "electronic prescribing",
+        "§ 170.315(b)(3)"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "315(f)(5) - Electronic Case Reporting",
+      "definition": "A certification criterion for electronic case reporting.",
+      "terms": [
+        "315(f)(5) – Electronic Case Reporting",
+        "315.f.5"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "API Conditions",
+      "definition": "Specific requirements or stipulations related to the use of APIs for health data exchange.",
+      "terms": [
+        "API Conditions"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Adolescent Confidentiality",
+      "definition": "The principle of protecting the privacy of health information concerning adolescents.",
+      "terms": [
+        "adolescent confidentiality"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Audits",
+      "definition": "Formal examinations of records or processes.",
+      "terms": [
+        "audits"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Classification Concepts",
+      "definition": "Terms used to classify healthcare professionals within regulatory contexts.",
+      "terms": [
+        "Delegates",
+        "Surrogates",
+        "clinician delegates",
+        "delegates",
+        "prescriber delegates",
+        "surrogates"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Continuity of Care",
+      "definition": "The seamless coordination of a patient's care over time and across different healthcare providers and settings.",
+      "terms": [
+        "continuity of care"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Encryption Certification",
+      "definition": "Certification requirements related to data encryption.",
+      "terms": [
+        "encryption"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "HIPAA Privacy Rule",
+      "definition": "The part of HIPAA that establishes national standards for protecting individuals' protected health information (PHI).",
+      "terms": [
+        "HIPAA Privacy Rule"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Interoperability requirements",
+      "definition": "Mandates or specifications for data exchange.",
+      "terms": [
+        "interoperability requirements"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "MFA (Multi-Factor Authentication)",
+      "definition": "Certification requirements for implementing Multi-Factor Authentication.",
+      "terms": [
+        "MFA",
+        "Multi-Factor Authentication Certification Criterion"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Maintenance of Certification",
+      "definition": "Requirements to maintain certification status, often for health IT.",
+      "terms": [
+        "Maintenance of Certification"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Minimum Standards Code Sets",
+      "definition": "A set of codes designated as the minimum standard for certification.",
+      "terms": [
+        "Minimum Standards Code Sets"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "ONC Health IT Certification Program",
+      "definition": "The program administered by ONC that establishes certification criteria for health IT modules.",
+      "terms": [
+        "ONC Health IT Certification Program"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "PHSA",
+      "definition": "U.S. federal law that provides grants and establishes programs to improve the public's health.",
+      "terms": [
+        "PHSA"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Patient Confidentiality",
+      "definition": "The principle of protecting the privacy of patient health information.",
+      "terms": [
+        "Patient Confidentiality"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Proposed ONC (f) Criteria",
+      "definition": "Proposed certification criteria related to public health data exchange.",
+      "terms": [
+        "(f) criteria"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Provider Burden",
+      "definition": "The difficulties or workload placed upon healthcare providers by regulations or systems.",
+      "terms": [
+        "provider burden"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Provider access API",
+      "definition": "API that allows providers to access patient data.",
+      "terms": [
+        "Provider access API"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Public Health Data Exchange Certification Criteria",
+      "definition": "Certification criteria related to exchanging data with public health agencies.",
+      "terms": [
+        "Public Health Data Exchange Certification Criteria"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Regulatory Terminology",
+      "definition": "Specific terms used in regulatory text that define system requirements or classify roles.",
+      "terms": [
+        "clinician users",
+        "health care provider order entry",
+        "physician order entry"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Requestor Preferences",
+      "definition": "An exception to Information Blocking related to the preferences of information requestors.",
+      "terms": [
+        "Requestor Preferences"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Transitions of Care",
+      "definition": "The process of transferring responsibility for a patient from one health care provider to another.",
+      "terms": [
+        "transitions of care"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Treatment",
+      "definition": "The provision, coordination, or management of health care and related services by one or more health care providers.",
+      "terms": [
+        "Treatment"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "data modernization",
+      "definition": "The process of updating and improving data systems, infrastructure, and practices.",
+      "terms": [
+        "data modernization"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "preventing harm",
+      "definition": "An exception to information blocking that permits practices to prevent harm to patients or others.",
+      "terms": [
+        "preventing harm"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "172.201 (Subpart B - 172.201)",
+      "definition": "A specific section of federal regulation concerning TEFCA.",
+      "terms": [
+        "172.201",
+        "Subpart B - 172.201"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "2020 Cures Act Updates",
+      "definition": "Updates and regulations related to the Cures Act.",
+      "terms": [
+        "2020 Cures Act Updates"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "3001(c)(5)(D)(i) of the PHSA",
+      "definition": "A specific section of the Public Health Service Act pertaining to information blocking prohibitions.",
+      "terms": [
+        "3001(c)(5)(D)(i) of the PHSA"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315(a)(2) - CPOE - Laboratory",
+      "definition": "A certification criterion related to Computerized Provider Order Entry for laboratory orders.",
+      "terms": [
+        "315(a)(2)",
+        "315(a)(2) – CPOE - Laboratory"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315(b)(2) - Clinical Information Reconciliation and Incorporation",
+      "definition": "A certification criterion concerning the reconciliation and incorporation of clinical information.",
+      "terms": [
+        "315(b)(2)",
+        "315(b)(2) – Clinical Information Reconciliation and Incorporation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315(b)(3) - ePrescribing",
+      "definition": "A certification criterion related to electronic prescribing functionalities.",
+      "terms": [
+        "315(b)(3) – ePrescribing",
+        "315.b.3"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315(b)(4) - Real-Time Prescription Benefit",
+      "definition": "A certification criterion for providing real-time prescription benefit information.",
+      "terms": [
+        "315(b)(4) – Real-Time Prescription Benefit",
+        "315.b.4"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315(f) Criteria Section",
+      "definition": "A section of certification criteria within the regulatory framework.",
+      "terms": [
+        "315(f) criteria section"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315(g)(31) - Provider Access API – Client",
+      "definition": "A certification criterion for provider access APIs.",
+      "terms": [
+        "315(g)(31) – Provider access API – Client"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315(g)(34) - Prior Authorization API – Provider",
+      "definition": "A certification criterion for prior authorization APIs.",
+      "terms": [
+        "315(g)(34) – Prior authorization API – provider"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "315.g.20 - Standardized API for Public Health Data Exchange",
+      "definition": "A certification criterion for APIs enabling public health data exchange.",
+      "terms": [
+        "315.g.20",
+        "315.g.20 – Standardized API for public health data exchange"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "5% Threshold",
+      "definition": "A defined percentage threshold, likely for ownership or control.",
+      "terms": [
+        "5% Threshold"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API Conditions of Maintenance",
+      "definition": "Requirements related to maintaining API availability and functionality.",
+      "terms": [
+        "API Conditions of Maintenance"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API access",
+      "definition": "Access to or exchange of electronic Protected Health Information (ePHI) through Application Programming Interfaces.",
+      "terms": [
+        "API access"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Abuse or Neglect Cases",
+      "definition": "Situations involving the abuse or neglect of a child.",
+      "terms": [
+        "abuse or neglect cases"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Accreditation Standards",
+      "definition": "Requirements set by bodies for educational programs and professional certification.",
+      "terms": [
+        "National education accreditation standards"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Adolescent Consent",
+      "definition": "Permission granted by an adolescent for medical care or data use.",
+      "terms": [
+        "adolescent consent"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Adolescent Privacy",
+      "definition": "The protection of privacy for adolescent individuals.",
+      "terms": [
+        "adolescent privacy"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Anti-compete Clauses",
+      "definition": "Contractual terms that restrict competition, potentially leading to information blocking.",
+      "terms": [
+        "anti-compete clauses"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Artificial Intelligence in Healthcare",
+      "definition": "The application of AI technologies within the healthcare domain.",
+      "terms": [
+        "artificial intelligence in healthcare"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Backend Service Access",
+      "definition": "Accessing health data APIs as a backend service, without individual user login.",
+      "terms": [
+        "backend service",
+        "backend service access",
+        "interface with FHIR APIs as a backend service"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Burden Reduction spec",
+      "definition": "A specification focused on reducing administrative burden in healthcare.",
+      "terms": [
+        "Burden Reduction spec"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "C-CDA Reconciliation and Incorporation Through Certified Health IT Measure",
+      "definition": "A measure related to reconciling and incorporating data from C-CDA documents using certified health IT.",
+      "terms": [
+        "C-CDA Reconciliation and Incorporation Through Certified Health IT Measure"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CARIN Code of Conduct",
+      "definition": "A code that applies Fair Information Practice Principles to health information exchange.",
+      "terms": [
+        "CARIN Code of Conduct"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CIRI Certification Criterion",
+      "definition": "A specific certification criterion within the ONC Health IT Certification Program related to reconciling and incorporating clinical information.",
+      "terms": [
+        "CIRI certification criterion",
+        "clinical information reconciliation and incorporation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CMS Interoperability Rules",
+      "definition": "Regulations issued by CMS related to healthcare interoperability.",
+      "terms": [
+        "CMS Interoperability Rules"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CMS Medicare Promoting Interoperability Program",
+      "definition": "A Medicare program that incentivizes the use of certified EHR technology.",
+      "terms": [
+        "CMS Medicare Promoting Interoperability Program"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "CMS-0057-F",
+      "definition": "A specific CMS file or proposed rule identifier.",
+      "terms": [
+        "CMS-0057-F"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Care Coordination Features",
+      "definition": "Health IT functionalities designed to coordinate patient care.",
+      "terms": [
+        "care coordination features"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Certification Criterion Numbers (Imaging Links)",
+      "definition": "Specific certification criterion numbers referenced in relation to imaging link requirements.",
+      "terms": [
+        "315.b.1",
+        "315.e.1",
+        "315.g.10"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Certification Examination",
+      "definition": "An exam required for professional licensure or certification.",
+      "terms": [
+        "national certifying examination"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Certification processes",
+      "definition": "The procedures for certifying health IT.",
+      "terms": [
+        "certification processes"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Certified Health IT - Provider",
+      "definition": "Health IT that has met the certification requirements for providers.",
+      "terms": [
+        "Certified Health IT - Provider"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Certified Health IT Functionalities",
+      "definition": "Features or capabilities of health IT systems that have undergone certification.",
+      "terms": [
+        "certified health IT functionalities"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Child Abuse Cases",
+      "definition": "Situations involving the abuse of a child.",
+      "terms": [
+        "child abuse cases"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Child Welfare Situations",
+      "definition": "Circumstances involving the protection and care of children.",
+      "terms": [
+        "child welfare situations"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Code sets",
+      "definition": "Collections of medical codes.",
+      "terms": [
+        "code sets"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Compliance dates",
+      "definition": "Specific deadlines for meeting regulatory requirements.",
+      "terms": [
+        "compliance dates"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Conditions & Maintenance of Certification",
+      "definition": "Requirements that certified health IT must adhere to after initial certification.",
+      "terms": [
+        "Conditions & Maintenance of Certification"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Contract provisions",
+      "definition": "Clauses within contracts that may restrict or limit lawful access, exchange, or use of health information.",
+      "terms": [
+        "Contract provisions"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Cybersecurity Efforts and Threats",
+      "definition": "Measures taken to protect health IT systems and data, and the risks posed by malicious actors.",
+      "terms": [
+        "cybersecurity efforts",
+        "cybersecurity threats"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data Reconciliation requirements",
+      "definition": "Requirements for reconciling and incorporating health data.",
+      "terms": [
+        "Data Reconciliation requirements",
+        "‘‘Care coordination—Clinical information reconciliation and incorporation—Reconciliation’’ (§ 170.315(b)(2))"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Decision Support Interventions (DSI)",
+      "definition": "A requirement related to clinical decision support features in certified health IT.",
+      "terms": [
+        "DSI",
+        "DSI criteria",
+        "Decision Support Interventions"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Delay on new access",
+      "definition": "A practice described as potentially interfering with access to health information, such as delaying diagnostic test results for clinician review.",
+      "terms": [
+        "Delay on new access"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Developer Burden",
+      "definition": "The difficulties or workload placed upon technology developers by regulations or systems.",
+      "terms": [
+        "developer burden"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Durable Medical Power of Attorney",
+      "definition": "A legal document granting an agent authority to make healthcare decisions for a principal when the principal is unable to do so.",
+      "terms": [
+        "durable medical power of attorney"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Dynamic client registration protocol",
+      "definition": "A protocol for registering clients dynamically.",
+      "terms": [
+        "dynamic client registration protocol"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHI Export Exemption",
+      "definition": "A specific exemption within regulations concerning the export of patient health information.",
+      "terms": [
+        "Electronic Health Information (EHI) Export – Single Patient EHI Export Exemption"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHI Export Functionality",
+      "definition": "Concepts pertaining to the ease of use and availability of features for exporting Electronic Health Information.",
+      "terms": [
+        "EHI Export features",
+        "EHI export",
+        "Usability and Accessibility of EHI Export Functionality"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHR Certification Criteria",
+      "definition": "Requirements specifically for the certification of Electronic Health Record systems.",
+      "terms": [
+        "EHR certification criteria"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Electronic Prior Authorization (ePA)",
+      "definition": "A process for electronically obtaining approval from payers for prescribed medications or services.",
+      "terms": [
+        "ePA",
+        "electronic prior authorization",
+        "electronic prior authorization transactions",
+        "§ 170.315(b)(3)(ii)(A)(10): Electronic prior authorization transactions"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Exchange Purposes",
+      "definition": "The defined reasons or objectives for which health information can be exchanged under frameworks like TEFCA.",
+      "terms": [
+        "Exchange Purposes"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FDA's Emergency Use Authorization",
+      "definition": "Authorization granted by the FDA for the use of medical products during public health emergencies.",
+      "terms": [
+        "FDA's Emergency Use Authorization"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Fair Information Practice Principles",
+      "definition": "Principles governing the collection, use, and disclosure of personal information.",
+      "terms": [
+        "Fair Information Practice Principles"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "FedRAMP certification",
+      "definition": "Certification under the Federal Risk and Authorization Management Program for cloud services.",
+      "terms": [
+        "FedRAMP certification"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Federal Register Publication Reference",
+      "definition": "A citation to a publication within the Federal Register containing regulatory information.",
+      "terms": [
+        "89 FR 63633"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Foreign Control",
+      "definition": "A condition related to ownership or influence by foreign entities.",
+      "terms": [
+        "Foreign Control"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HTI-2 Proposal",
+      "definition": "A specific proposal or Notice of Proposed Rulemaking concerning Health IT.",
+      "terms": [
+        "HTI-2 NPRM",
+        "HTI-2 proposal"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing (HTI-1) Final Rule",
+      "definition": "A final rule from ONC that updates the certification program, addresses algorithm transparency, and promotes information sharing.",
+      "terms": [
+        "HTI-1 Final Rule",
+        "Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health IT Policy",
+      "definition": "Policies governing the use and development of health information technology.",
+      "terms": [
+        "health IT policy"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health Information Technology for Economic and Clinical Health Act",
+      "definition": "Part of the American Recovery and Reinvestment Act of 2009, which promotes the adoption and meaningful use of health information technology.",
+      "terms": [
+        "HITECH Act",
+        "Health Information Technology for Economic and Clinical Health Act"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health care provider definition",
+      "definition": "The definition of entities that provide healthcare services.",
+      "terms": [
+        "health care provider definition"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "IT performance",
+      "definition": "An exception to information blocking related to the performance of health IT.",
+      "terms": [
+        "IT performance"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Imaging Link Requirements",
+      "definition": "Specific mandates for including links to diagnostic imaging within health IT systems.",
+      "terms": [
+        "Imaging Link Requirements"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Imaging Requirements",
+      "definition": "Regulatory requirements pertaining to the exchange and use of diagnostic images.",
+      "terms": [
+        "imaging requirements"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Informed Consent",
+      "definition": "Consent given by a patient who is informed about the nature, risks, and benefits of a medical procedure or data use.",
+      "terms": [
+        "informed consent"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Interoperability/Burden Reduction implementation",
+      "definition": "The process of implementing interoperability and burden reduction measures.",
+      "terms": [
+        "interoperability/Burden Reduction implementation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Language Bias Concepts",
+      "definition": "Concepts related to language used in regulations that may create bias or exclusion.",
+      "terms": [
+        "Physician-Centric Language",
+        "physician-centric language",
+        "physician-only language"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Licensing and Fees Information Blocking Exceptions",
+      "definition": "Exceptions to information blocking rules related to licensing and fees.",
+      "terms": [
+        "Licensing and Fees Information Blocking Exceptions"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medicare Advantage",
+      "definition": "A Medicare health plan that covers Medicare Part A and Part B benefits.",
+      "terms": [
+        "Medicare Advantage"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medicare FFS",
+      "definition": "Fee-for-Service Medicare.",
+      "terms": [
+        "Medicare FFS"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medicare programs",
+      "definition": "Government-administered health insurance programs for eligible individuals.",
+      "terms": [
+        "Medicare programs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medication History Query Criteria",
+      "definition": "Specific requirements related to querying patient medication history for certification.",
+      "terms": [
+        "Medication History Query Criteria"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Minors' Access to Health Information",
+      "definition": "The ability of minors to access their own health information, often with considerations for confidentiality.",
+      "terms": [
+        "minors’ access to health information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Monitoring and enforcement",
+      "definition": "The processes of observing compliance and applying penalties.",
+      "terms": [
+        "monitoring and enforcement"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Multi-Factor Authentication (MFA) Criterion",
+      "definition": "A certification requirement for implementing Multi-Factor Authentication.",
+      "terms": [
+        "Multi-Factor Authentication (MFA) Criterion"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Multi-factor Authentication",
+      "definition": "A security process requiring multiple forms of verification.",
+      "terms": [
+        "Multi-factor Authentication"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "New Imaging Requirements for Health IT Modules",
+      "definition": "New regulations for health IT modules related to imaging.",
+      "terms": [
+        "New Imaging Requirements for Health IT Modules"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Non-standard implementation",
+      "definition": "Implementing health IT in ways that may restrict access or exchange of health information.",
+      "terms": [
+        "Non-standard implementation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "PREP Act",
+      "definition": "Federal law providing liability protections for medical countermeasures during public health emergencies.",
+      "terms": [
+        "PREP Act"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient access API",
+      "definition": "API that allows patients to access their health data.",
+      "terms": [
+        "patient access API"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient-Facing Access",
+      "definition": "The ability for patients to access their health information through digital means.",
+      "terms": [
+        "patient-facing access"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient-provider trust",
+      "definition": "The foundation of reliable communication and care, built on confidence between patient and clinician.",
+      "terms": [
+        "patient-provider trust"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer medical policies",
+      "definition": "Rules and guidelines set by health insurance payers.",
+      "terms": [
+        "payer medical policies"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer-to-payer API",
+      "definition": "A certification criterion for payer-to-payer data exchange via API.",
+      "terms": [
+        "Payer-to-payer API (§ 170.315(g)(33))",
+        "payer-to-payer API"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Persons Facilitating Health Care Access/Delivery",
+      "definition": "A category of individuals defined by regulation as playing a role in facilitating access to or the delivery of health care, potentially eligible for protection under an exception.",
+      "terms": [
+        "Persons who facilitate access to or delivery of health care",
+        "persons who facilitate access to"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Portal access",
+      "definition": "Access to electronic Protected Health Information (ePHI) via a patient portal.",
+      "terms": [
+        "Portal access"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Presumption of good faith belief standard",
+      "definition": "A standard where an action is presumed to be lawful or reasonable unless evidence proves otherwise.",
+      "terms": [
+        "presumption of good faith belief standard"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Prior Authorization API Certifications",
+      "definition": "Certification requirements specifically for Prior Authorization APIs.",
+      "terms": [
+        "Prior Authorization API Certifications"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Prior Authorization Requirements",
+      "definition": "Regulations or processes that require pre-approval for certain healthcare services or medications.",
+      "terms": [
+        "prior authorization requirements"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Prior authorization API",
+      "definition": "API for requesting coverage information and prior authorization decisions.",
+      "terms": [
+        "Prior authorization API – provider (§ 170.315(g)(34))",
+        "prior authorization API – payer",
+        "prior authorization API – payer (§ 170.315(g)(35))",
+        "prior authorization API – provider"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Prior authorization management",
+      "definition": "The process of managing prior authorization requests.",
+      "terms": [
+        "prior authorization management"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Privacy and Consent Data Segmentation",
+      "definition": "The practice of segmenting health data based on privacy preferences and consent.",
+      "terms": [
+        "privacy and consent data segmentation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Privacy and Security Criteria/Requirements",
+      "definition": "Mandates related to protecting the privacy and security of health information.",
+      "terms": [
+        "end-user device encryption",
+        "privacy and security criteria",
+        "privacy and security framework",
+        "privacy and security requirements",
+        "privacy and security updates",
+        "server-side encryption of PII"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Professional Title Concept",
+      "definition": "The official name or designation of a profession.",
+      "terms": [
+        "PA Profession Title"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Protect Stored Authentication Credentials",
+      "definition": "Requirements for safeguarding user authentication credentials stored within health IT.",
+      "terms": [
+        "protect stored authentication credentials"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Provider Classification",
+      "definition": "Classification of provider roles within a regulatory context.",
+      "terms": [
+        "autonomous providers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Provider directory API",
+      "definition": "A certification criterion for provider directory APIs related to health plan coverage.",
+      "terms": [
+        "Provider directory API – health plan coverage",
+        "Provider directory API – health plan coverage (§ 170.315(g)(36))"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Proxy Consent",
+      "definition": "Consent obtained from a legal guardian or authorized representative on behalf of an individual.",
+      "terms": [
+        "proxy consent"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Pub. L 114-255",
+      "definition": "Public Law number for the 21st Century Cures Act.",
+      "terms": [
+        "Pub. L 114-255"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Pub. L. 111-5",
+      "definition": "Public Law number for the Health Information Technology for Economic and Clinical Health Act.",
+      "terms": [
+        "Pub. L. 111-5"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Public Health Reporting",
+      "definition": "The process of reporting health data to public health agencies for monitoring and surveillance.",
+      "terms": [
+        "Public Health Reporting"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Public Health Service Act",
+      "definition": "An act related to public health.",
+      "terms": [
+        "PHSA section 3000"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "QHIN Ineligibility",
+      "definition": "Conditions under which a QHIN may become ineligible.",
+      "terms": [
+        "QHIN Ineligibility"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "QHIN cybersecurity standards",
+      "definition": "Cybersecurity requirements applicable to Qualified Health Information Networks.",
+      "terms": [
+        "QHIN cybersecurity standards"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Real World Test Results",
+      "definition": "Documentation demonstrating health IT performance in actual use.",
+      "terms": [
+        "Real World Test Results"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Regulatory Challenges",
+      "definition": "Difficulties in meeting health IT regulatory requirements.",
+      "terms": [
+        "health IT regulatory requirements",
+        "regulatory challenges"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Regulatory Overreach Concerns",
+      "definition": "Apprehensions that regulations may extend beyond their intended scope or authority.",
+      "terms": [
+        "regulatory overreach concerns"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Release of Information",
+      "definition": "The process of providing patients with access to their health information, which carries significant liability risks.",
+      "terms": [
+        "ROI",
+        "Release of Information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Scope of Practice",
+      "definition": "The range of services, procedures, and actions that healthcare professionals are qualified and permitted to perform.",
+      "terms": [
+        "scopes of practice"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Server Side Encryption",
+      "definition": "Encryption applied to data stored on servers.",
+      "terms": [
+        "(d)(7)",
+        "Server Side Encryption"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "State or Local Rules",
+      "definition": "Laws and regulations enacted at the state or local government level.",
+      "terms": [
+        "state or local rules"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Support Reproductive Health Care Privacy",
+      "definition": "A policy or rule designed to protect the privacy of individuals seeking or receiving reproductive health services.",
+      "terms": [
+        "Support Reproductive Health Care Privacy"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "TEFCA Requirements",
+      "definition": "Requirements associated with the Trusted Exchange Framework and Common Agreement.",
+      "terms": [
+        "TEFCA Requirements"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Technical Documentation",
+      "definition": "Documentation detailing the technical aspects and specifications of software or APIs.",
+      "terms": [
+        "Technical Documentation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Trusted Connection Certification",
+      "definition": "Certification requirements for establishing secure and trusted connections.",
+      "terms": [
+        "trusted connection"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Value Sets",
+      "definition": "Collections of codes within a specific domain.",
+      "terms": [
+        "Value Sets"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "View, Download, Transmit to 3rd Party Certification",
+      "definition": "Certification criterion for patient access and data sharing capabilities.",
+      "terms": [
+        "view, download, transmit to 3rd party"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Workflow Adjustments",
+      "definition": "Changes made to established work processes to accommodate new technologies or requirements.",
+      "terms": [
+        "workflow adjustments"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "civil monetary penalties",
+      "definition": "Fines or financial penalties imposed by government agencies for regulatory violations.",
+      "terms": [
+        "civil monetary penalties"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "disincentives",
+      "definition": "Measures or consequences intended to discourage certain actions or behaviors, used in regulatory contexts.",
+      "terms": [
+        "disincentives"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "e-prescribing Certification Criteria",
+      "definition": "Specific requirements for health IT systems to be certified for electronic prescribing capabilities.",
+      "terms": [
+        "e-prescribing certification",
+        "e-prescribing certification criteria"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "exceptions to information blocking",
+      "definition": "Specific circumstances or activities that are permitted and do not constitute information blocking.",
+      "terms": [
+        "exceptions to information blocking"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "licensing",
+      "definition": "An exception to information blocking related to licensing requirements for health IT.",
+      "terms": [
+        "licensing"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "service base URL listings",
+      "definition": "Lists of API endpoints provided by developers.",
+      "terms": [
+        "service base URL listings"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "state scope of practice laws",
+      "definition": "Laws enacted by states that define the services healthcare professionals are licensed to provide.",
+      "terms": [
+        "state scope of practice laws"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "Specific Health Data Terminology": [
+    {
+      "label": "Interoperability",
+      "definition": "The ability of different information systems, devices, and applications to access, exchange, integrate, and cooperatively use data.",
+      "terms": [
+        "interoperability"
+      ],
+      "mentionCount": 10
+    },
+    {
+      "label": "Problems",
+      "definition": "Documentation written by healthcare providers about patient encounters, conditions, and treatments.",
+      "terms": [
+        "Allergies & Intolerances",
+        "Clinical Notes",
+        "Clinical notes",
+        "Immunizations",
+        "Medications",
+        "Problems",
+        "Problems and SDOH problems/health concerns in the Problems data class",
+        "Problems data class",
+        "Procedures",
+        "clinical notes",
+        "emergency department and operative notes",
+        "procedures"
+      ],
+      "mentionCount": 10
+    },
+    {
+      "label": "USCDI",
+      "definition": "The United States Core Data for Interoperability, a standardized set of health data.",
+      "terms": [
+        "USCDI",
+        "USCDI data class",
+        "USCDI data classes",
+        "USCDI elements",
+        "USCDI v4 data classes",
+        "data classes"
+      ],
+      "mentionCount": 10
+    },
+    {
+      "label": "Health IT",
+      "definition": "Technology used to manage, share, and communicate health information.",
+      "terms": [
+        "health IT",
+        "health IT systems"
+      ],
+      "mentionCount": 9
+    },
+    {
+      "label": "Data elements",
+      "definition": "Individual pieces of information within a health record.",
+      "terms": [
+        "data elements",
+        "elements exported"
+      ],
+      "mentionCount": 8
+    },
+    {
+      "label": "USCDI v4",
+      "definition": "A standardized baseline of the minimum data required for nationwide interoperability.",
+      "terms": [
+        "USCDI Version 4",
+        "USCDI concepts",
+        "USCDI v.4",
+        "USCDI v3",
+        "USCDI v4",
+        "v4"
+      ],
+      "mentionCount": 7
+    },
+    {
+      "label": "Health Information Technology (HIT)",
+      "definition": "Technology used for the creation, storage, retrieval, and transmission of health information.",
+      "terms": [
+        "HIT",
+        "health information technology"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Individual (Regulatory Definition)",
+      "definition": "A person defined under specific regulatory criteria, potentially related to health care access or data.",
+      "terms": [
+        "individual"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Prior authorizations",
+      "definition": "Requests for approval from a health plan before providing certain medical services.",
+      "terms": [
+        "Prior Authorization",
+        "prior authorizations"
+      ],
+      "mentionCount": 5
+    },
+    {
+      "label": "Care Coordination",
+      "definition": "The deliberate organization of patient care activities to facilitate the appropriate delivery of healthcare services.",
+      "terms": [
+        "care coordination"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Clinical Decision Support",
+      "definition": "Tools and resources designed to provide clinicians with relevant information to support patient care decisions.",
+      "terms": [
+        "Clinical Decision Support",
+        "Clinical decision support services/knowledge artifacts",
+        "clinical decision support"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Laboratory",
+      "definition": "A specific category of data defined within the USCDI standard for interoperability.",
+      "terms": [
+        "Laboratory"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Orders",
+      "definition": "Clinical requests for tests, medications, procedures, or other patient care services.",
+      "terms": [
+        "Orders"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Plan",
+      "definition": "Health data outlining a patient's course of treatment or management.",
+      "terms": [
+        "Plan"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Reproductive Health Care",
+      "definition": "Medical care related to the reproductive system and its functions and diseases.",
+      "terms": [
+        "\"reproductive health care\"",
+        "reproductive health care"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "USCDI v5",
+      "definition": "Version 5 of the United States Core Data for Interoperability.",
+      "terms": [
+        "USCDI v5"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Value-Based Care",
+      "definition": "A healthcare model that rewards providers for quality patient care and outcomes, rather than for the volume of services they provide.",
+      "terms": [
+        "value-based care"
+      ],
+      "mentionCount": 4
+    },
+    {
+      "label": "Access to Care",
+      "definition": "The ability of individuals to obtain needed healthcare services.",
+      "terms": [
+        "access to care"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Allergies and Intolerances",
+      "definition": "A specific category of data defined within the USCDI standard for interoperability.",
+      "terms": [
+        "Allergies and Intolerances"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "CPOE",
+      "definition": "Computerized Provider Order Entry, a system for electronic ordering of medical services.",
+      "terms": [
+        "CPOE",
+        "Computerized provider order entry – laboratory"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Care Team Members",
+      "definition": "A specific category of data defined within the USCDI standard for interoperability.",
+      "terms": [
+        "Care Team Members",
+        "care team members"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Clinical Information",
+      "definition": "Information regarding a patient's medical condition and treatment.",
+      "terms": [
+        "clinical information"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Diagnostic Images",
+      "definition": "Medical images produced by diagnostic imaging procedures (e.g., X-rays, CT scans, MRIs).",
+      "terms": [
+        "diagnostic images"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Electronic Case Reporting",
+      "definition": "Automated reporting of public health data from healthcare systems to public health agencies.",
+      "terms": [
+        "Electronic Case Reporting"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "FHIR Resource",
+      "definition": "A fundamental concept in FHIR representing a piece of health information.",
+      "terms": [
+        "resource",
+        "single resource"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Goals",
+      "definition": "Health data detailing patient treatment objectives or outcomes.",
+      "terms": [
+        "Goals"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Image Links",
+      "definition": "References or URLs pointing to medical imaging studies.",
+      "terms": [
+        "Imaging Links",
+        "image link formatting",
+        "imaging links"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Medical Devices",
+      "definition": "A specific category of data defined within the USCDI standard for interoperability.",
+      "terms": [
+        "Medical Devices"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "PDMP Data",
+      "definition": "Information tracked by Prescription Drug Monitoring Programs, typically regarding controlled substance prescriptions.",
+      "terms": [
+        "PDMP data"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Patient Data",
+      "definition": "Information pertaining to an individual's health.",
+      "terms": [
+        "patient data"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Patient Engagement",
+      "definition": "Efforts to involve patients in their own healthcare decisions and management.",
+      "terms": [
+        "patient engagement"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Population Health",
+      "definition": "The health outcomes of a group of individuals, including the distribution of such outcomes within a population.",
+      "terms": [
+        "population health"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Preferences",
+      "definition": "Health data regarding patient choices or wishes for their care.",
+      "terms": [
+        "Preferences"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Real-Time Prescription Benefit",
+      "definition": "Information provided at the point of prescribing regarding prescription cost and coverage.",
+      "terms": [
+        "Real-Time Prescription Benefit"
+      ],
+      "mentionCount": 3
+    },
+    {
+      "label": "Age",
+      "definition": "The length of time that a person has lived.",
+      "terms": [
+        "age"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Clinical Decision-Making",
+      "definition": "The process of identifying a health problem and selecting appropriate treatment or management.",
+      "terms": [
+        "clinical decision-making"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Denials",
+      "definition": "Instances where a healthcare claim or request is rejected.",
+      "terms": [
+        "denials"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Drug formularies",
+      "definition": "A list of prescription drugs covered by a health insurance plan.",
+      "terms": [
+        "Formulary and Benefit",
+        "drug formularies"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "E-prescribing",
+      "definition": "The use of electronic software to transmit prescriptions to pharmacies.",
+      "terms": [
+        "e-prescribing",
+        "eRx"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "EHI Export",
+      "definition": "The process or capability to export Electronic Health Information.",
+      "terms": [
+        "EHI Export",
+        "EHI Exports"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Health Disparities",
+      "definition": "Preventable differences in the burden of disease, injury, violence, or opportunities to achieve full health status that are seen across racial or ethnic groups and other populations.",
+      "terms": [
+        "health disparities"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Health Equity",
+      "definition": "The attainment of the highest level of health for all people.",
+      "terms": [
+        "health equity"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Legal Guardian (Role)",
+      "definition": "A person legally responsible for the care of another person, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "legal guardians"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Parent (Role)",
+      "definition": "A person's mother or father, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "parents"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Patient Summary",
+      "definition": "A concise overview of a patient's health status and history.",
+      "terms": [
+        "Patient Summary"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Patient-Specific Education Resources",
+      "definition": "Educational materials tailored to an individual patient's needs and understanding.",
+      "terms": [
+        "AI-driven patient education",
+        "Personalized content",
+        "customized educational materials",
+        "patient education",
+        "patient education resources",
+        "patient-specific education resources"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Point of Care",
+      "definition": "The place and time at which a healthcare professional provides or receives care.",
+      "terms": [
+        "point of care"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Prior Authorization Decisions",
+      "definition": "Decisions made by payers regarding the approval of medical services or treatments.",
+      "terms": [
+        "prior authorization decisions"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Prior authorization transaction types",
+      "definition": "Standardized requests for obtaining prior authorization for medical services or prescriptions.",
+      "terms": [
+        "PAAppealRequest",
+        "PAAppealResponse",
+        "PACancelRequest",
+        "PACancelResponse",
+        "PAInitiationRequest",
+        "PAInitiationResponse",
+        "PANotification",
+        "PARequest",
+        "PAResponse"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Protected Health Information",
+      "definition": "Individually identifiable health information that is transmitted or maintained in any form or medium by a covered entity or its business associate.",
+      "terms": [
+        "PHI"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Race and Ethnicity information",
+      "definition": "Information about a patient's race and ethnicity.",
+      "terms": [
+        "Race and Ethnicity"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "USCDI Data Class - Patient Summary and Plan",
+      "definition": "A specific category of data defined within the USCDI standard for interoperability.",
+      "terms": [
+        "Patient Summary and Plan"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "Underserved Communities",
+      "definition": "Populations facing significant barriers to healthcare access or quality.",
+      "terms": [
+        "underserved communities"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "electronic Protected Health Information",
+      "definition": "Health information that is transmitted, maintained, or created by a HIPAA-covered entity.",
+      "terms": [
+        "ePHI",
+        "electronic protected health information"
+      ],
+      "mentionCount": 2
+    },
+    {
+      "label": "AI/ML (Artificial Intelligence/Machine Learning)",
+      "definition": "Technologies for creating intelligent systems.",
+      "terms": [
+        "AI/ML"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API details",
+      "definition": "Specific information about an API's functionality or access.",
+      "terms": [
+        "API details"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "API endpoint access",
+      "definition": "The ability to reach and interact with API endpoints.",
+      "terms": [
+        "API endpoint access"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Adherence",
+      "definition": "The extent to which patients take medications, follow treatment plans, or adhere to lifestyle recommendations.",
+      "terms": [
+        "adherence",
+        "treatment adherence"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Administrative denials",
+      "definition": "Denials attributed to administrative errors or missing information.",
+      "terms": [
+        "administrative denials"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Admit, discharge and transfer messages",
+      "definition": "Standard messages indicating patient admissions, discharges, and transfers.",
+      "terms": [
+        "ADT messages",
+        "admit, discharge and transfer (ADT) messages"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Adolescents",
+      "definition": "Young people between puberty and adulthood.",
+      "terms": [
+        "adolescents"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Advanced Directives",
+      "definition": "Instructions specifying a person's wishes regarding medical treatment if they are unable to communicate them.",
+      "terms": [
+        "advanced directives"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Atrioventricular Septal Defect",
+      "definition": "A heart defect involving an abnormal opening between the heart's chambers and faulty valves, mentioned as a surgical condition.",
+      "terms": [
+        "AVSD",
+        "atrioventricular septal defect"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Automated Algorithms",
+      "definition": "Sets of rules or processes that are executed automatically by computer systems.",
+      "terms": [
+        "Automated Algorithms",
+        "algorithms"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Cancer Pathology Reporting",
+      "definition": "The process of submitting cancer pathology findings to registries or other entities.",
+      "terms": [
+        "Cancer Pathology Reporting"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Cancer Registry Reporting",
+      "definition": "The process of submitting cancer data to registries.",
+      "terms": [
+        "Cancer Registry Reporting"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Care Plans",
+      "definition": "A documented strategy for managing a patient's health condition.",
+      "terms": [
+        "care plans"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Chronic Disease Management",
+      "definition": "The process of helping patients with chronic illnesses manage their conditions effectively.",
+      "terms": [
+        "chronic disease management"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinical Content",
+      "definition": "The information contained within clinical notes and records.",
+      "terms": [
+        "clinical content"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinical decision support rules",
+      "definition": "Automated rules that provide clinicians with prompts or guidance based on patient data.",
+      "terms": [
+        "clinical decision support rules"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinical documentation requirements",
+      "definition": "Standards or mandates for documenting patient care.",
+      "terms": [
+        "clinical documentation requirements"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinical information maintained by the payer",
+      "definition": "Health data held by insurance payers.",
+      "terms": [
+        "clinical information maintained by the payer"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinician-Patient Relationships",
+      "definition": "The interactions and bonds formed between healthcare professionals and patients.",
+      "terms": [
+        "clinician-patient relationships"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Clinicians’ interpretation",
+      "definition": "The analysis or understanding provided by a clinician.",
+      "terms": [
+        "clinicians’ interpretation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Coarctation of the Aorta",
+      "definition": "A narrowing of the aorta, the body's main artery, mentioned as a surgical condition.",
+      "terms": [
+        "coarctation of the aorta"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Community Volunteer (Role)",
+      "definition": "A person who offers their time and services freely to the community, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "community volunteers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Comprehension",
+      "definition": "The ability to understand information.",
+      "terms": [
+        "comprehension"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Comprehensive medication management",
+      "definition": "A patient-centered service for optimizing medication therapy.",
+      "terms": [
+        "CMM",
+        "Comprehensive medication management"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data Size",
+      "definition": "The volume of data being processed or transferred.",
+      "terms": [
+        "data size"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data Users",
+      "definition": "Individuals or systems that consume or utilize health data.",
+      "terms": [
+        "data users"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data elements for allergies and intolerances",
+      "definition": "Specific data fields within the allergies and intolerances category.",
+      "terms": [
+        "Allergies and Intolerances data class",
+        "Substance (Medication) and Substance (Drug Class) in the Allergies and Intolerances data class"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data elements for assessment and plan of treatment",
+      "definition": "Specific data fields related to assessment and treatment plans.",
+      "terms": [
+        "Assessment and Plan of Treatment data class",
+        "Assessment and plan of treatment in the Assessment and Plan of Treatment data class"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data elements for goals",
+      "definition": "Specific data fields related to patient goals.",
+      "terms": [
+        "Goals data class",
+        "Patient goals and social determinants of health (SDOH) goals in the Goals data class"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data elements for immunizations",
+      "definition": "Specific data fields related to immunizations.",
+      "terms": [
+        "Immunizations data class",
+        "Immunizations in the Immunizations data class"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data elements for laboratory values/results",
+      "definition": "Specific data fields related to laboratory test values or results.",
+      "terms": [
+        "Laboratory data class",
+        "Values/results in the Laboratory data class"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data elements for medical devices",
+      "definition": "Specific data fields related to implantable devices and their identifiers.",
+      "terms": [
+        "Medical Devices data class",
+        "Unique device identifier – implantable for a patient's implantable device(s) in the Medical Devices data class"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Data elements for medications",
+      "definition": "Specific data fields related to medications.",
+      "terms": [
+        "Medications data class",
+        "Medications in the Medications data class"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Developer Intervention",
+      "definition": "Actions required from a software developer to enable a feature.",
+      "terms": [
+        "action/support on the part of the IT developer",
+        "developer intervention"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Diamond Blackfan Anemia",
+      "definition": "A rare inherited bone marrow failure syndrome affecting red blood cell production, mentioned as a diagnosis.",
+      "terms": [
+        "DBA",
+        "Diamond Blackfan Anemia"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Disease state and medication management",
+      "definition": "Services provided by pharmacists related to managing patient conditions and their medications.",
+      "terms": [
+        "Disease state and medication management"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Drug Tests",
+      "definition": "Tests conducted to detect the presence of drugs.",
+      "terms": [
+        "drug tests"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHI Export API",
+      "definition": "An Application Programming Interface designed to facilitate the export of Electronic Health Information.",
+      "terms": [
+        "EHI Export API"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHR-based authorization workflow",
+      "definition": "A sequence of steps for prior authorization that is integrated with an EHR.",
+      "terms": [
+        "EHR-based authorization workflow"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHR-based transactions",
+      "definition": "Electronic data exchanges performed using EHR systems.",
+      "terms": [
+        "EHR-based transactions"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EHR-originated prior authorizations",
+      "definition": "Prior authorization requests initiated from within an EHR system.",
+      "terms": [
+        "EHR-originated prior authorizations"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "EMR Fields",
+      "definition": "Specific data points or elements within an Electronic Medical Record.",
+      "terms": [
+        "EMR fields",
+        "discrete fields"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Encounter Data",
+      "definition": "Data recorded during patient encounters with healthcare providers.",
+      "terms": [
+        "encounter data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Encounters",
+      "definition": "Interactions between a patient and healthcare providers; a visit or admission.",
+      "terms": [
+        "encounters"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Expedited prior authorizations",
+      "definition": "Prior authorization processes that are accelerated.",
+      "terms": [
+        "expedited prior authorizations"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Extracorporeal Membrane Oxygenation",
+      "definition": "A life support technique providing prolonged cardiac and respiratory support, mentioned as a specific treatment received.",
+      "terms": [
+        "ECMO",
+        "extracorporeal membrane oxygenation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Facility identifiers",
+      "definition": "Unique codes or names assigned to healthcare facilities.",
+      "terms": [
+        "facility identifiers"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Fax",
+      "definition": "A technology for transmitting documents over telephone lines.",
+      "terms": [
+        "fax"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Fellow Parishioner (Role)",
+      "definition": "A member of the same church or religious congregation, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "fellow parishioners"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Friend (Role)",
+      "definition": "A person one knows and likes, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "friends"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Gaps-in-care",
+      "definition": "Missing or incomplete health information or services for patients.",
+      "terms": [
+        "gaps-in-care"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "HIV PrEP/PEP",
+      "definition": "Medications used to prevent or treat HIV infection.",
+      "terms": [
+        "HIV PrEP/PEP",
+        "PrEP/PEP"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health IT for public health",
+      "definition": "Health information technology designed for public health purposes.",
+      "terms": [
+        "Health IT for public health"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health IT storage",
+      "definition": "Where health IT data is stored.",
+      "terms": [
+        "health IT storage"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health Literacy",
+      "definition": "The degree to which individuals have the capacity to obtain, process, and understand basic health information and services needed to make appropriate health decisions.",
+      "terms": [
+        "health literacy"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health and Administrative Information",
+      "definition": "Information related to a patient's health status and healthcare administration.",
+      "terms": [
+        "health and administrative information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Health and wellness screenings",
+      "definition": "Services that assess an individual's health status and identify potential health risks.",
+      "terms": [
+        "Health and wellness screenings"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Healthcare Quality Metrics",
+      "definition": "Measures used to evaluate the performance and quality of healthcare services.",
+      "terms": [
+        "healthcare quality metrics"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Hearing Loss",
+      "definition": "A condition affecting the ability to hear, described as undiagnosed and profound in the comment.",
+      "terms": [
+        "undiagnosed hearing loss",
+        "undiagnosed profound hearing loss"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "High-Priority Clinical Data Elements",
+      "definition": "Key clinical data points considered most valuable for care coordination.",
+      "terms": [
+        "high-priority clinical data elements"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Historic Labs",
+      "definition": "Past laboratory test results, identified as important data not always included in current exports.",
+      "terms": [
+        "Historic labs"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Hosting Costs",
+      "definition": "The expenses associated with maintaining IT infrastructure.",
+      "terms": [
+        "costs of hosting",
+        "hosting a FHIR Bulk Data implementation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Immunization Data Exchange",
+      "definition": "The process of exchanging data related to immunizations.",
+      "terms": [
+        "immunization data",
+        "immunization data exchange"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Immunization Records",
+      "definition": "Records detailing a person's immunizations.",
+      "terms": [
+        "immunization records"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Immunization registries",
+      "definition": "Systems for collecting and storing immunization data.",
+      "terms": [
+        "Immunization registries"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Immunization reporting",
+      "definition": "The process of electronically submitting vaccination data to public health agencies.",
+      "terms": [
+        "immunization reporting"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Individual Access Services",
+      "definition": "Services that enable individuals to access their own health information, particularly within exchange frameworks.",
+      "terms": [
+        "IAS",
+        "Individual Access Services"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Information Flow",
+      "definition": "The movement of data between systems or entities.",
+      "terms": [
+        "bi-directional flow of information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Information received from immunization registries",
+      "definition": "Data obtained from immunization registries.",
+      "terms": [
+        "Information received from immunization registries"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Information related to medications from pharmacy networks",
+      "definition": "Data about medications from pharmacy systems.",
+      "terms": [
+        "Information related to medications from pharmacy networks"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "International Classification of Diseases, 11th Revision (ICD-11)",
+      "definition": "A global diagnostic standard for epidemiology, health management, and clinical purposes.",
+      "terms": [
+        "ICD-11"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Laboratory Ordering",
+      "definition": "The process and data associated with requesting laboratory tests.",
+      "terms": [
+        "creation and transmission of laboratory ordering",
+        "laboratory ordering"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Laboratory results",
+      "definition": "Findings from medical laboratory tests.",
+      "terms": [
+        "Laboratory results"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Longitudinal Health Data",
+      "definition": "Health information collected over an extended period of time for an individual, crucial for rare disease research.",
+      "terms": [
+        "longitudinal health data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Longitudinal person-centered care planning",
+      "definition": "Planning care over time with a focus on the individual patient's needs and preferences.",
+      "terms": [
+        "longitudinal person-centered care planning"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Meaningful exchange of data",
+      "definition": "Health data exchange that is useful and actionable.",
+      "terms": [
+        "meaningful exchange of data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medication Reconciliation",
+      "definition": "The process of comparing a patient's medication list against other reliable sources to ensure accuracy.",
+      "terms": [
+        "medication reconciliation"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medication allergies",
+      "definition": "Information about adverse reactions to medications.",
+      "terms": [
+        "medication allergies"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medication lists",
+      "definition": "A record of medications a patient is prescribed or taking.",
+      "terms": [
+        "medication lists"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Medications used",
+      "definition": "Information about drugs a patient is taking.",
+      "terms": [
+        "medications used"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Memory Usage",
+      "definition": "The amount of computer memory required by a system or process.",
+      "terms": [
+        "memory usage"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Minor Child's Record",
+      "definition": "A health record belonging to a child.",
+      "terms": [
+        "minor child's record"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Minors' Genetic Data",
+      "definition": "Genetic information belonging to minors.",
+      "terms": [
+        "minors' genetic data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "NAACCR Data Dictionary",
+      "definition": "The specific data dictionary maintained by the North American Association of Central Cancer Registries.",
+      "terms": [
+        "NAACCR Data Dictionary"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Neighbor (Role)",
+      "definition": "A person living next door or nearby, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "neighbors"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Order Data Elements",
+      "definition": "Health data elements representing orders for tests, procedures, or medications.",
+      "terms": [
+        "order category of data elements",
+        "order data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Order-Sign Use Case",
+      "definition": "A use case related to the process of ordering and signing off on medical orders.",
+      "terms": [
+        "order-sign"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Over-the-wire Data Transfer",
+      "definition": "The amount of data transmitted over a network during data exchange.",
+      "terms": [
+        "data amounts",
+        "over-the-wire data transfer"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient FHIR ID",
+      "definition": "A unique identifier for a patient within the FHIR standard.",
+      "terms": [
+        "Patient FHIR ID"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient Scheduling",
+      "definition": "The process of arranging appointments for patients.",
+      "terms": [
+        "patient scheduling"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient access to health data",
+      "definition": "The ability for patients to obtain and control their health information.",
+      "terms": [
+        "patient access to health data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient claim information",
+      "definition": "Information about healthcare claims submitted for patients.",
+      "terms": [
+        "patient claim information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient information",
+      "definition": "Data related to a patient's health and care.",
+      "terms": [
+        "patient information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient problem lists",
+      "definition": "A record of a patient's active medical conditions.",
+      "terms": [
+        "patient problem lists"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Patient-View Use Case",
+      "definition": "A use case referring to features that allow patients to view their health information.",
+      "terms": [
+        "patient-view"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Paxlovid",
+      "definition": "An oral antiviral medication used to treat COVID-19.",
+      "terms": [
+        "Paxlovid"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer Data",
+      "definition": "Health information related to insurance payers and claims processing.",
+      "terms": [
+        "payer data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer network API discovery",
+      "definition": "The process of finding APIs related to a payer's network.",
+      "terms": [
+        "payer network API discovery"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Payer network information",
+      "definition": "Data related to a health payer's contracted network of providers.",
+      "terms": [
+        "payer network information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Pediatric Patient Claims",
+      "definition": "Claims submitted for services provided to pediatric patients.",
+      "terms": [
+        "pediatric patient claims"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Pediatric Patients",
+      "definition": "Patients who are children.",
+      "terms": [
+        "pediatric patients"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Pediatric-focused Information",
+      "definition": "Health information relevant to children.",
+      "terms": [
+        "pediatric-focused information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Pediatric-specific Data",
+      "definition": "Data pertaining to children's health.",
+      "terms": [
+        "pediatric-specific data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Person with Durable Medical Power of Attorney (Role)",
+      "definition": "An individual granted authority to make healthcare decisions via a durable medical power of attorney, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "persons with durable medical power of attorney"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Personally Identifiable Information (PII)",
+      "definition": "Data that can be used to identify a specific individual.",
+      "terms": [
+        "PII",
+        "personally identifiable health information",
+        "personally identifiable information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Population-based Surveillance",
+      "definition": "The ongoing, systematic collection, analysis, and interpretation of health-related data in the population.",
+      "terms": [
+        "population-based surveillance"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Precision Engagement",
+      "definition": "A concept referring to the delivery of personalized and relevant health information to patients at the right time and place.",
+      "terms": [
+        "precision engagement"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Predictive analytics",
+      "definition": "Using data to forecast future events or trends.",
+      "terms": [
+        "predictive analytics"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Prescribing medications",
+      "definition": "The act of authorizing a patient to receive a specific medication.",
+      "terms": [
+        "Prescribing medications"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Prior Authorization Information",
+      "definition": "Information related to the process of obtaining prior authorization for medical services.",
+      "terms": [
+        "prior authorization information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Provider directories",
+      "definition": "Information systems listing healthcare providers.",
+      "terms": [
+        "provider directories"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Public Health Information",
+      "definition": "Data related to the health of the public.",
+      "terms": [
+        "public health information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Query Complexity",
+      "definition": "The intricacy or difficulty of a data query.",
+      "terms": [
+        "query complexity"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Query Time",
+      "definition": "The time taken to retrieve data from a system.",
+      "terms": [
+        "Query time",
+        "query time"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Radiologists' impressions",
+      "definition": "Interpretations and findings provided by radiologists regarding diagnostic images.",
+      "terms": [
+        "radiologists' impressions"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Real-Time Prescription Benefit Standard",
+      "definition": "A standard for providing real-time prescription benefit information.",
+      "terms": [
+        "RTPB",
+        "Real-Time Prescription Benefit Standard"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Real-time Notifications",
+      "definition": "Alerts or messages delivered immediately upon an event occurring.",
+      "terms": [
+        "real-time notifications"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Real-time data processing",
+      "definition": "Handling and analyzing data as it is generated.",
+      "terms": [
+        "real-time data processing"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Relevant Data Groupings",
+      "definition": "Groupings or selections of patients or data that meet specific criteria.",
+      "terms": [
+        "relevant panels/subsets",
+        "relevant populations"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Reproductive Health Data",
+      "definition": "Health information pertaining to an individual's reproductive health.",
+      "terms": [
+        "Reproductive health data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Reproductive and Gender-Specific Care Data",
+      "definition": "Health data related to reproductive health services and gender-specific care.",
+      "terms": [
+        "reproductive and gender-specific care"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Smoking cessation counseling",
+      "definition": "Counseling services provided by healthcare professionals to help individuals quit smoking.",
+      "terms": [
+        "Smoking cessation counseling"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Smoking status",
+      "definition": "Information about a patient's smoking habits.",
+      "terms": [
+        "smoking status"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Social determinants of health",
+      "definition": "Conditions in the environments where people live that affect health outcomes.",
+      "terms": [
+        "SDOH",
+        "SDOH goals",
+        "SDOH problems/health concerns",
+        "social determinants of health"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Socioeconomic Status",
+      "definition": "An individual's or family's economic and social position relative to others.",
+      "terms": [
+        "socioeconomic status"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Speed of data transfer",
+      "definition": "The rate at which data can be moved between systems.",
+      "terms": [
+        "speed of data transfer"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Spouse/Partner (Role)",
+      "definition": "A person's spouse or partner, discussed as a role that may facilitate health care access.",
+      "terms": [
+        "spouses/partners"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Standardized FHIR-based API for public health data exchange",
+      "definition": "An API using FHIR standards for public health data exchange.",
+      "terms": [
+        "Standardized FHIR-based API for public health data exchange"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Telehealth",
+      "definition": "The use of electronic information and telecommunications technologies to support long-distance clinical health care.",
+      "terms": [
+        "telehealth"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Therapies",
+      "definition": "Medical treatments or interventions designed to cure or manage a disease or condition.",
+      "terms": [
+        "Therapies"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Transfer of Care Documents",
+      "definition": "Health information documents exchanged to facilitate continuity of care when a patient moves between providers or settings.",
+      "terms": [
+        "transfer of care documents"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "USCDI updates",
+      "definition": "Changes or new versions of the USCDI standard.",
+      "terms": [
+        "USCDI updates"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Unified Shared Clinical Data Set",
+      "definition": "A standardized set of clinical data elements intended for broad sharing across healthcare.",
+      "terms": [
+        "USDCDI",
+        "Unified Shared Clinical Data Set"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "VACTERL association",
+      "definition": "A rare, non-random association of birth defects affecting multiple organ systems, mentioned as a diagnosis.",
+      "terms": [
+        "VACTERL association"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Vitals",
+      "definition": "Vital signs, such as heart rate, blood pressure, and temperature.",
+      "terms": [
+        "vitals"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "Women’s Reproductive Health Data",
+      "definition": "Health data pertaining to women's reproductive health services and care.",
+      "terms": [
+        "women’s reproductive health"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "buprenorphine",
+      "definition": "A medication used to treat opioid use disorder and pain.",
+      "terms": [
+        "buprenorphine"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "cancer surveillance data",
+      "definition": "Data collected and analyzed to monitor the incidence, prevalence, and trends of cancer in a population.",
+      "terms": [
+        "cancer surveillance data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "cancer surveillance ecosystem",
+      "definition": "The interconnected network of organizations, systems, and processes involved in the collection, analysis, and dissemination of cancer surveillance data.",
+      "terms": [
+        "cancer surveillance ecosystem"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "comprehensive medication list",
+      "definition": "A complete list of all medications a patient is currently taking.",
+      "terms": [
+        "comprehensive medication list"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "data dictionary",
+      "definition": "A centralized repository of information about data, including definitions, formats, and usage.",
+      "terms": [
+        "data dictionary"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "eCP synoptic pathology reports",
+      "definition": "Structured pathology reports compliant with the College of American Pathologists' electronic cancer pathology (eCP) standards.",
+      "terms": [
+        "eCP synoptic pathology reports"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "ePrescribing",
+      "definition": "The electronic transmission of prescriptions from a provider to a pharmacy.",
+      "terms": [
+        "ePrescribing"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "emergency use authorization oral antivirals",
+      "definition": "Oral antiviral medications authorized for emergency use, often during public health emergencies.",
+      "terms": [
+        "emergency use authorization oral antivirals"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "facility information",
+      "definition": "An element within USCDI v4 representing information about healthcare facilities.",
+      "terms": [
+        "facility information"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "health records",
+      "definition": "Documents containing a patient's medical history and information.",
+      "terms": [
+        "health records"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "hormonal contraceptives",
+      "definition": "Medications that use hormones to prevent pregnancy.",
+      "terms": [
+        "hormonal contraceptives"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "narrative",
+      "definition": "Data presented in a free-text or descriptive format.",
+      "terms": [
+        "narrative"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "pathology data",
+      "definition": "Data pertaining to the study and diagnosis of disease through laboratory examination of tissues and body fluids.",
+      "terms": [
+        "pathology data"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "strep/flu/COVID treatments",
+      "definition": "Medications or treatment plans for streptococcal infections, influenza, and COVID-19.",
+      "terms": [
+        "strep/flu/COVID treatments"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "structured electronic format",
+      "definition": "A method of presenting data in a standardized electronic structure that can be easily processed by computers.",
+      "terms": [
+        "structured electronic format"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "label": "tobacco cessation",
+      "definition": "Services aimed at helping individuals stop using tobacco products.",
+      "terms": [
+        "tobacco cessation"
+      ],
+      "mentionCount": 1
+    }
+  ]
+}
