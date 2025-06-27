@@ -11,7 +11,7 @@
       "default": 10,
       "description": "Default number of items to merge at once in hierarchical tasks"
     },
-    "defaultModel": "gemini-pro"
+    "defaultModel": "gemini-flash-lite"
   },
   
   "tasks": {
@@ -23,9 +23,9 @@
     },
     
     "discoverThemes": {
-      "concurrency": 5,
+      "concurrency": 3,
       "mergeWidth": 10,
-      "model": "gemini-pro",
+      "model": "gemini-flash-lite",
       "batching": {
         "triggerWordLimit": 250000,
         "batchWordLimit": 150000,
@@ -34,16 +34,16 @@
     },
     
     "extractThemeContent": {
-      "concurrency": 10,
-      "model": "gemini-flash",
+      "concurrency": 3,
+      "model": "gemini-flash-lite",
       "batching": false,
       "description": "Extracts theme-specific content from individual comments"
     },
     
     "summarizeThemes": {
-      "concurrency": 3,
+      "concurrency": 2,
       "mergeWidth": 20,
-      "model": "gemini-flash",
+      "model": "gemini-flash-lite",
       "batching": {
         "triggerWordLimit": 200000,
         "batchWordLimit": 125000,
@@ -71,7 +71,7 @@
         },
         "entityExtraction": {
           "model": "gemini-flash-lite",
-          "concurrency": 20,  
+          "concurrency": 5,
           "batching": {
             "triggerWordLimit": 1000,
             "batchWordLimit": 1000,
@@ -112,8 +112,8 @@
       "description": "Can handle 50% more concurrent requests"
     },
     "gemini-flash-lite": {
-      "concurrency": 10,
-      "description": "Can handle 2x concurrent requests"
+      "concurrency": 1,
+      "description": "Free tier safe concurrency"
     },
     "claude": {
       "concurrency": 2,

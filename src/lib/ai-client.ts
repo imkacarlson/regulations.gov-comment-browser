@@ -3,6 +3,7 @@ import { parseJsonResponse } from "./json-parser";
 import { createHash } from "crypto";
 import { Database } from "bun:sqlite";
 import { getGenerationFunction } from "./llm-providers";
+import { freeTierRateLimiter, estimateTokens } from "./rate-limiter";
 
 export interface CacheMetadata {
   taskType: string;
@@ -68,12 +69,17 @@ export class AIClient {
     
     const modelName = this.modelKey || "gemini-pro";
     console.log(`🤖 [${workerId}] Starting ${modelName} call (${activeCount} active: ${activeList})`);
-    
+
     try {
       if (debugPrefix) {
         await debugSave(`${debugPrefix}_prompt.txt`, prompt);
       }
-      
+
+      // Respect free tier limits when using gemini-flash-lite
+      if (modelName === "gemini-flash-lite") {
+        await freeTierRateLimiter.limitRequest(estimateTokens(prompt));
+      }
+
       // Get the appropriate generation function
       const generateFn = getGenerationFunction(this.modelKey);
       
@@ -155,6 +161,10 @@ export class AIClient {
         }
       }
       
+      if (modelName === "gemini-flash-lite") {
+        freeTierRateLimiter.recordTokens(estimateTokens(rawResult));
+      }
+
       return result;
       
     } finally {

@@ -99,11 +99,11 @@ export async function generateWithGeminiFlashLite(prompt: string, options?: Stre
   
   const ai = new GoogleGenAI({ apiKey });
   
-  const config = { 
+  const config = {
     responseMimeType: "text/plain",
-    // thinkingConfig: {
-    //   thinkingBudget: 14000,
-    // }
+    thinkingConfig: {
+      thinkingBudget: 14000,
+    }
   };
   const contents = [{
     role: "user" as const,
