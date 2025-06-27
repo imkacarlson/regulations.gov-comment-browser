@@ -1,0 +1,1925 @@
+[
+  {
+    "code": "1",
+    "description": "Foundational Health Data Standards",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category encompasses the core technical standards and data models that enable health information exchange. It covers data formats, versions, and specifications that form the basis of interoperability efforts, including both modern API-based standards and established legacy formats. This category focuses on the \"what\" of health data exchange components themselves. This matters because standardized data is essential for effective communication and coordinated care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.1",
+      "1.2",
+      "1.3"
+    ]
+  },
+  {
+    "code": "1.1",
+    "description": "FHIR Standards and API Development",
+    "level": 2,
+    "parent_code": "1",
+    "detailed_guidelines": "This category focuses on the adoption, implementation, and capabilities of Fast Healthcare Interoperability Resources (FHIR) standards and related APIs as the modern foundation for health IT interoperability. It covers specific FHIR versions, general API support, data creation capabilities, workflow triggers, and the inclusion of FHIR APIs within broader definitions like Base EHR. This category does NOT include other data exchange standards like HL7 v2 or CDA, nor does it cover the regulatory framework for information blocking or implementation timelines, which are addressed elsewhere. The defining characteristic is the focus on FHIR as the core interoperability standard. This is crucial because FHIR is the modern foundation for health IT interoperability.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.1.1",
+      "1.1.2",
+      "1.1.3",
+      "1.1.4"
+    ]
+  },
+  {
+    "code": "1.1.1",
+    "description": "FHIR Version Adoption and Standardization",
+    "level": 3,
+    "parent_code": "1.1",
+    "detailed_guidelines": "This theme addresses the specific versions of FHIR that should be required or preferred for various interoperability functionalities and standardization efforts. It includes recommendations for standardizing on specific FHIR versions like R4B for subscription services and discussions about the suitability of different versions for specific use cases such as public health data exchange. This theme does NOT include general arguments for or against FHIR adoption, but rather the selection of particular versions for optimal implementation. The key distinction is the focus on version specificity for compatibility and efficiency. This matters for ensuring consistent implementation across the health IT ecosystem.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.1.1.1",
+      "1.1.1.2"
+    ]
+  },
+  {
+    "code": "1.1.1.1",
+    "description": "FHIR R4B Standardization for Subscriptions",
+    "level": 4,
+    "parent_code": "1.1.1",
+    "detailed_guidelines": "This theme specifically addresses the call for standardizing on FHIR R4B for subscription functionalities within health IT to simplify implementation and ensure consistency. It includes comments urging ONC to mandate or recommend FHIR R4B to simplify implementation and ensure consistency for subscription services, excluding general arguments for FHIR adoption or other FHIR subscription requirements. The key distinction is the explicit focus on the R4B version for subscription services. This is important as it directly impacts the development and deployment of real-time data notification systems.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.1.2",
+    "description": "FHIR Versions for Specific Use Cases",
+    "level": 4,
+    "parent_code": "1.1.1",
+    "detailed_guidelines": "This theme covers recommendations on the specific versions of FHIR that should be required or preferred for different interoperability functions based on their maturity and capability. It includes comments advocating for particular versions of FHIR for Public Health data exchange, Bulk Data, and other API functionalities based on their maturity and capability, excluding arguments for or against FHIR itself, only the choice of specific versions for particular applications. The distinguishing feature is the focus on version selection based on current technological capabilities and suitability for a given use case. This is important for ensuring efficient and effective data exchange.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.2",
+    "description": "FHIR API Requirements and Capabilities",
+    "level": 3,
+    "parent_code": "1.1",
+    "detailed_guidelines": "This theme focuses on the mandates and specific functionalities required for FHIR APIs in health IT, covering their essential capabilities for modern data exchange. It covers general support for FHIR APIs, requirements for data creation/writing (FHIR Write APIs), support for workflow triggers and event notifications, and the inclusion of specific FHIR APIs within the Base EHR definition, excluding discussions about other data exchange standards or the regulatory framework around information blocking. The key distinction is the focus on the functional requirements and capabilities of FHIR APIs themselves. This matters because these APIs are central to modernizing health data exchange.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.1.2.1",
+      "1.1.2.2",
+      "1.1.2.3",
+      "1.1.2.4"
+    ]
+  },
+  {
+    "code": "1.1.2.1",
+    "description": "General FHIR API Support Mandates",
+    "level": 4,
+    "parent_code": "1.1.2",
+    "detailed_guidelines": "This theme addresses the overarching requirement for implementing FHIR APIs for health data exchange as mandated by certification criteria or fundamental interoperability components. It covers general calls for the adoption and support of FHIR APIs as mandated by certification criteria or as a fundamental component of interoperability, excluding discussions about specific types of FHIR APIs (e.g., Bulk Data, Subscriptions) or regulatory concerns. The key distinction is the focus on the general mandate for FHIR API implementation. This is important as it represents a foundational shift towards API-based data exchange.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.2.2",
+    "description": "Data Creation/Writing Capabilities (FHIR Write APIs)",
+    "level": 4,
+    "parent_code": "1.1.2",
+    "detailed_guidelines": "This theme addresses the need for FHIR APIs that enable bidirectional data flow, specifically for creating or updating data within EHR systems. It includes recommendations for incorporating \"Create\" and \"Update\" style FHIR APIs to support bidirectional data flow essential for modern applications, excluding read-only APIs or general data exchange mechanisms that do not involve data writing. The defining characteristic is the explicit focus on the capability to write data back into EHRs via FHIR. This is vital for enabling seamless data integration and workflow automation.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.2.3",
+    "description": "Workflow Triggers and Event Notifications via FHIR",
+    "level": 4,
+    "parent_code": "1.1.2",
+    "detailed_guidelines": "This theme covers the request for enhanced FHIR capabilities that support proactive workflows beyond simple API polling, enabling event-driven data exchange. It includes suggestions for building on the SMART application launch framework to simplify user consent and standardize security protocols, and calls for workflow triggers and event notifications to reduce API polling, excluding requirements for polling-based data retrieval or general API functionality. The key distinction is the focus on event-driven and proactive data exchange mechanisms. This matters for improving efficiency and reducing system load.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.2.4",
+    "description": "FHIR APIs within Base EHR Definition Scope",
+    "level": 4,
+    "parent_code": "1.1.2",
+    "detailed_guidelines": "This theme addresses concerns regarding the inclusion of specific FHIR client APIs within the definition of a \"Base EHR\" certification scope. It includes opposition to mandating certain FHIR APIs (e.g., Provider Access, Prior Authorization, Public Health) within the Base EHR, suggesting they be handled by other programs or driven by market demand, excluding arguments about the technical feasibility of these APIs independently, only their inclusion within the Base EHR certification scope. The distinguishing feature is the debate over which specific FHIR APIs should be part of core EHR certification. This is important because it impacts the development burden on EHR vendors, particularly smaller ones.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.3",
+    "description": "FHIR Bulk Data Requirements",
+    "level": 3,
+    "parent_code": "1.1",
+    "detailed_guidelines": "This theme addresses specific requirements and recommendations for FHIR Bulk Data functionality, which enables the efficient export of large datasets. It covers support for 'All Patients' export, the use of filtering parameters like `_type` and `_elements` for performance optimization, and requirements for programmatic creation of Group resources, excluding general FHIR API requirements or discussions of other export methods. The key distinction is the focus on the bulk export capability and its specific technical parameters. This is important for facilitating population health initiatives and large-scale data analysis.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.1.3.1",
+      "1.1.3.2",
+      "1.1.3.3"
+    ]
+  },
+  {
+    "code": "1.1.3.1",
+    "description": "'All Patients' Export Mandate for Bulk Data",
+    "level": 4,
+    "parent_code": "1.1.3",
+    "detailed_guidelines": "This theme focuses on the requirement for FHIR Bulk Data to support an 'All Patients' export functionality without needing group parameters or developer intervention. It includes commenters advocating for this feature to facilitate critical population health use cases and ensure comprehensive data access, excluding the technical implementation details of bulk data export itself, only the availability of an 'All Patients' export option. The distinguishing characteristic is the support for a universal, unparameterized export. This is vital for enabling broad data analysis and identifying health disparities.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.3.2",
+    "description": "Bulk Data Filtering and Performance Optimization Parameters",
+    "level": 4,
+    "parent_code": "1.1.3",
+    "detailed_guidelines": "This theme covers recommendations for enhancing FHIR Bulk Data efficiency through filtering and performance clarity. It includes advocating for the use of parameters like `_type` and `_elements` to decrease data size and memory usage, and calls for clear performance requirements and limitations to aid understanding and certification, excluding arguments about the necessity of bulk data itself or general FHIR API performance. The key distinction is the focus on optimizing bulk data transfers through specific filtering mechanisms and performance metrics. This matters because efficient data transfer is crucial for reducing costs and improving implementation speed.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.3.3",
+    "description": "Programmatic Group Resource Creation for Bulk Data",
+    "level": 4,
+    "parent_code": "1.1.3",
+    "detailed_guidelines": "This theme addresses the requirement for API-driven creation of the Group resource for FHIR Bulk Data exports to enable scaling and dynamic data access. It includes comments recommending that this capability be mandated to enable scaling across EHRs and facilitate more dynamic data access, excluding the creation of Group resources through manual processes or other data exchange mechanisms. The key distinction is the requirement for programmatic, API-driven group creation for bulk exports. This is important for efficient and scalable data management in large health systems.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.4",
+    "description": "FHIR Subscription Functionality Requirements",
+    "level": 3,
+    "parent_code": "1.1",
+    "detailed_guidelines": "This theme addresses the requirements for FHIR Subscription functionality, which enables real-time data notifications, focusing on its specific mechanisms and implementation challenges. It includes comments on the types of subscriptions (resource-level vs. patient-specific), the burden of implementation for subscription servers, and the eligibility of patient-facing applications, excluding general FHIR API capabilities or discussions of other notification methods. The key distinction is the focus on the specific mechanism of FHIR Subscriptions for receiving data updates. This is important for enabling timely information flow and proactive care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.1.4.1",
+      "1.1.4.2",
+      "1.1.4.3"
+    ]
+  },
+  {
+    "code": "1.1.4.1",
+    "description": "Resource-Level Subscriptions via FHIR",
+    "level": 4,
+    "parent_code": "1.1.4",
+    "detailed_guidelines": "This theme addresses the need for FHIR Subscription servers to support resource-level subscriptions, not just those filtered by patient, for broader event monitoring. It includes calls for clarification that subscriptions should not be limited to patient-specific contexts, allowing for broader event monitoring, excluding the implementation details of managing subscriptions or the types of events that can be subscribed to. The distinguishing feature is the emphasis on the granularity of subscriptions (resource-level) beyond patient-centric filtering. This matters for enabling comprehensive data monitoring across different entities.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.4.2",
+    "description": "Subscription Server Implementation Burden & Complexity",
+    "level": 4,
+    "parent_code": "1.1.4",
+    "detailed_guidelines": "This theme captures concerns about the technical and administrative burden placed on developers by FHIR Subscription server requirements, particularly regarding different versions. It includes comments highlighting confusion and burden associated with backporting both R4 and R4B FHIR Subscription servers, excluding general concerns about FHIR adoption or the need for subscriptions themselves. The key distinction is the focus on the practical challenges of implementing specific FHIR Subscription server versions. This matters because these burdens can slow down or prevent adoption, especially for smaller developers.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.1.4.3",
+    "description": "Patient-Facing App Eligibility for FHIR Subscriptions",
+    "level": 4,
+    "parent_code": "1.1.4",
+    "detailed_guidelines": "This theme addresses the inclusion of patient-facing applications within the scope of FHIR Subscription requirements to ensure they receive timely updates. It includes recommendations that ONC explicitly require FHIR Subscription functionality for patient-facing applications to ensure they receive timely updates, excluding the technical implementation of subscriptions for these apps or other requirements related to patient-facing applications. The distinguishing feature is the explicit call to cover patient-facing applications under subscription mandates. This is important for empowering patients with real-time information.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.2",
+    "description": "USCDI Data Element Standards",
+    "level": 2,
+    "parent_code": "1",
+    "detailed_guidelines": "This category focuses on the adoption and scope of the United States Core Data for Interoperability (USCDI), including specific versions and data reconciliation requirements critical for standardizing health information content. It covers discussions about adopting USCDI v4 versus v5, including the inclusion of new data elements like Orders, and addresses the requirements for Clinical Information Reconciliation (CIRI), excluding other standards like FHIR or HL7 v2, or the policy around information blocking. The key distinction is the focus on the specific data elements defined by USCDI and how they are reconciled. This is critical for standardizing the content of health information exchange.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.2.1",
+      "1.2.2"
+    ]
+  },
+  {
+    "code": "1.2.1",
+    "description": "USCDI Version Adoption Debates",
+    "level": 3,
+    "parent_code": "1.2",
+    "detailed_guidelines": "This theme covers recommendations and discussions regarding the adoption of specific future versions of the USCDI standard, focusing on choices between versions like v4 and v5. It includes commentary supporting the advancement directly to USCDI v5, incorporating its expanded data elements like Orders, instead of adopting USCDI v4, excluding the overall necessity of USCDI or its prior versions, only the choice between specific future versions. The distinguishing characteristic is the explicit preference for a newer, more comprehensive USCDI version. This is important because it impacts the richness and utility of exchanged health information.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.2.2",
+    "description": "Clinical Information Reconciliation (CIRI) Scope and Burden",
+    "level": 3,
+    "parent_code": "1.2",
+    "detailed_guidelines": "This theme addresses the requirements for Clinical Information Reconciliation (CIRI), focusing on the scope, number of data classes involved, and the resulting implementation burden. It includes concerns about the significant burden of reconciling numerous USCDI data classes, recommendations for a phased approach to data reconciliation, and suggestions to limit the data classes incorporated from received CCDAs, excluding the technical mechanisms of reconciliation itself or the source of the data (e.g., FHIR vs. CCDA). The key distinction is the focus on the breadth of data elements subject to reconciliation. This matters because the scope directly impacts the implementation workload for health IT developers.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.2.2.1",
+      "1.2.2.2",
+      "1.2.2.3"
+    ]
+  },
+  {
+    "code": "1.2.2.1",
+    "description": "Number of USCDI Data Classes for Reconciliation",
+    "level": 4,
+    "parent_code": "1.2.2",
+    "detailed_guidelines": "This theme addresses concerns about the substantial burden imposed by the number of USCDI data classes required for clinical information reconciliation. It includes commentary stating that reconciling a large number of USCDI data classes represents an \"astronomical\" lift for health IT developers, excluding discussions about the quality or utility of specific data classes, only the quantity that needs to be reconciled. The distinguishing feature is the focus on the volume of data elements as a source of burden. This is important because it directly impacts resource allocation and development timelines.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.2.2.2",
+    "description": "Phased Approach to Data Reconciliation Implementation",
+    "level": 4,
+    "parent_code": "1.2.2",
+    "detailed_guidelines": "This theme covers recommendations for implementing Clinical Information Reconciliation (CIRI) requirements through a phased approach to manage implementation burden. It includes suggestions to initially require reconciliation for only a subset of data classes and expand requirements in subsequent rulemaking to manage implementation burden, excluding arguments against reconciliation entirely, but rather advocating for a staged rollout. The key distinction is the preference for a gradual implementation timeline for CIRI. This matters for allowing developers and providers to adapt to new requirements progressively.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.2.2.3",
+    "description": "Data Incorporation Scope from Received Documents (CCDA)",
+    "level": 4,
+    "parent_code": "1.2.2",
+    "detailed_guidelines": "This theme addresses the scope of data that Health IT Modules should incorporate from received documents like CCDAs, specifically limiting data classes to manage burden. It includes recommendations to limit the data classes required for incorporation to a specific subset, such as Allergies, Care Team Members, Immunizations, Laboratory, Medications, Medical Devices, Problems, and Procedures, excluding data incorporation from other sources or the method of reconciliation. The distinguishing feature is the limitation on which specific data elements from incoming documents are mandated for incorporation. This is important for managing development effort and focusing on clinically impactful data.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.3",
+    "description": "Non-FHIR Data Exchange Formats and Standards",
+    "level": 2,
+    "parent_code": "1",
+    "detailed_guidelines": "This category covers interoperability standards and formats that are not based on FHIR, focusing on legacy systems and alternative exchange methods critical for continued interoperability with existing systems. It includes requirements and discussions related to HL7 v2 standards, HL7 CDA standards, and the use of specific versions like HL7 v2.5.1 for public health reporting, excluding FHIR-related standards or the policy aspects of information blocking. The key distinction is the focus on established, non-FHIR based data exchange formats and protocols. This matters for ensuring continued interoperability with existing systems and for specific use cases where these formats are preferred or mandated.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "1.3.1",
+      "1.3.2",
+      "1.3.3"
+    ]
+  },
+  {
+    "code": "1.3.1",
+    "description": "HL7 v2 Standards and Profile Clarifications",
+    "level": 3,
+    "parent_code": "1.3",
+    "detailed_guidelines": "This theme addresses the specific requirements and clarifications needed for HL7 Version 2 (v2) standards and their implementation to ensure clarity and consistency. It includes calls for clarifying functional requirements, explicitly naming required HL7 v2 profile components and OIDs, and harmonizing transport method requirements such as MLLP, excluding the adoption of FHIR or CDA standards, nor does it address the policy implications of data exchange. The key distinction is the focus on the technical details and specific components of HL7 v2 for clarity and consistency. This is important for ensuring reliable data exchange with legacy systems in public health.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.3.2",
+    "description": "HL7 CDA Standards Use and Retention Debates",
+    "level": 3,
+    "parent_code": "1.3",
+    "detailed_guidelines": "This theme covers comments related to the use and retention of HL7 Clinical Document Architecture (CDA) standards, advocating for their continued support where relevant. It includes support for retaining C-CDA implementation guide options for specific use cases like Electronic Case Reporting (ECR) and objections to making FHIR the sole method, excluding support for FHIR-only transitions or arguments against CDA. The key distinction is the advocacy for continued use or support of CDA alongside newer standards like FHIR for specific purposes. This matters for practical implementation and avoiding disruption where CDA remains relevant.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "1.3.3",
+    "description": "E-Prescribing RTPB Version Standardization",
+    "level": 3,
+    "parent_code": "1.3",
+    "detailed_guidelines": "This theme focuses on standards related to electronic prescribing, particularly the Real-Time Prescription Benefit (RTPB) system, and the need to standardize its versions for clarity and efficiency. It includes recommendations to add a target expiration date for RTPB 12 to ensure the current RTPB version (version 13) becomes the standard for medications and vaccines covered by PBMs, excluding other e-prescribing functionalities or general prescription data exchange. The key distinction is the focus on standardizing the version of the RTPB standard for clarity and efficiency. This is important for ensuring consistent drug benefit information is provided to patients and providers.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2",
+    "description": "Interoperability Frameworks and Infrastructure",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category addresses broader frameworks and infrastructure that facilitate nationwide health data exchange, including specific network agreements and specialized data types. It covers requirements for diagnostic imaging link support, access and user experience for EHI export, and aspects of the Trusted Exchange Framework and Common Agreement (TEFCA), excluding general FHIR or USCDI standards, or information blocking policies directly. The key distinction is the focus on specific data types (imaging) and broader exchange frameworks (TEFCA). This matters for addressing the unique challenges and opportunities in these specialized areas.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "2.1",
+      "2.2",
+      "2.3"
+    ]
+  },
+  {
+    "code": "2.1",
+    "description": "Diagnostic Imaging Link Support",
+    "level": 2,
+    "parent_code": "2",
+    "detailed_guidelines": "This theme addresses the requirements and clarity needed for Health IT Modules to support links to diagnostic images, ensuring comprehensive patient records are accessible. It includes calls for clarity on implementation responsibilities, specific standards for image link exchange, and the availability of diagnostic impressions alongside images, excluding the technical standards for image transmission itself, only the linking mechanisms, nor does it address general EHI export. The key distinction is the focus on the interoperability of links to imaging studies, not the images themselves. This is important for providing a complete patient record accessible through health IT systems.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "2.1.1",
+      "2.1.2",
+      "2.1.3"
+    ]
+  },
+  {
+    "code": "2.1.1",
+    "description": "Clarity on Implementation and Responsibility for Imaging Links",
+    "level": 3,
+    "parent_code": "2.1",
+    "detailed_guidelines": "This theme addresses the need for clear guidance regarding the implementation of diagnostic imaging links and the allocation of responsibilities between systems and users. It includes requests for clarification on how EHRs should interact with PACS and VNAs, and who is responsible for obtaining and recording these links (providers vs. Health IT Modules), excluding the standards for imaging data itself or the process of image retrieval. The distinguishing feature is the focus on defining the implementation pathway and assigning responsibility for imaging link support. This is crucial for avoiding ambiguity and ensuring proper integration.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.1.2",
+    "description": "Specific Standards for Imaging Link Exchange",
+    "level": 3,
+    "parent_code": "2.1",
+    "detailed_guidelines": "This theme focuses on the need for specific and clear guidance on the standards that should be used for exchanging links to diagnostic images to ensure interoperability. It includes requests for exact guidance on standards applicable to all use cases requiring an imaging link to ensure interoperability, excluding the content of the images or the data within them, but rather the mechanism for linking to them. The key distinction is the emphasis on standardized methods for creating and exchanging image links. This matters for enabling seamless access to imaging studies from within EHR systems.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.1.3",
+    "description": "Availability of Diagnostic Impressions Alongside Imaging Links",
+    "level": 3,
+    "parent_code": "2.1",
+    "detailed_guidelines": "This theme addresses the requirement for diagnostic impressions to be available alongside diagnostic images within health IT systems for contextual understanding. It includes a recommendation that Health IT Modules maintain the relationship between images and their corresponding impressions, excluding the content of the impressions or the format of the images themselves. The distinguishing feature is the requirement to link and present diagnostic impressions concurrently with imaging studies. This is important for providing comprehensive context and interpretation for diagnostic images.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.2",
+    "description": "Electronic Health Information (EHI) Export Functionality",
+    "level": 2,
+    "parent_code": "2",
+    "detailed_guidelines": "This theme covers requirements and recommendations related to the patient's ability to access and export their Electronic Health Information, focusing on user experience and communication. It includes aspects of export accessibility via portals and APIs, user experience guidelines, and patient communication regarding export availability, excluding the completeness or specific content of the EHI itself, which is a separate theme. The key distinction is the focus on the user interface and process for patients to obtain their EHI. This matters for empowering patients with direct access to their health data.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "2.2.1",
+      "2.2.2"
+    ]
+  },
+  {
+    "code": "2.2.1",
+    "description": "EHI Export Accessibility and User Experience Enhancement",
+    "level": 3,
+    "parent_code": "2.2",
+    "detailed_guidelines": "This theme addresses the ease with which patients can access and export their EHI, and the quality of that experience, ensuring practical usability. It includes recommendations to make EHI export easily accessible via patient portals and APIs, and to implement user experience guidelines for consistency and ease of use, excluding the technical requirements of the export process itself or the data contained within it. The key distinction is the focus on the patient-facing aspects of EHI export. This is important for ensuring patients can actually utilize the export function effectively.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.2.2",
+    "description": "Patient Communication Mandates on EHI Export Availability",
+    "level": 3,
+    "parent_code": "2.2",
+    "detailed_guidelines": "This theme covers the need for clear communication to patients about the availability and process of exporting their EHI, enhancing transparency. It includes mandates for providers to inform patients about how to access their EHI exports, excluding the technical implementation of the export itself or the content of the EHI. The key distinction is the emphasis on patient education and transparency regarding EHI export capabilities. This matters for ensuring patients are aware of and can utilize the available data access features.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.3",
+    "description": "Trusted Exchange Framework and Common Agreement (TEFCA)",
+    "level": 2,
+    "parent_code": "2",
+    "detailed_guidelines": "This category addresses specific aspects of the Trusted Exchange Framework and Common Agreement (TEFCA), focusing on its governance, security, and operational integrity. It includes concerns about intellectual property protection within TEFCA, inclusion of performance metrics, alignment of QHIN cybersecurity with FedRAMP, and guardrails for TEFCA expansion, excluding general information blocking policies or specific FHIR API requirements, but rather how TEFCA interacts with these. The key distinction is the focus on the governance, security, and operational aspects of the TEFCA network. This matters for ensuring the network is secure, fair, and effective for nationwide data exchange.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "2.3.1",
+      "2.3.2",
+      "2.3.3",
+      "2.3.4"
+    ]
+  },
+  {
+    "code": "2.3.1",
+    "description": "Intellectual Property Protection within TEFCA Framework",
+    "level": 3,
+    "parent_code": "2.3",
+    "detailed_guidelines": "This theme addresses concerns regarding intellectual property (IP) rights within the TEFCA framework, particularly concerning API usage and data exchange. It includes recommendations to strengthen IP protections for requests made via HL7 FHIR APIs, focusing on Licensing and Fees Information Blocking Exceptions, excluding IP related to other data exchange methods or general patent law. The key distinction is the specific focus on IP protection within the context of TEFCA and API-driven data exchange. This matters because inadequate IP protection can deter innovation and participation in the network.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.3.2",
+    "description": "TEFCA Network Performance Metrics Establishment",
+    "level": 3,
+    "parent_code": "2.3",
+    "detailed_guidelines": "This theme covers the need to establish performance metrics for the TEFCA network, beyond just volume requirements, to ensure speed and reliability. It includes comments advocating for the inclusion of metrics related to the speed of data transfer to ensure it meets near real-time needs for APIs like Provider Access and Prior Authorization, excluding the technical architecture of the TEFCA network or general API performance requirements. The key distinction is the focus on specific performance SLAs for network speed within TEFCA. This is important for ensuring the network can support timely data exchange.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.3.3",
+    "description": "QHIN Cybersecurity Alignment with Federal Standards",
+    "level": 3,
+    "parent_code": "2.3",
+    "detailed_guidelines": "This theme addresses the alignment of cybersecurity standards for Qualified Health Information Networks (QHINs) with established benchmarks like FedRAMP. It includes clarifying the alignment of QHIN cybersecurity standards with FedRAMP certification or explaining the tradeoffs for excluding entities lacking FedRAMP, excluding cybersecurity requirements for non-QHIN entities or general security practices. The key distinction is the focus on the specific cybersecurity standards for QHINs and their relationship with federal certifications. This matters for ensuring the security and trustworthiness of the TEFCA network.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "2.3.4",
+    "description": "TEFCA Expansion Guardrails and Oversight",
+    "level": 3,
+    "parent_code": "2.3",
+    "detailed_guidelines": "This theme addresses the need for clear guidelines and oversight for any future expansion of the TEFCA framework to manage its evolution responsibly. It includes recommendations for rigorous evaluation, broad industry engagement, and regulatory oversight to manage potential mission creep, protect privacy, and prevent market concentration, excluding the initial scope of TEFCA or general federal rulemaking processes. The key distinction is the focus on the safeguards and procedures for managing the evolution of TEFCA. This matters for ensuring TEFCA remains aligned with its core mission and stakeholder interests.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3",
+    "description": "Information Blocking Policy and Governance",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category addresses the regulatory framework defining and prohibiting information blocking, including specific exceptions, definitions, and enforcement considerations. It covers the definition of \"interference,\" the concept of \"special effort,\" the application of penalties, and specific exceptions like the Protecting Care Access Exception, excluding discussions about specific technical interoperability standards or implementation timelines, but rather the rules governing data access. The key distinction is the focus on the legal and policy aspects of preventing data blockage. This matters for ensuring that health information is accessible as intended by law.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "3.1",
+      "3.2"
+    ]
+  },
+  {
+    "code": "3.1",
+    "description": "Definition and Scope of Information Blocking",
+    "level": 2,
+    "parent_code": "3",
+    "detailed_guidelines": "This theme focuses on clarifying what constitutes information blocking and its applicability, ensuring clear boundaries for compliance. It includes comments on defining \"interference\" as \"unreasonable\" practices, addressing \"special effort\" by developers, clarifying the applicability of the \"healthcare provider\" definition, and concerns about shifting to strict liability, excluding the specific exceptions to information blocking or the technical standards used. The key distinction is the focus on defining the prohibited behaviors and their scope. This is critical for setting clear boundaries for compliance.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "3.1.1",
+      "3.1.2",
+      "3.1.3",
+      "3.1.4"
+    ]
+  },
+  {
+    "code": "3.1.1",
+    "description": "Clarification of \"Interference\" in Information Blocking Rules",
+    "level": 3,
+    "parent_code": "3.1",
+    "detailed_guidelines": "This theme addresses the need for clear definition and application of the term \"interference\" within information blocking regulations. It includes arguments that \"interference\" should require practices to be \"unreasonable\" and concerns that codifying specific practices shifts the regulatory structure from intent-based to strict liability, excluding other elements of information blocking or specific exceptions. The key distinction is the focus on the interpretation and definition of \"interference.\" This matters because it impacts how compliance is assessed and what actions are deemed prohibited.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.1.2",
+    "description": "\"Special Effort\" and Developer Accountability for Access Delays",
+    "level": 3,
+    "parent_code": "3.1",
+    "detailed_guidelines": "This theme addresses practices by Certified API Developers that introduce unreasonable burdens or delays for consumer-facing applications. It includes holding developers accountable for failing to implement standards-conforming APIs, publishing service base URLs, or instituting burdensome registration practices, excluding general API requirements or the regulatory framework for other entities. The key distinction is the focus on identifying and penalizing \"special effort\" by API developers impacting consumer access. This matters for ensuring a truly patient-centered connected health ecosystem.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.1.3",
+    "description": "Applicability of \"Healthcare Provider\" Definition to Blocking",
+    "level": 3,
+    "parent_code": "3.1",
+    "detailed_guidelines": "This theme addresses the scope and interpretation of the \"healthcare provider\" definition for information blocking purposes, determining who is subject to the rule. It includes clarifying whether pharmacists are considered \"actors\" under the rule and if the revised definition applies to sections beyond information blocking, impacting their access to EHI, excluding the definition of \"healthcare provider\" for other regulatory contexts or the specific requirements for pharmacists' access. The key distinction is the focus on the definition's application to information blocking and identifying covered \"actors.\" This is important for determining who is subject to the rule's provisions.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.1.4",
+    "description": "Preservation of Intent-Based Structure in Blocking Rules",
+    "level": 3,
+    "parent_code": "3.1",
+    "detailed_guidelines": "This theme covers concerns about preserving the intent-based nature of information blocking rules, rather than moving towards strict liability for actions. It includes arguments against codifying specific \"interference\" practices, as this would eliminate the knowledge element required by statute and shift the regulatory structure, excluding discussions about specific technical requirements or the rationale for codifying certain practices. The key distinction is the emphasis on maintaining intent as a core component of information blocking violations. This matters because it affects how violations are proven and prosecuted.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2",
+    "description": "Information Blocking Exceptions and Safe Harbors",
+    "level": 2,
+    "parent_code": "3",
+    "detailed_guidelines": "This theme focuses on the specific exceptions provided within the information blocking regulations, detailing their scope and application as permissible actions. It includes the Protecting Care Access Exception for reproductive health, exceptions for pediatric confidentiality, data withholding capabilities, TEFCA participation, and clarifications on the infeasibility exception, excluding the general prohibition of information blocking or its definitions. The key distinction is the focus on permissible actions that would otherwise be considered blocking. This is important for clarifying boundaries and providing necessary flexibility in sensitive situations.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "3.2.1",
+      "3.2.2",
+      "3.2.3",
+      "3.2.4"
+    ]
+  },
+  {
+    "code": "3.2.1",
+    "description": "Protecting Care Access Exception for Reproductive Health",
+    "level": 3,
+    "parent_code": "3.2",
+    "detailed_guidelines": "This theme addresses the specific exception designed to protect patients and providers involved in reproductive healthcare access. It includes recommendations for explicitly including facilitators like consent providers and transportation providers, ensuring protection for healthcare providers interacting with them, creating a presumption of good faith belief, and aligning definitions with HIPAA, excluding other information blocking exceptions or general reproductive health policy. The key distinction is the focus on ensuring access to reproductive healthcare services is not impeded by information blocking rules. This is vital for patient safety and access to care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "3.2.1.1",
+      "3.2.1.2",
+      "3.2.1.3",
+      "3.2.1.4"
+    ]
+  },
+  {
+    "code": "3.2.1.1",
+    "description": "Inclusion of Consent Providers and Facilitators in Exception",
+    "level": 4,
+    "parent_code": "3.2.1",
+    "detailed_guidelines": "This theme focuses on ensuring that individuals who assist patients with reproductive healthcare access are explicitly protected under the Protecting Care Access Exception. It includes recommendations to clarify that facilitators such as parents consenting for minors, or individuals providing transportation, are covered by the exception, excluding the definition of reproductive healthcare itself or the protections for providers beyond these facilitators. The key distinction is the explicit expansion of protection to support persons. This matters for safeguarding those who provide critical assistance to patients.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2.1.2",
+    "description": "Provider Protection under Reproductive Health Exception",
+    "level": 4,
+    "parent_code": "3.2.1",
+    "detailed_guidelines": "This theme addresses the need for clarity on the protection afforded to healthcare providers under the Protecting Care Access Exception for reproductive health when they interact with facilitators. It includes ensuring that doctors and hospitals are protected when their interactions involve individuals who facilitate patient access to care, such as consent providers or transportation assistance, excluding the protection of the patients themselves or the exception's application to non-provider entities. The key distinction is the focus on safeguarding the providers involved in these facilitated access scenarios. This is important for enabling providers to support patient needs without fear of reprisal.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2.1.3",
+    "description": "Presumption of Good Faith Belief for Exception Use",
+    "level": 4,
+    "parent_code": "3.2.1",
+    "detailed_guidelines": "This theme addresses the establishment of a presumption of good faith belief within the Protecting Care Access Exception to foster provider confidence. It includes recommendations to create a standard that presumes providers acting under this exception have a good faith belief that their actions are permissible, excluding the criteria for determining good faith or other aspects of the exception. The key distinction is the focus on shifting the burden of proof to establish a good faith belief. This matters for fostering provider confidence in utilizing the exception.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2.1.4",
+    "description": "Alignment of Reproductive Health Exception with HIPAA Definitions",
+    "level": 4,
+    "parent_code": "3.2.1",
+    "detailed_guidelines": "This theme addresses the need for consistency in definitions used within the Protecting Care Access Exception and existing HIPAA rules for clarity and integration. It includes recommendations to align definitions of \"reproductive health care\" and \"patient\" with those used in the HIPAA Privacy Rule to Support Reproductive Health Care Privacy for greater clarity and integration, excluding the alignment of other definitions or the content of the HIPAA rule. The key distinction is the focus on semantic consistency between the exception and HIPAA. This matters for ensuring a cohesive and understandable regulatory framework.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2.2",
+    "description": "Pediatric Patient Confidentiality and Sensitive Data Exceptions",
+    "level": 3,
+    "parent_code": "3.2",
+    "detailed_guidelines": "This theme addresses the need for information blocking exceptions that consider the unique privacy and confidentiality requirements of pediatric patients. It includes ensuring flexibility for pediatric providers to manage adolescent confidentiality and sensitive health information, and strengthening criteria for data withholding capabilities, excluding general information blocking or exceptions for adults. The key distinction is the focus on pediatric-specific considerations for data privacy and access. This is important for protecting vulnerable populations and adhering to specific privacy laws.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "3.2.2.1",
+      "3.2.2.2"
+    ]
+  },
+  {
+    "code": "3.2.2.1",
+    "description": "Flexibility for Pediatric Confidentiality Needs in Exceptions",
+    "level": 4,
+    "parent_code": "3.2.2",
+    "detailed_guidelines": "This theme covers the importance of providing flexibility within information blocking exceptions to accommodate the distinct privacy and confidentiality requirements of pediatric patients. It includes allowing pediatric healthcare providers to adapt exceptions to new technologies and state/local rules, particularly regarding adolescent confidentiality and sensitive data, excluding general flexibility for adult patients or specific data withholding mechanisms. The key distinction is the focus on tailoring exceptions to the specific context of pediatric care. This matters for upholding the privacy rights of minors and facilitating appropriate care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2.2.2",
+    "description": "Data Withholding Capabilities as an Information Blocking Exception",
+    "level": 4,
+    "parent_code": "3.2.2",
+    "detailed_guidelines": "This theme addresses the need to strengthen Health IT certification criteria that allow users to programmatically tag and withhold data from exchange as a specific exception. It includes enhancing capabilities that enable clinical users and organizations to control the sharing of specific data elements, excluding general access to EHI or the definition of information blocking itself, but rather the tools to manage data sharing. The key distinction is the focus on the technical features that facilitate controlled data withholding. This is important for protecting sensitive patient information.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2.3",
+    "description": "TEFCA Participation as a Safe Harbor Exception",
+    "level": 3,
+    "parent_code": "3.2",
+    "detailed_guidelines": "This theme addresses the creation of a safe harbor for practices undertaken by TEFCA participants to comply with TEFCA requirements, ensuring they are not deemed information blocking. It includes codifying in regulation that compliant participation in TEFCA is not considered \"interference,\" excluding other exceptions to information blocking or the general requirements of TEFCA. The key distinction is the focus on establishing a specific exemption for TEFCA-compliant activities. This matters for encouraging participation in the TEFCA network.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "3.2.4",
+    "description": "Infeasibility Exception Clarification for System Compatibility",
+    "level": 3,
+    "parent_code": "3.2",
+    "detailed_guidelines": "This theme addresses the clarification of when the infeasibility exception to information blocking applies, particularly concerning system compatibility issues. It includes clarifying that the inability of a provider to communicate with another entity due to incompatible HIT systems or lack of certified EHR technology would not constitute information blocking, excluding other types of infeasibility or information blocking generally. The key distinction is the focus on system incompatibility as a legitimate reason for not exchanging information. This matters for preventing misinterpretation of system limitations as intentional blocking.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4",
+    "description": "Specific Data Exchange Use Cases",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category covers the unique interoperability and data exchange requirements associated with specific health domains and functionalities, applying standards to real-world scenarios. It includes requirements for public health reporting, prior authorization APIs, e-prescribing, diagnostic imaging, and PDMP integration, excluding general interoperability standards or information blocking policies, but rather the application of these to specific health contexts. The key distinction is the focus on domain-specific data exchange needs. This matters because different healthcare areas have unique data and workflow requirements.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "4.1",
+      "4.2",
+      "4.3",
+      "4.4",
+      "4.5"
+    ]
+  },
+  {
+    "code": "4.1",
+    "description": "Public Health Data Exchange Requirements",
+    "level": 2,
+    "parent_code": "4",
+    "detailed_guidelines": "This theme addresses the specific interoperability requirements for exchanging data with public health agencies and systems to improve population health management. It includes the standardization of FHIR for public health reporting, the exchange of pediatric-specific data, data stratification, harmonization of reporting, and the integration of race and ethnicity data, excluding general public health policy or the broader use of FHIR outside of public health. The key distinction is the focus on the unique needs of public health reporting and surveillance. This matters because public health relies on timely and accurate data for population health management.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "4.1.1",
+      "4.1.2",
+      "4.1.3",
+      "4.1.4",
+      "4.1.5"
+    ]
+  },
+  {
+    "code": "4.1.1",
+    "description": "FHIR Standardization for Public Health Reporting",
+    "level": 3,
+    "parent_code": "4.1",
+    "detailed_guidelines": "This theme addresses the proposal to standardize public health data exchange using FHIR, advocating for its modernization and clear transition plans. It includes recommendations to standardize on FHIR across all public health reporting criteria, with a clear transition plan from legacy standards, and concerns about calcifying legacy standards into infrastructure, excluding the general adoption of FHIR or the use of HL7 v2/CDA in public health. The key distinction is the advocacy for FHIR as the future standard for public health data exchange. This matters for modernizing public health reporting and improving data fluidity.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.1.2",
+    "description": "Pediatric-Focused Public Health Data Exchange Needs",
+    "level": 3,
+    "parent_code": "4.1",
+    "detailed_guidelines": "This theme covers the specific need to incorporate strategies for exchanging pediatric-focused information within public health interoperability standards to ensure child-appropriate care. It includes ensuring that standards facilitate children and families' access to child-appropriate physical and mental health care, especially during emergencies, excluding general public health data or adult patient data. The key distinction is the focus on pediatric-specific data needs within the public health context. This matters for ensuring that children receive appropriate and timely care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.1.3",
+    "description": "Data Stratification and Responsible Sharing for Public Health",
+    "level": 3,
+    "parent_code": "4.1",
+    "detailed_guidelines": "This theme addresses the importance of stratifying public health data and establishing guidelines for its responsible sharing and storage for targeted interventions. It includes recommendations for stratifying data by age and socioeconomic status and establishing specific guidelines for responsible data sharing and storage to facilitate child-appropriate care during emergencies, excluding the general aggregation of public health data. The key distinction is the focus on granular data management and ethical sharing practices. This matters for ensuring data is used appropriately to support specific populations.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.1.4",
+    "description": "Harmonization of Public Health Reporting Requirements",
+    "level": 3,
+    "parent_code": "4.1",
+    "detailed_guidelines": "This theme addresses the need to resolve inconsistencies in requirements across different public health reporting use cases to reduce developer burden. It includes identifying and resolving discontinuity in requirements between similar use cases, such as cancer registry reporting versus cancer pathology reporting, to reduce developer burden, excluding consistency in reporting for non-public health use cases. The key distinction is the focus on achieving parity in requirements for similar public health data submissions. This matters for reducing complexity and cost for health IT developers.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.1.5",
+    "description": "Reporting of Race and Ethnicity Data for Public Health",
+    "level": 3,
+    "parent_code": "4.1",
+    "detailed_guidelines": "This theme addresses the need for standardized data exchange for race and ethnicity information in public health reporting to improve health equity analysis. It includes acknowledging the delay in necessary HL7 technical specifications for sharing Race and Ethnicity data aligned with new OMB requirements and advocating for their development, excluding the definitions of race and ethnicity or their use in clinical settings. The key distinction is the focus on the technical standards for reporting this data to public health entities. This matters for improving health equity analysis and reporting.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.2",
+    "description": "Prior Authorization (PA) API Implementation",
+    "level": 2,
+    "parent_code": "4",
+    "detailed_guidelines": "This theme addresses the specific requirements and challenges related to implementing APIs for electronic prior authorization, aiming to streamline a critical healthcare process. It includes comments on API complexity, the need for phased implementation, ensuring payer readiness, protecting intellectual property, and addressing timelines for CRD access tokens, excluding general API functionalities or other aspects of prior authorization. The key distinction is the focus on the technical and practical implementation of prior authorization APIs. This matters for streamlining a critical, often burdensome, healthcare process.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "4.2.1",
+      "4.2.2",
+      "4.2.3",
+      "4.2.4"
+    ]
+  },
+  {
+    "code": "4.2.1",
+    "description": "Complexity Reduction and Phased Implementation for PA APIs",
+    "level": 3,
+    "parent_code": "4.2",
+    "detailed_guidelines": "This theme covers recommendations for simplifying the implementation of Prior Authorization APIs and adopting a phased approach to complex features to improve adoption likelihood. It includes suggestions to simplify initial requirements and provide a phased approach for advanced capabilities to reduce developer burden and improve adoption likelihood, excluding arguments for eliminating PA APIs or general API complexity reduction. The key distinction is the focus on managing the complexity of PA APIs through simplification and gradual rollout. This matters for ensuring the APIs are practical and achievable for implementers.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.2.2",
+    "description": "PA API and Downstream Readiness Coordination",
+    "level": 3,
+    "parent_code": "4.2",
+    "detailed_guidelines": "This theme addresses the critical need for downstream entities, such as payers and pharmacies, to be ready to support electronic prior authorization (ePA) transactions alongside EHR requirements. It emphasizes that requiring EHRs to support ePA without concurrent mandates for payers and pharmacies will lead to incomplete adoption and wasted development efforts, excluding the technical capabilities of EHRs alone or general payer requirements. The key distinction is the focus on the interdependence of ePA adoption across the healthcare ecosystem. This matters for ensuring the successful and efficient implementation of ePA.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.2.3",
+    "description": "Intellectual Property (IP) Rights in PA API Implementation",
+    "level": 3,
+    "parent_code": "4.2",
+    "detailed_guidelines": "This theme addresses concerns about protecting intellectual property when implementing Prior Authorization (PA) APIs, incentivizing vendor participation and innovation. It includes ensuring that IP rights are preserved within the implementation of the Prior Authorization API, particularly concerning licensing and fees, excluding IP protection in other contexts or general contract law. The key distinction is the focus on safeguarding IP within the specific framework of PA API implementation. This matters for incentivizing vendor participation and innovation.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.2.4",
+    "description": "Coverage Requirements Discovery (CRD) Certification Clarity",
+    "level": 3,
+    "parent_code": "4.2",
+    "detailed_guidelines": "This theme addresses the need to separate certification requirements for Coverage Requirements Discovery (CRD) from other Prior Authorization API components for clarity and feasibility. It includes dictating that each payer meet CRD certification with exactly one endpoint and addressing issues with CRD Access Token expiration times potentially being unachievable, excluding other parts of the Prior Authorization API or general certification processes. The key distinction is the focus on the specific certification requirements for CRD. This matters for ensuring clarity and feasibility in prior authorization workflows.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.3",
+    "description": "E-Prescribing and Real-Time Prescription Benefit (RTPB)",
+    "level": 2,
+    "parent_code": "4",
+    "detailed_guidelines": "This theme addresses specific standards and functionalities related to electronic prescribing and real-time benefit checks, improving medication access and affordability. It includes discussions on retaining medication history queries within e-prescribing certification and standardizing the version of RTPB used, excluding other aspects of prescription management or general patient access to medication information. The key distinction is the focus on the specific standards and certification criteria for electronic prescribing. This matters for improving medication access and affordability.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "4.3.1",
+      "4.3.2"
+    ]
+  },
+  {
+    "code": "4.3.1",
+    "description": "Medication History Queries in E-Prescribing Certification",
+    "level": 3,
+    "parent_code": "4.3",
+    "detailed_guidelines": "This theme addresses the retention or separation of medication history query criteria from e-prescribing certification requirements, ensuring patient safety. It includes arguments that removing these queries could be harmful to patient safety and conflicts with other criteria, suggesting they be retained or placed in a distinct criterion, excluding the general requirements for e-prescribing or the definition of patient safety. The key distinction is the focus on the specific criteria for accessing medication history within e-prescribing certification. This matters for ensuring comprehensive medication management.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.3.2",
+    "description": "RTPB Version Standardization for Prescription Benefit Checks",
+    "level": 3,
+    "parent_code": "4.3",
+    "detailed_guidelines": "This theme covers the importance of standardizing the version of the Real-Time Prescription Benefit (RTPB) standard used in health IT for consistent benefit information. It includes recommendations to add a target expiration date for RTPB 12 to ensure that the current RTPB version (version 13) becomes the standard for medications and vaccines covered by PBMs, excluding the functionality of RTPB or other prescription benefit checking methods. The key distinction is the focus on promoting the adoption of a specific, current version of the RTPB standard. This matters for ensuring consistent and accurate prescription benefit information.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.4",
+    "description": "Diagnostic Imaging Integration Requirements",
+    "level": 2,
+    "parent_code": "4",
+    "detailed_guidelines": "This theme addresses the requirements for integrating diagnostic imaging information into health IT systems, focusing on the interoperability of imaging link data. It includes calls for clarity on standards for imaging link exchange and the availability of diagnostic impressions alongside images, excluding the clinical interpretation of images or the process of image acquisition. The key distinction is the focus on the interoperability of imaging link data. This matters for providing a complete view of patient diagnostic information.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "4.4.1",
+      "4.4.2"
+    ]
+  },
+  {
+    "code": "4.4.1",
+    "description": "Clarity on Imaging Link Exchange Standards",
+    "level": 3,
+    "parent_code": "4.4",
+    "detailed_guidelines": "This theme addresses the need for precise guidance on the standards applicable to exchanging links to diagnostic images. It includes requests for exact guidance on standards for all use cases requiring an imaging link to ensure interoperability, excluding the content of the images or the data within them, but rather the mechanism for linking to them. The key distinction is the emphasis on standardized methods for creating and exchanging image links. This matters for enabling seamless access to imaging studies from within EHR systems.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.4.2",
+    "description": "Responsibility Assignment for Imaging Link Acquisition",
+    "level": 3,
+    "parent_code": "4.4",
+    "detailed_guidelines": "This theme addresses the clarification of who is responsible for obtaining and recording links to diagnostic images within health IT systems. It includes guidance that providers, not Health IT Modules, are responsible for obtaining and recording these links, excluding the technical standards for imaging links or the role of Health IT Modules in displaying them. The key distinction is the assignment of responsibility for acquiring imaging links. This matters for defining implementation workflows and expectations.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "4.5",
+    "description": "Prescription Drug Monitoring Program (PDMP) Integration",
+    "level": 2,
+    "parent_code": "4",
+    "detailed_guidelines": "This theme addresses the requirements for integrating Prescription Drug Monitoring Programs (PDMPs) into health IT systems, clarifying scope and intended use. It includes clarifying which entities PDMP requirements apply to and the specific use case intended, such as view-only or discrete data exchange, excluding the benefits of PDMPs or other electronic prescribing functionalities. The key distinction is the focus on the practical implementation details of PDMP integration. This matters for ensuring efficient and appropriate access to PDMP data.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "4.5.1"
+    ]
+  },
+  {
+    "code": "4.5.1",
+    "description": "Clarification of PDMP Integration Scope and Use Case",
+    "level": 3,
+    "parent_code": "4.5",
+    "detailed_guidelines": "This theme addresses the need for clear definitions regarding the scope and applicability of Prescription Drug Monitoring Program (PDMP) integration requirements. It includes clarifying which entities (EHR vendors vs. PDMP vendors) the criteria apply to and the specific use case intended (e.g., view-only versus discrete data exchange), excluding the benefits of PDMPs or other electronic prescribing functionalities. The key distinction is the focus on defining the scope and purpose of PDMP integration mandates. This is important for preventing confusion and ensuring appropriate development.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5",
+    "description": "Implementation and Developer Support Mechanisms",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category covers the practical challenges and necessary support mechanisms for implementing the proposed rule's requirements, focusing on timelines, burden, guidance, and testing. It includes discussions on timelines, the burden on developers (especially small/mid-size ones), the need for clear guidance and resources, transitions from legacy standards, and the role of testing and audits, excluding the technical standards themselves or the specific policy definitions of information blocking. The key distinction is the focus on the \"how\" and \"when\" of implementation. This matters for ensuring successful adoption and compliance.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "5.1",
+      "5.2",
+      "5.3",
+      "5.4",
+      "5.5"
+    ]
+  },
+  {
+    "code": "5.1",
+    "description": "Timelines and Pace of Regulatory Change",
+    "level": 2,
+    "parent_code": "5",
+    "detailed_guidelines": "This theme addresses the critical issue of implementation timelines and the rapid pace of regulatory changes affecting health IT developers. It includes concerns about overlapping requirements from HTI-1 and HTI-2, requests for extended timelines for compliance, specific deadlines for public health data exchange, and calls for accelerating certain API timelines, excluding the technical feasibility of the requirements themselves, only the time allotted for their implementation. The key distinction is the focus on the temporal aspect of implementation. This matters because unrealistic timelines can lead to non-compliance and implementation failures.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "5.1.1",
+      "5.1.2",
+      "5.1.3",
+      "5.1.4"
+    ]
+  },
+  {
+    "code": "5.1.1",
+    "description": "Overlapping Implementation Requirements Burden",
+    "level": 3,
+    "parent_code": "5.1",
+    "detailed_guidelines": "This theme addresses concerns about the cumulative burden and insufficient time for developers due to overlapping HTI-1 and HTI-2 requirements. It includes specific concerns about deadlines like January 1, 2026, leaving inadequate time for development, testing, and deployment of new functionalities across multiple regulatory changes, excluding the specifics of individual requirements from either rule, but rather the impact of their simultaneous implementation. The key distinction is the focus on the combined impact of multiple rule sets on implementation schedules. This is important because it highlights the strain on developer resources.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.1.2",
+    "description": "Requests for Extended Implementation Timelines",
+    "level": 3,
+    "parent_code": "5.1",
+    "detailed_guidelines": "This theme covers requests for more time to comply with new regulatory requirements, particularly for developers and health systems to manage the workload. It includes specific requests for 18-24 months for major new requirements and proposals to delay implementation deadlines that overlap with previous rulemakings like HTI-1, excluding arguments for removing requirements, only for extending their compliance deadlines. The key distinction is the focus on adjusting implementation schedules to accommodate the complexity and volume of changes. This matters for ensuring practical adoption and reducing implementation failures.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.1.3",
+    "description": "Public Health Data Exchange Transition Timelines",
+    "level": 3,
+    "parent_code": "5.1",
+    "detailed_guidelines": "This theme addresses the need for appropriate timelines for transitioning to new public health data exchange standards, particularly FHIR, acknowledging longer lead times. It includes recommendations to address the timeline for FHIR-based public health data exchange in subsequent rulemaking to allow sufficient time for preparation and alignment with the maturity of public health agency capabilities, excluding general timelines for other standards or the technical aspects of FHIR. The key distinction is the focus on the specific, often longer, timelines needed for public health system transitions. This matters because public health infrastructure often requires more lead time for modernization.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.1.4",
+    "description": "Acceleration of Specific API Adoption Timelines",
+    "level": 3,
+    "parent_code": "5.1",
+    "detailed_guidelines": "This theme covers recommendations to accelerate the adoption timelines for specific API specifications and related functionalities to drive faster innovation. It includes advocating for earlier adoption dates for specifications like UDAP dynamic client registration and User Access Brands and Endpoints to promote faster innovation, excluding delays for other requirements or the technical details of these APIs. The key distinction is the focus on expediting the adoption of particular API-related standards to drive market adoption. This matters for fostering a more agile and connected health ecosystem.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.2",
+    "description": "Developer Burden and Resource Constraints",
+    "level": 2,
+    "parent_code": "5",
+    "detailed_guidelines": "This theme addresses the significant impact of new requirements on health IT developers, particularly smaller organizations, and their capacity limitations. It includes concerns about the burden of mandated FHIR APIs, expanded scope of reconciliation, resource and funding needs for public health agencies, and capacity limitations for cancer registries, excluding general discussions about the technical merits of the requirements, but rather their practical impact on implementers. The key distinction is the focus on the practical capacity and resource limitations of developers and implementing entities. This is crucial for ensuring equitable implementation across the market.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "5.2.1",
+      "5.2.2",
+      "5.2.3",
+      "5.2.4"
+    ]
+  },
+  {
+    "code": "5.2.1",
+    "description": "Impact on Small and Mid-Size EHR Developers",
+    "level": 3,
+    "parent_code": "5.2",
+    "detailed_guidelines": "This theme addresses the disproportionate burden that new mandates place on small and mid-size EHR developers due to limited resources. It includes concerns that mandated FHIR client APIs and expanded scope of reconciliation impose undue technical and financial burdens due to limited resources and current market demand, excluding the impact on large enterprise systems or the technical details of the mandates themselves. The key distinction is the focus on the specific vulnerabilities of smaller developers to regulatory changes. This matters because these developers serve a significant portion of the market, and their struggles can limit access to innovation.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.2.2",
+    "description": "Resource and Funding Needs for Public Health Agencies",
+    "level": 3,
+    "parent_code": "5.2",
+    "detailed_guidelines": "This theme highlights the necessity for adequate resources and funding to support public health agencies in adopting new interoperability standards. It includes emphasizing the need for realistic timelines and resources for public health agencies to acquire, implement, and maintain certified HIT, especially for transitioning to FHIR, excluding resource needs for other types of entities or the technical standards themselves. The key distinction is the focus on the funding and resource requirements specifically for public health infrastructure. This is vital for enabling effective public health data modernization.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.2.3",
+    "description": "Capacity and Funding Challenges for Cancer Registries",
+    "level": 3,
+    "parent_code": "5.2",
+    "detailed_guidelines": "This theme addresses the critical need for resources and capacity building within central cancer registries to meet new reporting requirements. It highlights decreased funding, limited capacity to support additional work, and the lack of federal investment in data modernization reaching these registries, excluding other public health reporting or the technical standards for cancer data. The key distinction is the focus on the specific financial and operational constraints of cancer registries. This matters for maintaining effective cancer surveillance and control programs.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.2.4",
+    "description": "Underestimation of Implementation Costs by Regulators",
+    "level": 3,
+    "parent_code": "5.2",
+    "detailed_guidelines": "This theme covers concerns that ONC's cost estimates for implementing new requirements may be insufficient, leading to unfeasible mandates. It includes specific concerns about the Prior Authorization API implementation costs, particularly regarding the time required for clinician review, and the overall underestimation of implementation burdens for smaller organizations, excluding the technical details of the API or the benefits of its implementation. The key distinction is the focus on the accuracy of cost projections for rule implementation. This matters because underestimation can lead to unfeasible mandates for implementers.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.3",
+    "description": "Guidance, Clarity, and Specificity Needs",
+    "level": 2,
+    "parent_code": "5",
+    "detailed_guidelines": "This theme addresses the need for clear, specific, and comprehensive guidance to facilitate the understanding and implementation of proposed requirements across the health IT ecosystem. It includes requests for clarification on functional requirements and terminology, specificity in standards and profiles, guidance on API use cases and implementation, and clarity on information blocking definitions, excluding the substance of the requirements themselves, but rather the explanation and detail provided. The key distinction is the focus on the quality and completeness of official guidance. This is crucial for ensuring consistent and accurate adoption.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "5.3.1",
+      "5.3.2",
+      "5.3.3",
+      "5.3.4",
+      "5.3.5",
+      "5.3.6"
+    ]
+  },
+  {
+    "code": "5.3.1",
+    "description": "Clarification of Functional Requirements and Terminology",
+    "level": 3,
+    "parent_code": "5.3",
+    "detailed_guidelines": "This theme addresses the need for precise definitions and explanations of functional requirements and terms used in the proposed rule to avoid ambiguity. It includes requests for clarity on terms such as \"parse and filter,\" \"query,\" and \"request,\" as well as specific functional requirements within criteria for various data exchanges, excluding general regulatory text or the overall policy intent. The key distinction is the focus on defining specific operational terms and functions to avoid ambiguity. This is important for ensuring that implementers understand exactly what is expected.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.3.2",
+    "description": "Specificity in Standards, Profiles, and OIDs",
+    "level": 3,
+    "parent_code": "5.3",
+    "detailed_guidelines": "This theme focuses on the need for precise guidance regarding specific technical standards, implementation profiles, and Object Identifiers (OIDs) for consistent implementation. It includes requests for exact guidance on standards for all use cases requiring an imaging link, and explicit naming of required HL7 v2 profile components and OIDs for clarity and consistency in public health reporting, excluding general standard recommendations or the broader context of interoperability. The key distinction is the emphasis on granular detail within technical specifications for implementation. This matters for preventing misinterpretation and ensuring adherence to precise technical requirements.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.3.3",
+    "description": "Guidance on API Implementation and Use Cases",
+    "level": 3,
+    "parent_code": "5.3",
+    "detailed_guidelines": "This theme addresses the need for clear guidance related to the implementation and application of APIs, including dynamic client registration and security protocols. It includes providing detailed timelines, technical resources, best practices, and published FAQs for successful adoption of API capabilities and security measures, excluding the mandates for API implementation itself, but rather the support for their deployment. The key distinction is the focus on instructional and supportive materials for API developers and implementers. This is important for facilitating adoption and mitigating implementation challenges.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.3.4",
+    "description": "Clarity on Information Blocking Definitions and Terms",
+    "level": 3,
+    "parent_code": "5.3",
+    "detailed_guidelines": "This theme addresses the need for clear definitions and boundaries regarding information blocking rules to prevent misinterpretation. It includes comments on clarifying ambiguous terms like \"delay\" and \"automation\" within information blocking definitions related to portal access, and ensuring that codified interference examples do not lead to misinterpretation or misuse, excluding the overall policy on information blocking or specific exceptions. The key distinction is the focus on linguistic precision and avoiding ambiguity in definitions related to blocking behaviors. This matters for fair and consistent enforcement.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.3.5",
+    "description": "Use Case Clarification for PDMP Integration Mandates",
+    "level": 3,
+    "parent_code": "5.3",
+    "detailed_guidelines": "This theme focuses on clarifying the specifics of Prescription Drug Monitoring Program (PDMP) integration requirements for appropriate development. It includes clarifying which entities the PDMP criteria apply to (e.g., EHR vendors vs. PDMP vendors) and the precise use case intended (e.g., view-only versus discrete data exchange), excluding the general benefits of PDMPs or other electronic prescribing functionalities. The key distinction is the focus on defining the scope and purpose of PDMP integration mandates. This is important for preventing confusion and ensuring appropriate development.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.3.6",
+    "description": "Guidance on User Access Brands and Endpoints Implementation",
+    "level": 3,
+    "parent_code": "5.3",
+    "detailed_guidelines": "This theme covers the provision of comprehensive guidance, resources, and support for implementing User Access Brands and Endpoints. It includes suggestions for technical resources, training, best practices, and published FAQs tailored for successful adoption across all organization sizes, excluding the mandate for User Access Brands and Endpoints itself, but the support for their implementation. The key distinction is the focus on educational and technical assistance materials. This matters for ensuring broad and effective adoption.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.4",
+    "description": "Transition from Legacy Standards and Formats",
+    "level": 2,
+    "parent_code": "5",
+    "detailed_guidelines": "This theme addresses the practicalities and considerations involved in transitioning from older, established data exchange standards to newer ones, ensuring continuity. It includes harmonizing transport methods for HL7 v2 messages, supporting recent HL7 v2.5.1 and FHIR versions for public health, and retaining C-CDA options for specific use cases, excluding the initial introduction of legacy standards or the complete abandonment of older standards. The key distinction is the focus on the process and challenges of moving from older to newer interoperability methods. This matters for ensuring continuity and managing the cost of change.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "5.4.1",
+      "5.4.2",
+      "5.4.3"
+    ]
+  },
+  {
+    "code": "5.4.1",
+    "description": "Harmonization of Transport Methods for HL7 v2",
+    "level": 3,
+    "parent_code": "5.4",
+    "detailed_guidelines": "This theme addresses the need for consistency in transmission protocols used for HL7 Version 2 (v2) messages, ensuring reliable data delivery. It includes specifying transmission protocols like MLLP for v2 messages in criteria such as Syndromic Surveillance and Reportable Laboratory Test Values/Results, excluding the content of v2 messages or other transport methods. The key distinction is the focus on standardizing the physical transmission layer for v2 data. This is important for reliable data delivery and interoperability between systems.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.4.2",
+    "description": "Supporting Recent HL7 Standards for Public Health",
+    "level": 3,
+    "parent_code": "5.4",
+    "detailed_guidelines": "This theme covers the recommendation and support for adopting the most recent applicable standards and versions for public health data exchange. It includes supporting the adoption of HL7 Version 2.51 Immunization Messaging Implementation Guide, Release 2.0, and HL7 Version 2.51 Implementation Guides for Laboratory Orders and Electronic Reporting to Public Health, excluding the adoption of FHIR for public health or older versions of HL7 standards. The key distinction is the focus on utilizing the latest iteration of HL7 v2 for public health purposes. This matters for ensuring up-to-date and accurate data exchange.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.4.3",
+    "description": "Retaining C-CDA Options Alongside FHIR",
+    "level": 3,
+    "parent_code": "5.4",
+    "detailed_guidelines": "This theme addresses the importance of continuing to support Clinical Document Architecture (CDA) standards alongside newer FHIR standards for certain use cases where immediate FHIR adoption is challenging. It includes support for retaining C-CDA implementation guide options for Electronic Case Reporting (ECR), arguing against making FHIR the sole method until receiving systems like AIMS fully adopt FHIR, excluding arguments for phasing out CDA entirely or for mandating FHIR exclusively. The key distinction is the advocacy for maintaining existing, functional standards where newer ones are not yet universally adopted. This matters for practical implementation and avoiding disruption for systems that rely on CDA.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.5",
+    "description": "Testing, Audits, and Support Mechanisms",
+    "level": 2,
+    "parent_code": "5",
+    "detailed_guidelines": "This theme focuses on the mechanisms used to ensure compliance, verify implementation, and provide assistance to stakeholders, facilitating effective rollout and adoption. It includes discussions on desk audits, enforcement of certification requirements, feedback systems for developers, pilot implementations, and the provision of technical assistance and resources, excluding the rules themselves, but rather the processes for ensuring they are followed and understood. The key distinction is the focus on oversight, verification, and supportive measures. This matters for the effective rollout and adoption of health IT regulations.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "5.5.1",
+      "5.5.2",
+      "5.5.3",
+      "5.5.4",
+      "5.5.5"
+    ]
+  },
+  {
+    "code": "5.5.1",
+    "description": "Desk Audits and Enforcement of API Conditions",
+    "level": 3,
+    "parent_code": "5.5",
+    "detailed_guidelines": "This theme addresses the planned use of desk audits to assess compliance with API Conditions and Maintenance of Certification requirements. It includes announcements of intent to perform such audits and enforce certification programs, potentially up to suspension, for non-compliance, excluding on-site audits or the specific technical requirements of the APIs. The key distinction is the focus on enforcement actions related to API compliance through desk audits. This matters for ensuring that certified health IT accurately reflects implemented capabilities.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.5.2",
+    "description": "Third-Party App Developer Feedback Systems for Compliance",
+    "level": 3,
+    "parent_code": "5.5",
+    "detailed_guidelines": "This theme covers the creation of platforms for third-party app developers to report compliance issues and provide feedback on the ecosystem. It includes proposals for moderated, open ticketing systems to facilitate communication about \"special effort\" processes and compliance problems, excluding general feedback mechanisms or internal developer processes. The key distinction is the focus on creating an external channel for developers to report issues related to API compliance. This matters for identifying and rectifying systemic problems in the connected health ecosystem.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.5.3",
+    "description": "Pilot Implementations and Real-World Data Gathering",
+    "level": 3,
+    "parent_code": "5.5",
+    "detailed_guidelines": "This theme addresses the value of conducting pilot projects and collecting real-world data before widespread adoption of new health IT standards. It includes recommendations to conduct pilot implementations and gather real-world experience, particularly for new standards like FHIR in public health, before incorporating them broadly into certification, excluding the general development of standards or the requirements for existing standards. The key distinction is the focus on pre-certification testing and validation. This matters for ensuring that standards are practical and effective in real-world scenarios.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.5.4",
+    "description": "Provision of Technical Assistance and Resources to Implementers",
+    "level": 3,
+    "parent_code": "5.5",
+    "detailed_guidelines": "This theme focuses on the provision of comprehensive support to facilitate the adoption of new health IT requirements. It includes offering detailed guidance, technical resources, training, best practices, and published FAQs for implementers and developers, especially for complex areas like User Access Brands and Endpoints, excluding the mandates themselves or enforcement actions. The key distinction is the focus on educational and supportive materials to aid implementation. This matters for lowering barriers to adoption and ensuring successful compliance.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "5.5.5",
+    "description": "Sandbox Periods for API Testing and Validation",
+    "level": 3,
+    "parent_code": "5.5",
+    "detailed_guidelines": "This theme addresses the value of providing dedicated periods for testing APIs in simulated or real-world environments before mandating full compliance. It includes suggestions for providing sandbox periods, particularly for Prior Authorization APIs, to allow for testing and validation by developers and implementers, excluding the technical specifications of the APIs or general testing protocols. The key distinction is the focus on dedicated, extended testing environments to facilitate API adoption. This matters for refining implementations and ensuring readiness.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6",
+    "description": "Stakeholder Recognition and Specific Needs",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category addresses how the proposed rule impacts or recognizes specific professional groups and stakeholders within the healthcare ecosystem. It covers the recognition of pharmacists, the representation of Physician Associates (PAs), the inclusion of individuals facilitating reproductive healthcare, the unique needs of pediatric patients, public health agencies, and cancer registries, excluding general patient access or information blocking policies unless they directly relate to the recognition or needs of these specific groups. The key distinction is the focus on how different professional roles and entities are treated or impacted by the regulation. This matters for ensuring that regulations are equitable and effectively address the diverse needs of the healthcare workforce and specific entities.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.1",
+      "6.2",
+      "6.3",
+      "6.4",
+      "6.5",
+      "6.6",
+      "6.7"
+    ]
+  },
+  {
+    "code": "6.1",
+    "description": "Pharmacist Recognition and Access Rights",
+    "level": 2,
+    "parent_code": "6",
+    "detailed_guidelines": "This theme addresses the recognition of pharmacists as healthcare providers and their access to Electronic Health Information (EHI) crucial for patient care. It includes ensuring pharmacists have guaranteed EHI access, extending information blocking penalties to those who block pharmacist access, and clarifying the applicability of the \"healthcare provider\" definition, excluding the general definition of healthcare providers or the specific technical means of EHI access. The key distinction is the focus on the recognition and rights of pharmacists within the interoperability framework. This matters for enabling pharmacists to provide optimal patient care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.1.1",
+      "6.1.2",
+      "6.1.3"
+    ]
+  },
+  {
+    "code": "6.1.1",
+    "description": "Guaranteed EHI Access for Pharmacists",
+    "level": 3,
+    "parent_code": "6.1",
+    "detailed_guidelines": "This theme covers the necessity of ensuring pharmacists have unimpeded access to Electronic Health Information (EHI) to fulfill their roles effectively. It stresses that the recognition of pharmacists as \"health care providers\" is only meaningful if they are guaranteed direct and complete access to necessary EHI, excluding the specific methods of EHI access or the definition of EHI itself. The key distinction is the focus on the guaranteed right of access for pharmacists. This is crucial for empowering them to provide effective patient care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.1.2",
+    "description": "Preventing Information Blocking Against Pharmacist Access",
+    "level": 3,
+    "parent_code": "6.1",
+    "detailed_guidelines": "This theme addresses the need to proactively prevent information blocking practices that hinder pharmacists' access to EHI, disrupting workflow and patient care. It includes urging HHS to take action against health IT developers and other entities that block EHI access by pharmacists, thereby disrupting workflow and patient care, excluding general information blocking provisions or specific technical standards. The key distinction is the focus on preventing blocking specifically targeted at pharmacists. This matters for ensuring pharmacists can obtain the information necessary for medication management and patient safety.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.1.3",
+    "description": "\"Healthcare Provider\" Definition Applicability to Pharmacists",
+    "level": 3,
+    "parent_code": "6.1",
+    "detailed_guidelines": "This theme covers the clarification of how the revised definition of \"healthcare provider\" applies to pharmacists within the context of the rule, determining their rights and responsibilities. It includes clarifying whether pharmacists are formally considered \"actors\" under the information blocking rule and if this revised definition is applicable to sections beyond just information blocking, excluding the general definition of healthcare providers or other professional group classifications. The key distinction is the focus on the scope of the \"healthcare provider\" definition and its implications for pharmacists. This matters for determining their rights and responsibilities under the regulation.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.2",
+    "description": "Physician Associate (PA) Professional Representation",
+    "level": 2,
+    "parent_code": "6",
+    "detailed_guidelines": "This theme addresses the accurate representation and inclusion of Physician Associates (PAs) within the proposed rule's language and definitions to ensure correct recognition. It includes advocating for the correct professional title, removing physician-centric language that misclassifies PAs, and modifying the \"Base EHR\" definition to be inclusive of PAs, excluding the scope of PA practice or general provider roles. The key distinction is the focus on language and definitions accurately reflecting the PA profession. This matters for ensuring PAs are recognized appropriately within health IT systems.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.2.1",
+      "6.2.2",
+      "6.2.3"
+    ]
+  },
+  {
+    "code": "6.2.1",
+    "description": "Accurate Professional Title and Role for PAs",
+    "level": 3,
+    "parent_code": "6.2",
+    "detailed_guidelines": "This theme covers the need for accurate representation of Physician Associates (PAs) in regulatory language, ensuring proper nomenclature. It includes advocating for the correct use of the dual title \"Physician Assistant/Physician Associate\" and updating definitions to accurately reflect PAs as autonomous, licensed medical providers, rather than delegates or surrogates, excluding the specific clinical duties of PAs. The key distinction is the focus on the nomenclature and accurate portrayal of the PA profession. This matters for correct system identification and professional respect.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.2.2",
+    "description": "Exclusion of PAs as Delegates/Surrogates in Regulatory Language",
+    "level": 3,
+    "parent_code": "6.2",
+    "detailed_guidelines": "This theme addresses concerns about language in the proposed rule that mischaracterizes Physician Associates (PAs) as delegates or surrogates. It includes advocating for the cessation of reliance on such language in studies and recommendations, ensuring PAs are viewed as autonomous providers, excluding arguments about PA scope of practice or their collaboration with physicians. The key distinction is the focus on correcting misrepresentations of PA professional status. This matters for ensuring health IT systems appropriately recognize PA roles.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.2.3",
+    "description": "Modification of \"Base EHR\" Definition for PA Inclusivity",
+    "level": 3,
+    "parent_code": "6.2",
+    "detailed_guidelines": "This theme addresses specific language within the \"Base EHR\" definition that needs modification for inclusivity of Physician Associates (PAs). It includes recommending the amendment of \"physician order entry\" to \"health care provider order entry\" to ensure non-physician prescribers, including PAs, are appropriately included, excluding other aspects of the Base EHR definition or other provider types. The key distinction is the focus on a specific phrase within the Base EHR definition to ensure PA inclusivity. This matters for aligning health IT capabilities with the actual practice of medicine.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.3",
+    "description": "Facilitators of Reproductive Healthcare Access",
+    "level": 2,
+    "parent_code": "6",
+    "detailed_guidelines": "This theme addresses the protection and inclusion of individuals who assist patients in accessing reproductive healthcare within information blocking exceptions. It focuses on their inclusion within information blocking exceptions and ensuring healthcare providers are also protected when interacting with these facilitators, excluding general patient privacy or the provision of reproductive healthcare services themselves. The key distinction is the focus on protecting specific individuals who play a supportive role in reproductive health access. This matters for ensuring patient access and provider willingness to offer care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.3.1",
+      "6.3.2"
+    ]
+  },
+  {
+    "code": "6.3.1",
+    "description": "Explicit Inclusion in Information Blocking Exceptions",
+    "level": 3,
+    "parent_code": "6.3",
+    "detailed_guidelines": "This theme covers the need for explicit clarification that individuals facilitating reproductive healthcare access are protected under relevant exceptions. It includes recommendations to clearly state that facilitators such as consent providers for minors or transportation providers are covered by the exception, excluding the definition of reproductive healthcare or the protection of patients themselves. The key distinction is the focus on explicitly naming and protecting facilitators of care. This matters for ensuring support networks are not inadvertently penalized.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.3.2",
+    "description": "Protection for Healthcare Providers Interacting with Facilitators",
+    "level": 3,
+    "parent_code": "6.3",
+    "detailed_guidelines": "This theme addresses the need to ensure healthcare providers are protected when their interactions involve facilitators of reproductive healthcare access. It includes seeking assurances that doctors and hospitals remain protected when working with individuals who provide consent or transportation for patients seeking reproductive health care, excluding the protection of the facilitators themselves or the patients. The key distinction is the focus on safeguarding the providers who engage with these patient support persons. This matters for enabling providers to support patient needs without undue risk.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.4",
+    "description": "Pediatric and Adolescent Patient Considerations",
+    "level": 2,
+    "parent_code": "6",
+    "detailed_guidelines": "This theme addresses the unique needs and considerations for pediatric and adolescent patients within health IT regulations, focusing on tailored requirements. It includes the development of pediatric-specific API certification criteria, addressing adolescent confidentiality, and enhancing patient access API provisions for proxy access and minor consent management, excluding general patient access or adult patient needs. The key distinction is the focus on tailoring regulations to the specific vulnerabilities and requirements of minors. This matters for ensuring patient safety and appropriate care for children.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.4.1",
+      "6.4.2",
+      "6.4.3"
+    ]
+  },
+  {
+    "code": "6.4.1",
+    "description": "Pediatric-Specific Certification Criteria for APIs",
+    "level": 3,
+    "parent_code": "6.4",
+    "detailed_guidelines": "This theme addresses the need for certification criteria tailored to the unique requirements of pediatric patients for APIs. It includes calls for developing and requiring pediatric-specific criteria for application program interfaces (APIs) to ensure HIT products meet the distinct needs of children's hospitals and families, excluding general API certification or requirements for adult patients. The key distinction is the focus on creating specialized certification standards for pediatric-focused APIs. This matters for preventing customization workarounds and ensuring interoperability for pediatric care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.4.2",
+    "description": "Adolescent Confidentiality in Health Data Sharing",
+    "level": 3,
+    "parent_code": "6.4",
+    "detailed_guidelines": "This theme addresses the importance of maintaining adolescent confidentiality and managing sensitive health information for minors during data sharing. It includes concerns about potential risks to adolescent confidentiality if information blocking exceptions are not flexible enough and the need for specific consent mechanisms for sensitive data, excluding general patient privacy or adult confidentiality concerns. The key distinction is the focus on the specific privacy needs of adolescents, particularly regarding sensitive health information. This matters for protecting minors and encouraging them to seek necessary care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.4.3",
+    "description": "Patient Access API Provisions for Proxy Access (Minors)",
+    "level": 3,
+    "parent_code": "6.4",
+    "detailed_guidelines": "This theme covers enhancements to patient access API provisions to better address pediatric and adolescent-specific issues, including parental/guardian involvement. It includes strengthening these provisions to incorporate proxy access for parents/guardians and privacy protections for managing minor access when necessary, excluding general patient access or proxy access for adults. The key distinction is the focus on tailoring patient access APIs to the complexities of minor consent and parental involvement. This matters for ensuring appropriate data access while safeguarding minors.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.5",
+    "description": "Public Health Agency Support and Transition",
+    "level": 2,
+    "parent_code": "6",
+    "detailed_guidelines": "This theme addresses the support and resources needed for public health agencies to effectively adopt new interoperability standards and modernize their systems. It includes providing realistic timelines, adequate resources, pilot implementations, and collaboration with pediatric experts for public health data modernization, excluding support for other types of healthcare entities or general policy directives. The key distinction is the focus on enabling public health agencies to meet new interoperability mandates. This matters for strengthening the nation's public health infrastructure.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.5.1",
+      "6.5.2",
+      "6.5.3"
+    ]
+  },
+  {
+    "code": "6.5.1",
+    "description": "Resources and Timelines for Public Health Agency Transition",
+    "level": 3,
+    "parent_code": "6.5",
+    "detailed_guidelines": "This theme addresses the need for realistic timelines and adequate resources to support public health agencies in their transition to new interoperability standards. It includes calls for providing sufficient time and funding for agencies to acquire, implement, and maintain certified HIT, particularly for adopting FHIR and transitioning from legacy standards, excluding the transition requirements for other healthcare entities. The key distinction is the focus on the specific needs of public health agencies for implementing new technologies. This matters because public health systems often require significant investment and lead time.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.5.2",
+    "description": "Pilot Implementations for New Public Health Standards",
+    "level": 3,
+    "parent_code": "6.5",
+    "detailed_guidelines": "This theme covers the recommendation to conduct pilot projects and gather real-world experience before broadly incorporating new standards into public health certification. It includes advocating for pilot implementations for new standards like FHIR to ensure their practical applicability and gather necessary feedback before widespread adoption, excluding pilot programs for other sectors or general standard development. The key distinction is the focus on piloting new standards specifically for public health use cases. This matters for ensuring the successful and efficient adoption of new technologies in this critical sector.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.5.3",
+    "description": "Pediatric Stakeholder Consultation for Public Health Data Infrastructure",
+    "level": 3,
+    "parent_code": "6.5",
+    "detailed_guidelines": "This theme addresses the importance of consulting pediatric experts to inform the development of public health data infrastructure and ensure it meets child health needs. It includes recommendations for collaboration with pediatric expert stakeholders to build a national data infrastructure capable of efficiently sharing public health information, including pediatric-specific data, excluding consultation with other stakeholder groups or general data infrastructure development. The key distinction is the focus on engaging pediatric experts to ensure the infrastructure meets the needs of children. This matters for improving child health outcomes and data accessibility.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.6",
+    "description": "Cancer Surveillance Ecosystem Support",
+    "level": 2,
+    "parent_code": "6",
+    "detailed_guidelines": "This theme addresses the specific needs and support required for the cancer surveillance ecosystem, particularly central cancer registries, to meet new reporting mandates. It includes recommendations on the preferred standards for pathology reporting and the provision of resources to build and validate new data streams, excluding other public health reporting or general data standards. The key distinction is the focus on the unique needs and constraints of cancer registries. This matters for maintaining effective cancer surveillance and control programs.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.6.1",
+      "6.6.2"
+    ]
+  },
+  {
+    "code": "6.6.1",
+    "description": "Preference for NAACCR Volume V Standard for Cancer Pathology",
+    "level": 3,
+    "parent_code": "6.6",
+    "detailed_guidelines": "This theme covers the recommendation to promote the use of the NAACCR Volume V standard for cancer pathology reporting instead of mandating the HL7® FHIR Cancer Pathology Data Sharing Implementation Guide. It includes arguments that this preference is due to the current lack of FHIR adoption by laboratories and the associated significant costs, excluding support for FHIR adoption in general or other cancer data reporting mechanisms. The key distinction is the advocacy for a specific, existing standard (NAACCR Vol V) over a newer mandated one for pathology reporting. This matters for practical implementation and cost-effectiveness in cancer data collection.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.6.2",
+    "description": "Resource Needs for Central Cancer Registries",
+    "level": 3,
+    "parent_code": "6.6",
+    "detailed_guidelines": "This theme addresses the critical need for substantial support and resources to be provided to central cancer registries for them to meet evolving reporting mandates. It includes recommendations for building, testing, and validating new data streams and workflows required by the proposed rule, while enabling them to maintain current workflows, especially given funding limitations, excluding resource needs for other public health entities or general developer support. The key distinction is the focus on the specific resource requirements of central cancer registries. This matters for their capacity to meet evolving reporting mandates.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.7",
+    "description": "Release of Information (ROI) Service Provider Concerns",
+    "level": 2,
+    "parent_code": "6",
+    "detailed_guidelines": "This theme addresses the concerns of organizations that provide Release of Information (ROI) services for patient health information, focusing on market flexibility. It includes ensuring flexibility in EPHI transmission pathways and preventing standardized API criteria from stifling competition or creating mandatory certification processes, excluding general patient access or data security requirements outside of the context of ROI services. The key distinction is the focus on the operational and competitive landscape for ROI providers. This matters for ensuring a competitive market for essential health information management services.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "6.7.1",
+      "6.7.2"
+    ]
+  },
+  {
+    "code": "6.7.1",
+    "description": "Flexibility in EPHI Transmission Pathways for ROI Providers",
+    "level": 3,
+    "parent_code": "6.7",
+    "detailed_guidelines": "This theme addresses the need for flexibility in how covered entities and business associates securely transmit electronic Protected Health Information (ePHI) for ROI services. It includes advocating for allowing secure transmission through alternative pathways, rather than solely engaging with ONC-certified technology or TEFCA participants, to foster competition and support diverse exchange methods, excluding the security requirements of ePHI transmission or general information exchange protocols. The key distinction is the focus on maintaining flexibility in exchange pathways to promote competition. This matters for ensuring that smaller ROI providers are not disadvantaged.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "6.7.2",
+    "description": "Preventing Competition Stifling via Standards for ROI Providers",
+    "level": 3,
+    "parent_code": "6.7",
+    "detailed_guidelines": "This theme addresses concerns that standardized API criteria could inadvertently stifle competition within the health IT market for ROI services. It includes ensuring that such criteria do not result in mandatory certification processes, thereby preserving flexibility for entities to select technology that meets robust security and privacy standards, excluding the merits of standardization or the technical specifications of APIs. The key distinction is the focus on the potential anti-competitive effects of certification mandates. This matters for promoting a diverse and innovative health IT marketplace.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7",
+    "description": "Patient Access, Engagement, and Trust",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category focuses on how patients can access their health information and engage with their care through health IT, emphasizing their perspective and experience. It covers the completeness of EHI exports, the quality of patient education resources, the preservation of patient-provider trust, and the user experience for accessing data and interacting with consumer-facing applications, excluding the technical standards for data exchange or information blocking rules, except where they directly impact patient access or engagement. The key distinction is the focus on the patient's perspective and experience with health IT. This matters for empowering patients in their healthcare journey.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "7.1",
+      "7.2",
+      "7.3",
+      "7.4"
+    ]
+  },
+  {
+    "code": "7.1",
+    "description": "Electronic Health Information (EHI) Export Completeness",
+    "level": 2,
+    "parent_code": "7",
+    "detailed_guidelines": "This theme addresses the critical aspect of ensuring patients can access complete and comprehensive Electronic Health Information (EHI), including often-omitted historical data. It includes mandating the inclusion of historical data, specific data types often missing, and critiquing the adequacy of current export formats for capturing comprehensive information, excluding general patient access via portals or the technical standards for data exchange. The key distinction is the focus on the content and completeness of the exported EHI. This matters for enabling informed patient decision-making and care continuity.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "7.1.1",
+      "7.1.2",
+      "7.1.3"
+    ]
+  },
+  {
+    "code": "7.1.1",
+    "description": "Completeness of EHI Exports including Historical Data",
+    "level": 3,
+    "parent_code": "7.1",
+    "detailed_guidelines": "This theme addresses the need for EHI exports to be full and complete, including critical historical data often omitted from standard exports. It includes requirements for exports to incorporate significant historical data that is often omitted from current standard exports, highlighting missing data types like historic labs, clinical notes, and therapy records, excluding the process of exporting data or the format of exports. The key distinction is the focus on the comprehensiveness and thoroughness of the exported EHI content. This matters for ensuring patients have access to all necessary information for their care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.1.2",
+    "description": "Mandated Inclusion of Specific Data Types in EHI Export",
+    "level": 3,
+    "parent_code": "7.1",
+    "detailed_guidelines": "This theme covers the identification and mandate for inclusion of specific data types within EHI exports that are currently omitted, critical for managing complex conditions. It highlights the omission of essential data such as historic labs, clinical notes, and detailed records of therapies (e.g., ECMO support) from standard exports, excluding the general availability of EHI or other types of health information. The key distinction is the focus on particular data categories that are critical for managing complex health conditions. This matters because missing data can hinder diagnosis and treatment.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.1.3",
+    "description": "Adequacy of Current EHI Export Formats",
+    "level": 3,
+    "parent_code": "7.1",
+    "detailed_guidelines": "This theme addresses the critique of current EHI export formats for their ability to capture comprehensive historical information needed by patients. It includes commentary arguing that existing formats like PDFs, C-CDAs, and FHIR documents do not adequately capture the necessary historical data for diagnosing complex conditions, excluding recommendations for new formats, only the critique of existing ones. The key distinction is the assessment of whether current formats are sufficient for comprehensive data capture. This matters for ensuring patients receive usable and complete health information.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.2",
+    "description": "Patient Education Resource Standards",
+    "level": 2,
+    "parent_code": "7",
+    "detailed_guidelines": "This theme addresses the importance of patient-specific education resources within health IT certification and patient engagement strategies, ensuring health literacy. It includes objecting to the removal of the certification criterion for patient-specific education resources, advocating for its modernization with AI, and recommending regulatory codification until FHIR standards are established, excluding general patient access to EHI or information blocking. The key distinction is the focus on tailored educational materials provided through health IT. This matters for improving health literacy and patient adherence.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "7.2.1",
+      "7.2.2",
+      "7.2.3"
+    ]
+  },
+  {
+    "code": "7.2.1",
+    "description": "Retention of Patient-Specific Education Criterion",
+    "level": 3,
+    "parent_code": "7.2",
+    "detailed_guidelines": "This theme addresses the objection to the removal of the certification criterion for patient-specific education resources, fearing it will widen health disparities. It argues that eliminating this criterion could widen health disparities due to varying patient health literacy levels, impacting comprehension and adherence, excluding general patient engagement strategies or other certification criteria. The key distinction is the focus on retaining a specific criterion that supports personalized patient education. This matters for promoting health equity and effective patient self-management.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.2.2",
+    "description": "Modernization of Health IT Patient Education Resources",
+    "level": 3,
+    "parent_code": "7.2",
+    "detailed_guidelines": "This theme covers the recommendation to update the patient-specific education resources certification criterion to incorporate new technologies like AI. It includes proposals to integrate advancements in automation and AI-driven patient education to reflect current capabilities and encourage ongoing innovation in health IT solutions, excluding the original purpose of the criterion or the elimination of other criteria. The key distinction is the focus on updating the criterion to leverage modern technological capabilities. This matters for ensuring patient education tools remain relevant and effective.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.2.3",
+    "description": "Regulatory Codification of Education Resources Pending FHIR Standards",
+    "level": 3,
+    "parent_code": "7.2",
+    "detailed_guidelines": "This theme addresses the need to codify patient education resources in regulations until clear FHIR standards are established for related functionalities. It includes recommending regulatory codification until FHIR standards are aligned with the HL7 Context-Aware Knowledge Retrieval (Infobutton) standard, due to the current absence of a direct FHIR equivalent, excluding the elimination of the criterion or the development of FHIR standards independently. The key distinction is the call for immediate regulatory action to preserve educational resource standards pending FHIR development. This matters for ensuring continuity of essential patient education support.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.3",
+    "description": "Patient-Provider Trust and Data Sensitivity Management",
+    "level": 2,
+    "parent_code": "7",
+    "detailed_guidelines": "This theme addresses how health IT impacts the trust between patients and providers, particularly concerning sensitive information and pediatric patients. It includes prioritizing patient-provider trust, especially regarding reproductive health data, and concerns about the risks of direct EHI access for pediatric patients without provider review, excluding the technical aspects of data exchange or general patient engagement. The key distinction is the focus on the relational aspect of care and the impact of health IT on that trust. This matters for fostering open communication and effective care delivery.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "7.3.1",
+      "7.3.2"
+    ]
+  },
+  {
+    "code": "7.3.1",
+    "description": "Prioritizing Patient-Provider Trust in Data Sharing",
+    "level": 3,
+    "parent_code": "7.3",
+    "detailed_guidelines": "This theme addresses the critical importance of maintaining and prioritizing patient-provider trust within the context of health information sharing. It includes emphasizing the delicate balance required when dealing with sensitive health information, particularly related to reproductive health, and ensuring that health IT practices do not erode this trust, excluding the specific mechanisms of data sharing or information blocking rules themselves. The key distinction is the focus on the foundational trust relationship between patients and providers. This matters for encouraging open dialogue and effective care management.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.3.2",
+    "description": "Risks of Direct EHI Access for Pediatric Patients Without Review",
+    "level": 3,
+    "parent_code": "7.3",
+    "detailed_guidelines": "This theme covers concerns about the potential harm to pediatric patients from immediate access to EHI via portals without provider interpretation. It includes concerns that such access could lead to distress or confusion, especially for young patients or teenagers, and could have unintended consequences for adolescent confidentiality, excluding general EHI access for adults or the benefits of patient access. The key distinction is the focus on the unique vulnerabilities of pediatric patients to direct, unmediated access to their health information. This matters for ensuring patient safety and appropriate information delivery.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.4",
+    "description": "Consumer-Facing Application Usability and Support",
+    "level": 2,
+    "parent_code": "7",
+    "detailed_guidelines": "This theme addresses the support and usability of consumer-facing applications that connect to health data, ensuring they are accessible and free from unreasonable burdens. It includes preventing \"special effort\" practices by developers, enhancing onboarding processes, and ensuring adherence to API conditions and maintenance of certification, excluding general patient access to EHI or the standards for the data itself. The key distinction is the focus on the experience and support provided by applications that leverage health data. This matters for enabling patients to use third-party tools effectively.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "7.4.1",
+      "7.4.2"
+    ]
+  },
+  {
+    "code": "7.4.1",
+    "description": "Preventing \"Special Effort\" Practices for Consumer Health Apps",
+    "level": 3,
+    "parent_code": "7.4",
+    "detailed_guidelines": "This theme addresses the need to prevent practices that introduce undue burdens or delays for consumer-facing applications seeking to access health data. It includes announcing policy guidance and holding Certified API Developers accountable for failing to implement standards-conforming APIs or for instituting registration practices that introduce unreasonable burdens, excluding general API requirements or information blocking policies broadly. The key distinction is the focus on identifying and penalizing \"special effort\" that hinders consumer app functionality. This matters for fostering a seamless patient data ecosystem.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "7.4.2",
+    "description": "Streamlining Onboarding Processes for Consumer Health Apps",
+    "level": 3,
+    "parent_code": "7.4",
+    "detailed_guidelines": "This theme covers the need to streamline the processes by which consumer-facing applications onboard and connect to health data systems, facilitating quicker integration. It includes addressing onboarding practices that introduce unreasonable burdens, conflict with interpretive guidance on customer approval, or effectively require patient requests for connections, potentially causing information blocking, excluding the technical connection methods or the data itself. The key distinction is the focus on the administrative and procedural aspects of application onboarding. This matters for facilitating quicker and more efficient integration of third-party apps.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "8",
+    "description": "Security, Privacy, and Authentication",
+    "level": 1,
+    "parent_code": null,
+    "detailed_guidelines": "This category addresses the security and privacy measures required within health IT systems, including authentication, encryption, and handling of sensitive data. It covers Multi-Factor Authentication (MFA) flexibility, server-side encryption, and specific considerations for adolescent confidentiality and reproductive health data, excluding general data exchange standards or information blocking policies, but rather the safeguards for data integrity and confidentiality. The key distinction is the focus on protecting the security and privacy of health information. This matters for building trust and preventing unauthorized access or misuse.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "8.1",
+      "8.2",
+      "8.3"
+    ]
+  },
+  {
+    "code": "8.1",
+    "description": "Multi-Factor Authentication (MFA) Requirements",
+    "level": 2,
+    "parent_code": "8",
+    "detailed_guidelines": "This theme addresses the requirements and implementation considerations for Multi-Factor Authentication (MFA) in health IT to enhance access security. It includes recommendations for flexibility in MFA methods, requirements for disaster recovery and usability, and guidance on integrating MFA with legacy systems, excluding single-factor authentication or the general need for security. The key distinction is the focus on the specific implementation details and requirements for MFA. This matters for enhancing the security of access to health information.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "8.1.1",
+      "8.1.2",
+      "8.1.3"
+    ]
+  },
+  {
+    "code": "8.1.1",
+    "description": "Flexibility in MFA Method Choices",
+    "level": 3,
+    "parent_code": "8.1",
+    "detailed_guidelines": "This theme covers the need for flexibility in the types of Multi-Factor Authentication (MFA) methods supported by health IT systems. It includes ensuring support for various methods like biometrics, hardware tokens, and app-based authentication, and aligning these choices with NIST Digital Identity Guidelines, excluding the mandate for MFA itself or specific implementation standards outside of NIST. The key distinction is the focus on the variety and adaptability of MFA solutions. This matters for accommodating user preferences and technological advancements.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "8.1.2",
+    "description": "Disaster Recovery and Usability for MFA Implementations",
+    "level": 3,
+    "parent_code": "8.1",
+    "detailed_guidelines": "This theme addresses the need for robust disaster recovery plans and user-friendly implementation of Multi-Factor Authentication (MFA). It includes requiring disaster recovery and failover plans for MFA implementations, as well as incorporating usability standards and guidelines into MFA certification, excluding the technical implementation of MFA beyond its usability and resilience. The key distinction is the focus on the operational resilience and user experience of MFA. This matters for ensuring consistent access and mitigating disruption.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "8.1.3",
+    "description": "MFA Integration Challenges with Legacy Health IT Systems",
+    "level": 3,
+    "parent_code": "8.1",
+    "detailed_guidelines": "This theme addresses the challenges and guidance required for integrating Multi-Factor Authentication (MFA) into existing legacy health IT systems. It includes providing clear guidance on how to adapt MFA for legacy systems that may not have native support, ensuring secure integration without compromising existing infrastructure, excluding the implementation of MFA in new systems or general security for legacy systems. The key distinction is the focus on the specific process of integrating MFA into older systems. This matters for enabling secure access across the entire health IT landscape.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "8.2",
+    "description": "Server-Side Encryption Standards",
+    "level": 2,
+    "parent_code": "8",
+    "detailed_guidelines": "This theme addresses requirements related to encrypting health data at rest on servers, ensuring data confidentiality. It includes the need for clarification on the definition of \"personally identifiable health information\" used in server-side encryption requirements, excluding encryption in transit or general data security practices. The key distinction is the focus on the specific definition of data to be encrypted on servers. This matters for ensuring the scope of encryption mandates is clear and appropriate.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "8.2.1"
+    ]
+  },
+  {
+    "code": "8.2.1",
+    "description": "Clarification of PII/PHI Definition for Server-Side Encryption",
+    "level": 3,
+    "parent_code": "8.2",
+    "detailed_guidelines": "This theme addresses the need for clarity regarding the definition of \"personally identifiable health information\" in the context of server-side encryption requirements. It includes calls for precise definition to ensure the correct scope of data subject to encryption on servers, excluding the technical implementation of encryption or definitions of PII for other purposes. The key distinction is the focus on the precise definition of data to be encrypted on servers. This matters for ensuring compliance and appropriate data protection.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "8.3",
+    "description": "Sensitive Health Data and Consent Management",
+    "level": 2,
+    "parent_code": "8",
+    "detailed_guidelines": "This theme addresses the specific security and privacy considerations for handling sensitive health data, including adolescent confidentiality and reproductive health data. It covers adolescent confidentiality, the protection of reproductive health data, and the need for specific consent mechanisms tailored for minors, excluding general patient data privacy or the management of non-sensitive information. The key distinction is the focus on highly sensitive data categories and the particular challenges of managing consent for minors. This matters for protecting vulnerable populations and ensuring ethical data handling.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": [
+      "8.3.1",
+      "8.3.2"
+    ]
+  },
+  {
+    "code": "8.3.1",
+    "description": "Adolescent Confidentiality in Health Data Sharing",
+    "level": 3,
+    "parent_code": "8.3",
+    "detailed_guidelines": "This theme addresses the critical need to maintain adolescent confidentiality when health information is shared, protecting minors' privacy. It includes concerns about the potential risks to adolescent confidentiality if information blocking exceptions are not sufficiently flexible and the need for specific consent mechanisms tailored for minors when sharing sensitive data, excluding general patient privacy or adult confidentiality. The key distinction is the focus on the specific privacy needs of adolescents, particularly concerning sensitive health information. This matters for protecting minors and encouraging them to seek necessary care.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  },
+  {
+    "code": "8.3.2",
+    "description": "Protection of Reproductive Health Data via Information Blocking Exceptions",
+    "level": 3,
+    "parent_code": "8.3",
+    "detailed_guidelines": "This theme addresses the need for specific protections for reproductive health data within information blocking regulations via tailored exceptions. It includes establishing a clear and flexible information blocking exception specifically for reproductive health information to protect patients and providers from the misuse of this data, excluding other types of sensitive data or general reproductive health policy. The key distinction is the focus on safeguarding reproductive health data specifically through an information blocking exception. This matters for ensuring access to reproductive healthcare services without fear of data misuse.",
+    "comment_count": 0,
+    "direct_count": 0,
+    "touch_count": 0,
+    "children": []
+  }
+]

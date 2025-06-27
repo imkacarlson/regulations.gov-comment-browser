@@ -1,0 +1,2472 @@
+{
+  "Government Agencies|ACBs (ONC-Accredited Certification Bodies)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Government Agencies|CDC": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Government Agencies|CHIP": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Government Agencies|CMS": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Government Agencies|Department of Defense": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Government Agencies|Federal agencies (type)": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Government Agencies|HHS": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Government Agencies|HHS OIG": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Government Agencies|Medicaid": [
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Government Agencies|Medicare": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Government Agencies|NIST (National Institute of Standards and Technology)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Government Agencies|Public Health Agencies": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Government Agencies|Public Health Authorities": [
+    "HHS-ONC-2024-0010-0139"
+  ],
+  "Government Agencies|U.S. Department of Veterans Affairs": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Government Agencies|U.S. government agencies/contractors (type)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Government Agencies|state immunization programs": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Government Agencies|state public health departments": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|API Information Source": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|API Information Source details": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|API Polling": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|API Query Concepts": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|API Requirements": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|API for Patient and Population Services": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|API standards": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|APIs": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|Brands specification": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Bulk Data Access": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|Bulk FHIR": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|Bulk FHIR API": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|C-CDA": [
+    "HHS-ONC-2024-0010-0030",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|CDS Hooks": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|CMS’s HL7® FHIR® Connectathon": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|CRD (Coverage Requirements Discovery)": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|CRD Access Token": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Capability Statement CRD Server": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Capability Statement-CRD-client": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Certified EHR Technology": [
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health IT Standards|Certified Electronic Health Record Technology": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|Computerized Provider Order Entry": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Health IT Standards|Consolidated Clinical Document Architecture (C-CDA)": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|Coverage Requirements Determination Implementation Guide": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|DICOMweb": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|DTR (Documentation Templates and Rules)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|DTR Questionnaire Package": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|DTR SMART App": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|DTR capability statements": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Documentation Templates and Rules IG": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Dynamic Application Registration": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|EHI Export API Implementation Guide": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|Encounter-Create Subscription": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Health IT Standards|FHIR API Versions": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|FHIR Bulk Data": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0035"
+  ],
+  "Health IT Standards|FHIR Bulk Data All Patients Export": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Health IT Standards|FHIR Bulk Data Group Export": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Health IT Standards|FHIR Bulk Data _elements parameter": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Health IT Standards|FHIR Bulk Data _since parameter": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Health IT Standards|FHIR Bulk Data _type parameter": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Health IT Standards|FHIR Bulk Data _typeFilter parameter": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Health IT Standards|FHIR ImagingStudy Resources": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|FHIR US Core Implementation Guide": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|FHIR standard": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|HL7": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0110",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Health IT Standards|HL7 CDA Implementation Guide": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|HL7 Context-Aware Knowledge Retrieval (Infobutton)": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Health IT Standards|HL7 FHIR": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7 FHIR APIs": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|HL7 FHIR Bundle": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|HL7 FHIR Cancer Pathology Data Sharing IG": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|HL7 FHIR Central Cancer Registry Reporting Content IG": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|HL7 FHIR Da Vinci Burden Reduction Implementation Guides": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7 FHIR Da Vinci Payer Data Exchange Plan Net Implementation Guide": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7 FHIR Da Vinci – Payer Data Exchange US Drug Formulary Implementation Guide": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7 FHIR capabilities": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|HL7 IG for CDA Reporting to Public Health Cancer Registries": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|HL7 Version 2.5.1 Implementation Guide: Laboratory Orders": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7 Version 2.5.1 Implementation Guide: Laboratory Results Interface": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7 Version 2.51 Implementation Guide: Electronic Reporting to Public Health": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7 eCR FHIR IG": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|HL7 v2.5.1 ORU message structure": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|HL7 v2.51 Immunization Messaging Implementation Guide": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|HL7v2": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|HL7© UDAP Security Implementation Guide": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|HL7® Da Vinci Project": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Health IT Module Capabilities": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Health IT Standards|Health IT Modules": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|Health Information Technology": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health IT Standards|Incompatible EHR Systems": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health IT Standards|Incompatible HIT Systems": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health IT Standards|Inferno test bed platform": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Health IT Standards|Interoperability": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|LOINC": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|MFA protocols": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Medical management systems": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Modular API Capabilities": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|NAACCR Volume V standard": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health IT Standards|NCPDP SCRIPT": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|NCPDP Structured and Codified Sig Format Implementation Guide": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|National Drug Codes": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|OAuth workflow": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Health IT Standards|PACS": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|PAS (Prior Authorization Service)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|PMS (Practice Management System)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|Prior Authorization API": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health IT Standards|Provider Access API": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|Provider Access API capabilities": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|Provider Access APIs": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|Public Health Data Exchange Certification Criteria": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health IT Standards|Questionnaire Expiry": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|RxNorm": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|SMART Health Cards for Immunizations Criteria": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|SMART app client": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|SMART v2 Guide": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|SNOMED CT": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|Service base URLs": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Health IT Standards|Specifications (general)": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|Standard API for Public Health Data Exchange": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|Subscription Filter Concepts": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health IT Standards|Subscriptions": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Health IT Standards|Token expiration and revocation": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|UCUM": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|UDAP dynamic client registration specification": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Health IT Standards|US Core Server CapabilityStatement": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health IT Standards|USCDI": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|USCDI v5": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health IT Standards|User Access Brands and Endpoints": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Health IT Standards|Voluntary Pediatric Standards": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health IT Standards|interoperability requirements": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health IT Standards|open standards": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Health IT Standards|xPath": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Health Information Exchange Frameworks|AIMS Platform": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Health Information Exchange Frameworks|CARIN Alliance": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Health Information Exchange Frameworks|Cross-Organizational Exchange": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health Information Exchange Frameworks|HIEs": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health Information Exchange Frameworks|HINs": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Health Information Exchange Frameworks|Image Exchange Methods": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health Information Exchange Frameworks|Medical Image Exchange": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Health Information Exchange Frameworks|National Data Infrastructure": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health Information Exchange Frameworks|Payer Data Exchange Server": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health Information Exchange Frameworks|Public Health Data Exchange": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health Information Exchange Frameworks|Qualified Health Information Network": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Health Information Exchange Frameworks|Real-time Surveillance Data Network": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Health Information Exchange Frameworks|SMART application launch framework": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Health Information Exchange Frameworks|State Health Information Exchanges (state HIEs)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Health Information Exchange Frameworks|TEFCA": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Organizations|AHIP": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|AIRA": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Organizations|Advocate Health": [
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Healthcare Organizations|American Academy of Physician Associates": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Healthcare Organizations|American Pharmacists Association": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Organizations|Association for Health Information Outsourcing Services": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Healthcare Organizations|Association of Public Health Laboratories": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Healthcare Organizations|Boston Children's Hospital": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Healthcare Organizations|CareMessage": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Healthcare Organizations|CareSource": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|Central cancer registries": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Healthcare Organizations|Chart Lux Consulting": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Healthcare Organizations|Children's Hospital Association": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Organizations|Children's Hospitals": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Organizations|Cleveland Clinic Foundation": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|College of American Pathologists": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Healthcare Organizations|Commercial insurance": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|Drummond Group": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Healthcare Organizations|EHR Association": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Organizations|EHR Vendors": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Healthcare Organizations|Epic": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Healthcare Organizations|EviCore": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|Greenway Health, LLC": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Organizations|HIMSS": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Organizations|HLTH": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|HTD Health": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Healthcare Organizations|Health IT Advisory Committee": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Organizations|Health insurance companies (type)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|Health plan (type/role)": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Organizations|Healthcare organizations (type)": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Organizations|Hospital": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Organizations|MCG Health": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|MultiCare Health System": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|National Commission on Certification of Physician Assistants": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Healthcare Organizations|National Council of Prescription Drug Programs": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Organizations|North American Association of Central Cancer Registries": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Healthcare Organizations|Palmetto GBA": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|Pharmacy HIT Collaborative": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Organizations|Picture Archiving and Communication Systems (PACS)": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Organizations|Prescription Drug Monitoring Program Databases (PDMP)": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Organizations|Regence BlueCross BlueShield": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|Stanford Medicine Children's Health": [
+    "HHS-ONC-2024-0010-0139"
+  ],
+  "Healthcare Organizations|TPAs": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|ViVE": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Organizations|Wake Forest University School of Medicine": [
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Healthcare Organizations|Yale New Haven": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Healthcare Organizations|Zus Health": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Organizations|b.well Connected Health, Inc.": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Organizations|managed care organizations": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Professionals|Application Developers": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Professionals|Certified Technology Developers": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Healthcare Professionals|Clinical Leadership": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Professionals|Clinical Teams": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Professionals|Clinician": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Professionals|Compliance Departments": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Professionals|Doctor": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Healthcare Professionals|Emergency Preparedness Experts": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Professionals|End-Users": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Professionals|General Healthcare Professionals": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Professionals|Licensed clinicians": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Professionals|MIPS eligible clinicians": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Professionals|Medical Directors": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Professionals|Medical Trainees": [
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Healthcare Professionals|Nurse Reviewers": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Professionals|PDMP Vendors": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Professionals|Payer Software Developers": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Healthcare Professionals|Payers": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Professionals|Pediatric Health Care Providers": [
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Professionals|Physician": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Healthcare Professionals|Physician Associate/Assistant": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Healthcare Professionals|Privacy Experts": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Professionals|pharmacy technicians": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|ACOs under MSSP": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|API Information Sources": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Provider Entities|Care Network": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Provider Entities|Certified API Developers": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Provider Entities|Entities using electronic health information exchange": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Provider Entities|Federally Qualified Health Centers (FQHCs)": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Provider Entities|HIPAA Covered Entity": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Provider Entities|Health IT Developer": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Healthcare Provider Entities|Health IT Module": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0110",
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Healthcare Provider Entities|Health IT systems": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Healthcare Provider Entities|Health plans": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Provider Entities|Health systems": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Provider Entities|Healthcare Practice": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Healthcare Provider Entities|Healthcare Providers": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Provider Entities|Hospitals": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Provider Entities|IIS vendors": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|Laboratories": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0110",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Provider Entities|Labs": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Provider Entities|Patient Portals": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Healthcare Provider Entities|Payer network": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Provider Entities|Payer-provider collaboration": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Provider Entities|Payers": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Provider Entities|Pediatric Providers": [
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Healthcare Provider Entities|Pharmacies": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Provider Entities|Physician-Owned Practices": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Provider Entities|Public Health Agencies": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Provider Entities|Qualified Health Information Network": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Healthcare Provider Entities|Risk-bearing Provider Organizations": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Provider Entities|Rural Health Clinics (RHCs)": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Provider Entities|Self-insured employers": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Provider Entities|Third-party application developers": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Healthcare Provider Entities|Third-party apps": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Healthcare Provider Entities|Third-party developers": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Healthcare Provider Entities|Tribal Communities": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Provider Entities|ambulatory clinics": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|app developers": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Healthcare Provider Entities|certified health IT": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0110",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Healthcare Provider Entities|community health centers": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Healthcare Provider Entities|community pharmacies": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|critical access hospitals": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|government facilities": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|hospice settings": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|laboratory information systems": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Healthcare Provider Entities|long-term care facilities": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|physician offices": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Healthcare Provider Entities|specialty pharmacies": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|172.201 (Subpart B - 172.201)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|2020 Cures Act Updates": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|21st Century Cures Act": [
+    "HHS-ONC-2024-0010-0030",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|3001(c)(5)(D)(i) of the PHSA": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|315(a)(2) - CPOE - Laboratory": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315(b)(2) - Clinical Information Reconciliation and Incorporation": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315(b)(3) - ePrescribing": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315(b)(4) - Real-Time Prescription Benefit": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315(f) Criteria Section": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315(f)(5) - Electronic Case Reporting": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315(g)(31) - Provider Access API – Client": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315(g)(34) - Prior Authorization API – Provider": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|315.g.20 - Standardized API for Public Health Data Exchange": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|5% Threshold": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|API Conditions": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|API Conditions of Maintenance": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|API access": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|Abuse or Neglect Cases": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Access, Exchange, or Use of EHI": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Accreditation Standards": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Actors": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Adolescent Confidentiality": [
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Adolescent Consent": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Adolescent Privacy": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Anti-compete Clauses": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Artificial Intelligence in Healthcare": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Audits": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|Backend Service Access": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Regulatory Rules and Concepts|Base EHR": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Base EHR Definition": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Burden Reduction spec": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|C-CDA Reconciliation and Incorporation Through Certified Health IT Measure": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|CARIN Code of Conduct": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|CEHRT": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|CIRI Certification Criterion": [
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Regulatory Rules and Concepts|CMS Interoperability Rules": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|CMS Medicare Promoting Interoperability Program": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|CMS-0057-F": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Care Coordination Features": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|Certification Criterion": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0110",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Regulatory Rules and Concepts|Certification Criterion Numbers (Imaging Links)": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|Certification Examination": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Certification Program": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|Certification processes": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Certified Health IT": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0110",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Certified Health IT - Provider": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Certified Health IT Functionalities": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Child Abuse Cases": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Child Welfare Situations": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Classification Concepts": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Clinical Information Reconciliation": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Code sets": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Compliance dates": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Conditions & Maintenance of Certification": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Continuity of Care": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Contract provisions": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|Cybersecurity Efforts and Threats": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Data Reconciliation requirements": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Data Sharing": [
+    "HHS-ONC-2024-0010-0030",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Decision Support Interventions (DSI)": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Delay on new access": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|Developer Burden": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Durable Medical Power of Attorney": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Regulatory Rules and Concepts|Dynamic client registration protocol": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|EHI Export Exemption": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|EHI Export Functionality": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|EHR Certification Criteria": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Electronic Prior Authorization (ePA)": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Encryption Certification": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Exception": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Exchange Purposes": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|FDA's Emergency Use Authorization": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|Fair Information Practice Principles": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|FedRAMP certification": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Federal Register Publication Reference": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Regulatory Rules and Concepts|Final Rule": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Foreign Control": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|HIPAA": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0121",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|HIPAA Privacy Rule": [
+    "HHS-ONC-2024-0010-0121",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Regulatory Rules and Concepts|HTI-2 Proposal": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing (HTI-1) Final Rule": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|Health IT Policy": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|Health Information Technology for Economic and Clinical Health Act": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|Health care provider definition": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|IT performance": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|Imaging Link Requirements": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Imaging Requirements": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Infeasibility": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Information Blocking": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0121",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Information Blocking Exception": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0121",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Information Sharing": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Informed Consent": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Interference": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Interoperability requirements": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Interoperability/Burden Reduction implementation": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Language Bias Concepts": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Legal Protection": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Licensing and Fees Information Blocking Exceptions": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|MFA (Multi-Factor Authentication)": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Maintenance of Certification": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|Medicare Advantage": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Medicare FFS": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Medicare programs": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|Medication History Query Criteria": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Minimum Standards Code Sets": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Minors' Access to Health Information": [
+    "HHS-ONC-2024-0010-0139"
+  ],
+  "Regulatory Rules and Concepts|Monitoring and enforcement": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Multi-Factor Authentication (MFA) Criterion": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Multi-factor Authentication": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|New Imaging Requirements for Health IT Modules": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Non-standard implementation": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|ONC Certification Criteria § 170.315(f)(5)": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|ONC Health IT Certification Program": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Regulatory Rules and Concepts|PHSA": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|PREP Act": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|Patient Confidentiality": [
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Patient access API": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|Patient-Facing Access": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Patient-provider trust": [
+    "HHS-ONC-2024-0010-0121"
+  ],
+  "Regulatory Rules and Concepts|Payer medical policies": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Payer-to-payer API": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Persons Facilitating Health Care Access/Delivery": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Regulatory Rules and Concepts|Portal access": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|Presumption of good faith belief standard": [
+    "HHS-ONC-2024-0010-0121"
+  ],
+  "Regulatory Rules and Concepts|Prior Authorization API Certifications": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Prior Authorization Requirements": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Prior authorization API": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Prior authorization management": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Privacy": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0139",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Privacy and Consent Data Segmentation": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Privacy and Security Criteria/Requirements": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Professional Title Concept": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Proposed ONC (f) Criteria": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|Protect Stored Authentication Credentials": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Protecting Care Access": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0121",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Provider Burden": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Provider Classification": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Provider access API": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Provider directory API": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Proxy Consent": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Pub. L 114-255": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|Pub. L. 111-5": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|Public Health Data Exchange Certification Criteria": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Public Health Interoperability": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|Public Health Reporting": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|Public Health Service Act": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|QHIN Ineligibility": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|QHIN cybersecurity standards": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Real World Test Results": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|Regulation": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Regulatory Rules and Concepts|Regulatory Challenges": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Regulatory Rules and Concepts|Regulatory Overreach Concerns": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|Regulatory Terminology": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Release of Information": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Regulatory Rules and Concepts|Reproductive Health Care": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0121",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0139"
+  ],
+  "Regulatory Rules and Concepts|Requestor Preferences": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Regulatory Rules and Concepts|Scope of Practice": [
+    "HHS-ONC-2024-0010-0134"
+  ],
+  "Regulatory Rules and Concepts|Security": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Regulatory Rules and Concepts|Server Side Encryption": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|State or Local Rules": [
+    "HHS-ONC-2024-0010-0139"
+  ],
+  "Regulatory Rules and Concepts|Support Reproductive Health Care Privacy": [
+    "HHS-ONC-2024-0010-0121"
+  ],
+  "Regulatory Rules and Concepts|TEFCA Requirements": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Technical Documentation": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|Transitions of Care": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Treatment": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|Trusted Connection Certification": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Value Sets": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Regulatory Rules and Concepts|Value-Based Care": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0142",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Regulatory Rules and Concepts|View, Download, Transmit to 3rd Party Certification": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|Workflow Adjustments": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Regulatory Rules and Concepts|civil monetary penalties": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|data modernization": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Regulatory Rules and Concepts|disincentives": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|e-prescribing Certification Criteria": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Regulatory Rules and Concepts|exceptions to information blocking": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|fees": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Regulatory Rules and Concepts|licensing": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|manner": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|patient engagement": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Regulatory Rules and Concepts|preventing harm": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Regulatory Rules and Concepts|service base URL listings": [
+    "HHS-ONC-2024-0010-0135"
+  ],
+  "Regulatory Rules and Concepts|state scope of practice laws": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Regulatory Rules and Concepts|§ 170.315(b)(3)": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Regulatory Rules and Concepts|§ 170.315(g)(35)": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|AI/ML (Artificial Intelligence/Machine Learning)": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|API details": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|API endpoint access": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Access to Care": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Adherence": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Administrative denials": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Admit, discharge and transfer messages": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Adolescents": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Advanced Directives": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Age": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Allergies and Intolerances": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Atrioventricular Septal Defect": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|Automated Algorithms": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|CPOE": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Cancer Pathology Reporting": [
+    "HHS-ONC-2024-0010-0035"
+  ],
+  "Specific Health Data Terminology|Cancer Registry Reporting": [
+    "HHS-ONC-2024-0010-0035"
+  ],
+  "Specific Health Data Terminology|Care Coordination": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Care Plans": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Care Team Members": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Specific Health Data Terminology|Chronic Disease Management": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Clinical Content": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Clinical Decision Support": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Clinical Decision-Making": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Clinical Information": [
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Clinical decision support rules": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Clinical documentation requirements": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Clinical information maintained by the payer": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Clinician-Patient Relationships": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Clinicians’ interpretation": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Coarctation of the Aorta": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|Community Volunteer (Role)": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Specific Health Data Terminology|Comprehension": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Comprehensive medication management": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Data Size": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Data Users": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Data elements": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Data elements for allergies and intolerances": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Data elements for assessment and plan of treatment": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Data elements for goals": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Data elements for immunizations": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Data elements for laboratory values/results": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Data elements for medical devices": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Data elements for medications": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Denials": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Developer Intervention": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Diagnostic Images": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Diamond Blackfan Anemia": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|Disease state and medication management": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|Drug Tests": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Drug formularies": [
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|E-prescribing": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|EHI Export": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|EHI Export API": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|EHR-based authorization workflow": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|EHR-based transactions": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|EHR-originated prior authorizations": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|EMR Fields": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Electronic Case Reporting": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Encounter Data": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Encounters": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|Expedited prior authorizations": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Extracorporeal Membrane Oxygenation": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|FHIR Resource": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035"
+  ],
+  "Specific Health Data Terminology|Facility identifiers": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Fax": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Fellow Parishioner (Role)": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Specific Health Data Terminology|Friend (Role)": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Specific Health Data Terminology|Gaps-in-care": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Goals": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|HIV PrEP/PEP": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|Health Disparities": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Health Equity": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0035"
+  ],
+  "Specific Health Data Terminology|Health IT": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0110",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Health IT for public health": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Health IT storage": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Health Information Technology (HIT)": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Health Literacy": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Health and Administrative Information": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Health and wellness screenings": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|Healthcare Quality Metrics": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Hearing Loss": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|High-Priority Clinical Data Elements": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Historic Labs": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|Hosting Costs": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Image Links": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Immunization Data Exchange": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Immunization Records": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Immunization registries": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Immunization reporting": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Individual (Regulatory Definition)": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Individual Access Services": [
+    "HHS-ONC-2024-0010-0113"
+  ],
+  "Specific Health Data Terminology|Information Flow": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|Information received from immunization registries": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Information related to medications from pharmacy networks": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|International Classification of Diseases, 11th Revision (ICD-11)": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Interoperability": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Laboratory": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Laboratory Ordering": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Specific Health Data Terminology|Laboratory results": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Legal Guardian (Role)": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Longitudinal Health Data": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|Longitudinal person-centered care planning": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Meaningful exchange of data": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Medical Devices": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Medication Reconciliation": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|Medication allergies": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Medication lists": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Medications used": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Memory Usage": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Minor Child's Record": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Minors' Genetic Data": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|NAACCR Data Dictionary": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Specific Health Data Terminology|Neighbor (Role)": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Specific Health Data Terminology|Order Data Elements": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Order-Sign Use Case": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Orders": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Over-the-wire Data Transfer": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|PDMP Data": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0134",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Parent (Role)": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Patient Data": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Patient Engagement": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Patient FHIR ID": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Patient Scheduling": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|Patient Summary": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Specific Health Data Terminology|Patient access to health data": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Patient claim information": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Patient information": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Patient problem lists": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Patient-Specific Education Resources": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Patient-View Use Case": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Paxlovid": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|Payer Data": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Payer network API discovery": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Payer network information": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Pediatric Patient Claims": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Pediatric Patients": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Pediatric-focused Information": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Pediatric-specific Data": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Person with Durable Medical Power of Attorney (Role)": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Specific Health Data Terminology|Personally Identifiable Information (PII)": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Plan": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0135",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Point of Care": [
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Population Health": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Population-based Surveillance": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Precision Engagement": [
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Predictive analytics": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Preferences": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Specific Health Data Terminology|Prescribing medications": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|Prior Authorization Decisions": [
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Prior Authorization Information": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Prior authorization transaction types": [
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Prior authorizations": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Problems": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0030",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0140",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Protected Health Information": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Provider directories": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Public Health Information": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Query Complexity": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Query Time": [
+    "HHS-ONC-2024-0010-0012"
+  ],
+  "Specific Health Data Terminology|Race and Ethnicity information": [
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Radiologists' impressions": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Real-Time Prescription Benefit": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Real-Time Prescription Benefit Standard": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Real-time Notifications": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|Real-time data processing": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Relevant Data Groupings": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|Reproductive Health Care": [
+    "HHS-ONC-2024-0010-0003",
+    "HHS-ONC-2024-0010-0121",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0139"
+  ],
+  "Specific Health Data Terminology|Reproductive Health Data": [
+    "HHS-ONC-2024-0010-0139"
+  ],
+  "Specific Health Data Terminology|Reproductive and Gender-Specific Care Data": [
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|Smoking cessation counseling": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|Smoking status": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Social determinants of health": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Socioeconomic Status": [
+    "HHS-ONC-2024-0010-0140"
+  ],
+  "Specific Health Data Terminology|Speed of data transfer": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|Spouse/Partner (Role)": [
+    "HHS-ONC-2024-0010-0003"
+  ],
+  "Specific Health Data Terminology|Standardized FHIR-based API for public health data exchange": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Telehealth": [
+    "HHS-ONC-2024-0010-0137"
+  ],
+  "Specific Health Data Terminology|Therapies": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|Transfer of Care Documents": [
+    "HHS-ONC-2024-0010-0017"
+  ],
+  "Specific Health Data Terminology|USCDI": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|USCDI Data Class - Patient Summary and Plan": [
+    "HHS-ONC-2024-0010-0119",
+    "HHS-ONC-2024-0010-0129"
+  ],
+  "Specific Health Data Terminology|USCDI updates": [
+    "HHS-ONC-2024-0010-0114"
+  ],
+  "Specific Health Data Terminology|USCDI v4": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0034",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0123",
+    "HHS-ONC-2024-0010-0137",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|USCDI v5": [
+    "HHS-ONC-2024-0010-0017",
+    "HHS-ONC-2024-0010-0035",
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|Underserved Communities": [
+    "HHS-ONC-2024-0010-0012",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Unified Shared Clinical Data Set": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|VACTERL association": [
+    "HHS-ONC-2024-0010-0030"
+  ],
+  "Specific Health Data Terminology|Value-Based Care": [
+    "HHS-ONC-2024-0010-0114",
+    "HHS-ONC-2024-0010-0129",
+    "HHS-ONC-2024-0010-0142",
+    "HHS-ONC-2024-0010-0143"
+  ],
+  "Specific Health Data Terminology|Vitals": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Specific Health Data Terminology|Women’s Reproductive Health Data": [
+    "HHS-ONC-2024-0010-0142"
+  ],
+  "Specific Health Data Terminology|buprenorphine": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|cancer surveillance data": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Specific Health Data Terminology|cancer surveillance ecosystem": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Specific Health Data Terminology|comprehensive medication list": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|data dictionary": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Specific Health Data Terminology|eCP synoptic pathology reports": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Specific Health Data Terminology|ePrescribing": [
+    "HHS-ONC-2024-0010-0119"
+  ],
+  "Specific Health Data Terminology|electronic Protected Health Information": [
+    "HHS-ONC-2024-0010-0113",
+    "HHS-ONC-2024-0010-0123"
+  ],
+  "Specific Health Data Terminology|emergency use authorization oral antivirals": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|facility information": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|health records": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|hormonal contraceptives": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|narrative": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Specific Health Data Terminology|pathology data": [
+    "HHS-ONC-2024-0010-0035"
+  ],
+  "Specific Health Data Terminology|strep/flu/COVID treatments": [
+    "HHS-ONC-2024-0010-0034"
+  ],
+  "Specific Health Data Terminology|structured electronic format": [
+    "HHS-ONC-2024-0010-0110"
+  ],
+  "Specific Health Data Terminology|tobacco cessation": [
+    "HHS-ONC-2024-0010-0034"
+  ]
+}
