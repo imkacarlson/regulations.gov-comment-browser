@@ -70,6 +70,7 @@ export class AIClient {
     const modelName = this.modelKey || "gemini-pro";
     console.log(`🤖 [${workerId}] Starting ${modelName} call (${activeCount} active: ${activeList})`);
 
+    let success = false;
     try {
       if (debugPrefix) {
         await debugSave(`${debugPrefix}_prompt.txt`, prompt);
@@ -165,13 +166,20 @@ export class AIClient {
         freeTierRateLimiter.recordTokens(estimateTokens(rawResult));
       }
 
+      success = true;
       return result;
-      
+
+    } catch (error) {
+      console.error(`   ❌ [${workerId}] ${modelName} call failed:`, error);
+      throw error;
+
     } finally {
       AIClient.activeJobs.delete(workerId);
       const remainingCount = AIClient.activeJobs.size;
       const remainingList = Array.from(AIClient.activeJobs).join(', ') || 'none';
-      console.log(`✅ [${workerId}] Completed ${modelName} call (${remainingCount} remaining: ${remainingList})`);
+      const statusIcon = success ? '✅' : '❌';
+      const statusText = success ? 'Completed' : 'Failed';
+      console.log(`${statusIcon} [${workerId}] ${statusText} ${modelName} call (${remainingCount} remaining: ${remainingList})`);
     }
   }
   
